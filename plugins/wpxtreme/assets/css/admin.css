@@ -1,0 +1,86 @@
+/**
+ * Contiene gli stile per la parte di amministrazione. Questi si preoccupano di definire o aggiustare gli elementi
+ * del backend come lo store o altre caratteristiche.
+ * wpXtreme utilizza il frameword WPDk quindi nel backend saranno caricari gli stili WPDK relativi.
+ *
+ * Tutte le classi e gli id in questo file avranno il prefisso wpxm-
+ *
+ * @package			wpXtreme
+ * @subpackage		admin
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c) 2012 wpXtreme, Inc.
+ * @link            http://wpxtre.me
+ * @created			13/04/12
+ * @version			1.0.0
+ *
+ * @todo Questi per adesso li metto qui ma domani potrebbere arrivare dal server
+ *
+ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  WordPress menu item hack
+   ------------------------------------------------------------------------------------------------------------------ */
+i.wpxm-menu-item-icon,
+tr#wpxtreme td.plugin-title strong,
+tr#wpxtreme-server td.plugin-title strong {
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Qzk1OTIzRkQ5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Qzk1OTIzRkU5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDOTU5MjNGQjk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDOTU5MjNGQzk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvYQgo8AAAJqSURBVHjajJNtSJNRFMf/j3v2vgrCJM0MoywSiYgiLMyWWZmYjBA1cWkhBEFQNiIK+xBSFPSpD30q+hRmFASVEVEqYWVvWjltGm2wUelyr7XteZ7bvXdrtrakA8/rPed3zv3fc8TC8mYIgrDrZyTaGYnGigGoMLvJWo3artNqThJCbos0eCcN7ioqzDeUrS+BQadlQMiyDELSo6MxSdU3+K7YPu68TiF1WLSx0b65sZ1MTQcIs5gkk0mvj8xmvkCIVDQfJ3mlDR9Fmn3F1tI1mD/PhHtPBjEy4YTJoIc/EEJ9dTnyF2anVTHXZEDlprV4/cGxTGQ/WNnur144nG4cabFwJ5dnEle6H8BqqUBBXk4aRBSz+JPfRZUKEy4P1pUUJR0W52bj4N5qdN/vx5ep6TTAb304QKKCFeTmYHj0U4qT0aCDyajHodOXQDXKeCQcEIlJtMwF0NOt3Ozp5wssa01bB05dvIrHz95in+0CvL5gZgAS5TTtNsMXCKOn7yVu3O3F86FRGPU6LtrAmxFYj51PVkISe4gDhBli655KCgnh2q2H/DTYInNmkKev3uNo5+V4YNYfIv5tdVVlaKuvgkIUyIqchMyhkN4Xw/juD0ItqmYAmSgH6nbgbHsrolGJiizx7pQkGTqqk06jSdVAkpWMClst23DOtp8Hs6yKouCwtZaKrQFtwLgTbccxc5ONt+e/zOX5Ru48GiCOz27+HQz/INtbTrBWHheWbrHWsGFatXyJ1rxhNeikpQwRTc7/qUWR94s/GKbHOsR6RqLD1CAkxrmWQs7QcV75H+OsUOAYvTroe9cvAQYA+Kw+CYXO8pwAAAAASUVORK5CYII=);
+    display             : block;
+    float               : left;
+    height              : 16px;
+    margin              : 0 4px 0 0;
+    width               : 16px;
+}
+
+div.wpxm-icon-xtreme,
+div#icon-wpxm_menu_store {
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkEyNjAyNjQ5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkEyNjAyNjU5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGQTI2MDI2Mjk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGQTI2MDI2Mzk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w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); display : block;
+    float               : left;
+    height              : 64px;
+    margin              : 10px 8px 0 18px;
+    width               : 64px;
+}
+
+tr#wpxtreme td.plugin-title strong,
+tr#wpxtreme-server td.plugin-title strong {
+    float: none;
+    width : auto;
+    background-position: left center;
+    margin: 0 0 6px;
+    padding-left: 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  WordPress Post, Media & Pages dope
+   ------------------------------------------------------------------------------------------------------------------ */
+
+th#wpdk_post_internal-publish {
+    width : 100px;
+    text-align: right;
+}
+td.wpdk_post_internal-publish {
+    text-align: right;
+}
+
+th#wpdk_post_internal-icon {
+    width : 80px;
+}
+
+th#wpdk_post_internal-author {
+    width : 90px;
+}
+
+td.wpdk_post_internal-author {
+    text-align : center;
+    background : rgba(0, 0, 200, 0.04);
+}
+
+td.wpdk_post_internal-author img {
+    border             : 3px solid #fff;
+    -moz-box-shadow    : 0 2px 4px #aaa;
+    -webkit-box-shadow : 0 2px 4px #aaa;
+    box-shadow         : 0 2px 4px #aaa;
+}

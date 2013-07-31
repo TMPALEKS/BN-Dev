@@ -1,0 +1,1084 @@
+/**
+ * Contiene tutte le regole CSS da applicare ai componenti generati dal framework WPDK quali form, controlli speciali
+ * etc...
+ *
+ * Classi ed eventuali ID avranno tutto il prefisso wpdk-
+ *
+ * @package			WPDK (WordPress Development Kit)
+ * @subpackage		wpdk-style
+ * @author 			=undo= <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c) 2012 wpXtreme, Inc.
+ * @created			13/12/11
+ * @version			1.0
+ *
+ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Must core
+   @todo rename in wpdk-clearfix
+   ------------------------------------------------------------------------------------------------------------------ */
+.clearfix {
+    *zoom : 1 !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display : table !important;
+    content : "" !important;
+}
+
+.clearfix:after {
+    clear : both !important;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor : pointer;
+}
+
+/* Ajax preloader. */
+div.wpxm-loader {
+    display               : none;
+    background-image      : url(images/ajax-loader-32x32.gif);
+    background-repeat     : no-repeat;
+    background-position   : center center;
+    background-color      : #000;
+    position              : absolute;
+    top                   : 50%;
+    left                  : 50%;
+    margin                : -25px 0 0 -25px;
+    width                 : 50px;
+    height                : 50px;
+    -moz-border-radius    : 8px;
+    -webkit-border-radius : 8px;
+    border-radius         : 8px;
+}
+
+button.wpdk-fullscreen {
+    display           : block;
+    cursor            : pointer;
+    position          : absolute;
+    margin-top        : 8px;
+    right             : 24px;
+    width             : 16px;
+    height            : 16px;
+    border            : none;
+    background-color  : transparent;
+    background-image  : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExODA4M0FBMTdFMjRERjNFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2Q0ExMEU3QUE3NDIxMUUxOEVGOURBMzY3NjgyMzVFRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2Q0ExMEU3OUE3NDIxMUUxOEVGOURBMzY3NjgyMzVFRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTgwODNBQTE3RTI0REYzRTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTgwODNBQTE3RTI0REYzRTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz433GPYAAABuUlEQVR42pSST0sCQRjGZ3XFv6B0yUj8A3oTrIsgQWV28CLJCh724mfIr9J+AW8ePIjIpuSho4jgLQKhhCJM0g2p1G11e0ZWEILdGvjtvu/OPM/svPMyqqqS/47ZbEbq9brD6/WqrNHiXq9HisVi1GazBZHagGsymdg7nY4jlUpdGxr4/X7CsizTaDRCSN+ABF6AEg6Hh8xfjjCdTkksFjsZDAZOpE+Absy02+17k5F4sViQQqGQhPgCqQwswEznZFlWdQ3G4zHhOO68Wq1ySG/oJ7DaWrLUNcCuFlEUDxDeaudm8vn8Axggti8xCK2BHrVazWW1Wk8hSGQyGY+iKITC87yr2+2afgnm8zmdTIIEjem3SqXiRr67ybdZPwRBCGHSRJ2xSxK7CYBHHJIkidH7QzIajUgkErnE4iOc7RjCK5AGh+Cs2Ww69QzYVqvF9vv9b7ADwR4QwSstGEx78Xj8U6/QaDLWgze9jQl4pkKgZrPZx3K5/I4C6vYJFbq1WNHE5mAw+FEqlQzFawMUzqO15mrTYbj//VwuF0UjGXYq6/P5vtLp9B3ioWayCAQCMgwYDMM/+BFgAIMpDdMQxaIkAAAAAElFTkSuQmCC);
+    background-repeat : no-repeat;
+}
+
+button.wpdk-fullscreen.normalscreen {
+    background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExODA4M0FBMTdFMjRERjNFOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2Q0ExMEU3RUE3NDIxMUUxOEVGOURBMzY3NjgyMzVFRCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2Q0ExMEU3REE3NDIxMUUxOEVGOURBMzY3NjgyMzVFRCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDM4MDExNzQwNzIwNjgxMTgwODNBQTE3RTI0REYzRTkiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDE4MDExNzQwNzIwNjgxMTgwODNBQTE3RTI0REYzRTkiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7x+aXfAAABMElEQVR42oyTPU8CQRCGOU9F8BS1MMTQa2GMv8D4hyThV9pYgY2NQkFhgCB+4QnL8Y4+a7YQ7jZ5srO3u+/MzsxFpd9RE9tiUcofMxFzfmTGgTgS78IhEjLneya+OW/ryGwT2BNv4lWk/+C4aPaxaIqpuBdVE6jgKV0R8qW4xoldfhBjsWNOTaCaI3AmTvH+LDoI9ES5iMAF+20xEJ/ikWckGwWybjn6wo6Znd8sIrCLV4dXW5/4zU1mK9GWOKcn9iERt+IpqMg8VPc58BtXJGxB6UbiTnwEPRKOxAtkhGnZrZOwoXhhdiue95dEC68hWkFkZTy6dQmKefuhuKFJ2oScEl1/zf0kzMGUJ4yp8xAHkzyBGosOYl3qnuVc/ok8wqhThRm9ERXoD/sXJksBBgBxgmGtiSyFNgAAAABJRU5ErkJggg==);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Container
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-border-container {
+    border-bottom : 1px solid #ddd;
+    border-left   : 1px solid #ddd;
+    border-radius : 0 0 10px 10px;
+    border-right  : 1px solid #ddd;
+    margin        : 16px 0 0 0;
+    padding       : 0 12px;
+    background    : -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(241, 241, 241, 1)));
+    background    : -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    filter        : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00ffffff', endColorstr = '#f1f1f1', GradientType = 0);
+}
+
+div.meta-box-sortables div.wpdk-border-container {
+    border     : none;
+    background : none;
+    padding    : 0;
+    margin     : 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Form
+   ------------------------------------------------------------------------------------------------------------------ */
+
+fieldset.wpdk-form-fieldset {
+    padding               : 6px;
+    background-color      : #fcfcfc;
+    border                : 1px solid #aaa;
+    margin-bottom         : 16px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+fieldset.wpdk-form-fieldset legend {
+    color       : #09d;
+    font-size   : 19px;
+    font-style  : inherit;
+    font-weight : inherit;
+    margin      : 0 16px 4px;
+    padding     : 2px 4px;
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    width       : auto;
+    border      : none;
+}
+
+div.wpdk-form-row {
+    line-height    : 100%;
+    margin         : 12px 0;
+    padding        : 0;
+    font-size      : 13px;
+    vertical-align : middle;
+    *zoom          : 1 !important;
+}
+
+div.wpdk-form-row:before,
+div.wpdk-form-row:after {
+    display : table !important;
+    content : "" !important;
+}
+
+div.wpdk-form-row:after {
+    clear : both !important;
+}
+
+label.wpdk-form-label {
+    line-height    : 100%;
+    font-size      : 13px;
+    font-weight    : bold;
+    vertical-align : middle;
+    margin         : 0 6px 0 16px;
+}
+
+label.wpdk-form-label.wpdk-form-lable-top {
+    vertical-align : top;
+}
+
+div.wpdk-form-row > label.wpdk-form-label:first-child {
+    display    : inline-block;
+    *display   : inline;
+    zoom       : 1;
+    text-align : right;
+    min-width  : 140px;
+}
+
+/* @todo Rename in wpdk-inline */
+
+label.inline {
+    width   : auto;
+    display : inline;
+}
+
+/* validation */
+
+.wpdk-form-ok {
+    -moz-box-shadow    : inset 0 0 1px 0 green !important;
+    -webkit-box-shadow : inset 0 0 1px 0 green !important;
+    box-shadow         : inset 0 0 1px 0 green !important;
+    border             : 1px solid green !important;
+}
+
+.wpdk-form-wrong {
+    -moz-box-shadow    : inset 0 0 1px 0 red !important;
+    -webkit-box-shadow : inset 0 0 1px 0 red !important;
+    box-shadow         : inset 0 0 1px 0 red !important;
+    border             : 1px solid red !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Input
+   ------------------------------------------------------------------------------------------------------------------ */
+
+input.wpdk-form-input,
+
+textarea.wpdk-form-textarea,
+
+select.wpdk-form-select {
+    width                 : auto;
+    border                : 1px solid #dfdfdf;
+    background-color      : #fff;
+    padding               : 4px;
+    margin                : 0 4px 0 2px;
+    color                 : #888;
+    outline               : none;
+    font-size             : 13px !important;
+    vertical-align        : middle;
+    -moz-box-shadow       : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    -webkit-box-shadow    : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    box-shadow            : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    -webkit-transition    : box-shadow linear 0.2s;
+    -moz-transition       : box-shadow linear 0.2s;
+    -ms-transition        : box-shadow linear 0.2s;
+    -o-transition         : box-shadow linear 0.2s;
+    transition            : box-shadow linear 0.2s;
+}
+
+select.wpdk-form-select {
+    padding : 2px 4px 4px 4px;
+}
+
+textarea.wpdk-form-textarea {
+    -webkit-box-shadow : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow    : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow         : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition : border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition    : border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition     : border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition      : border linear 0.2s, box-shadow linear 0.2s;
+    transition         : border linear 0.2s, box-shadow linear 0.2s;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+}
+
+input.wpdk-form-input:focus,
+
+textarea.wpdk-form-textarea:focus {
+    border-color       : rgba(82, 168, 236, 0.8);
+    outline            : 0;
+    outline            : thin dotted \9;
+    /* IE6-9 */
+    -webkit-box-shadow : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    -moz-box-shadow    : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow         : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+
+input.wpdk-form-input[readonly] {
+    background-color : #f1f1fa;
+}
+
+input.wpdk-form-input-search { }
+
+input.wpdk-form-button  {
+    display               : inline-block;
+    *display              : inline;
+    /* IE7 inline-block hack */
+    *zoom                 : 1;
+    padding               : 3px 10px;
+    margin                : 0;
+    font-size             : 13px !important;
+    line-height           : 18px;
+    *line-height          : 20px;
+    color                 : #333333;
+    text-align            : center;
+    text-shadow           : 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align        : middle;
+    cursor                : pointer;
+    background-color      : #f5f5f5;
+    background-image      : -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image      : -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : linear-gradient(top, #ffffff, #e6e6e6);
+    background-repeat     : repeat-x;
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e6e6e6', GradientType = 0);
+    border-color          : #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color          : rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color     : #e6e6e6;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter                : progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    border                : 1px solid #cccccc;
+    *border               : 0;
+    border-bottom-color   : #b3b3b3;
+    -webkit-border-radius : 4px;
+    -moz-border-radius    : 4px;
+    border-radius         : 4px;
+    *margin-left          : .3em;
+    -webkit-box-shadow    : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow       : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow            : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    border-color          : #ccc;
+}
+
+select.wpdk-form-select.wpdk-form-select-size {
+    height                : auto !important;
+    min-width             : 200px !important;
+    -moz-border-radius    : 4px !important;
+    -webkit-border-radius : 4px !important;
+    border-radius         : 4px !important;
+}
+
+select.wpdk-form-select {
+    height             : 26px;
+    line-height        : 28px;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing    : border-box;
+    box-sizing         : border-box;
+    -ms-box-sizing     : border-box;
+}
+
+select.wpdk-form-select + .wpdk-form-append {
+    vertical-align : middle;
+}
+
+.wpdk-form-append { }
+
+/* ---------------------------------------------------------------------------------------------------------------------
+Input type
+------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-number,
+.wpdk-form-phone,
+.wpdk-form-date,
+.wpdk-form-datetime {
+    text-align: right;
+}
+
+input.wpdk-form-uppercase {
+    text-transform : uppercase;
+}
+
+input.wpdk-form-lowercase {
+    text-transform : lowercase;
+}
+
+input.wpdk-form-capitalize {
+    text-transform : capitalize;
+}
+
+input.wpdk-form-checkbox {
+    margin-left: 6px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Input type
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/*
+input.wpdk-form-button {
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size             : 13px;
+    background            : #fafafa;
+    border                : none;
+    padding               : 6px 16px;
+    outline               : none;
+    -moz-box-shadow       : inset 0 -2px 4px #aaa;
+    -webkit-box-shadow    : inset 0 -2px 4px #aaa;
+    box-shadow            : inset 0 -2px 4px #aaa;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+    -webkit-appearance    : none;
+}
+
+input.wpdk-form-button:active {
+    -moz-box-shadow       : inset 0 2px 4px #aaa;
+    -webkit-box-shadow    : inset 0 2px 4px #aaa;
+    box-shadow            : inset 0 2px 4px #aaa;
+}
+*/
+
+option.wpdk-form-option {}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Locked field
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-locked,
+.wpdk-form-unlocked {
+    display             : inline-block;
+    *display            : inline;
+    zoom                : 1;
+    width               : 12px;
+    height              : 16px;
+    vertical-align      : middle;
+    cursor              : pointer;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJVJREFUeNpiZEADvr7+DUAqH4gFoEIfgHji5s0bQeIMjGiKzwMpAwbs4AJQkyEzmskRUO4GIM4E4oVQmzSAWEJdXYOREUnDe6jkBqBJgWg2rwdSASDnMSGJw9w8EYtzYGICjAxEAKANIMPegz0N5PxnIAEwMZAIBk5DIxRTbgMLDvF6qvrhAAnqD4A0BBKpCaQmECDAAEAdIW4hxCFSAAAAAElFTkSuQmCC);
+    background-repeat   : no-repeat;
+    background-position : 0 center;
+    margin              : 0;
+}
+
+.wpdk-form-locked {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAQCAYAAAAiYZ4HAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJRJREFUeNpiZEADvr7+DUAqH4gFoEIfgHji5s0bQeIMjGiKzwMpAwbs4AJQkyEzmskRUO4GIM4E4oVQmzSAWEJdXYORBcmEfJhioEmBSOIHgIatB9IBIDVMSBIwN0/E4hyYmAATA3HgAozBCLTuPwMJgImBRDBwGhqhmHIbWHCI11PVDwdIUH8ApCGQSE0gNYEAAQYAKYIfINkq1aYAAAAASUVORK5CYII=);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Clear
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-clear-left {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAP9JREFUeNpiZEADvr7+CUAqHogd0KQOAPHCzZs3LkAWZETSqACk1gOxAQN+cAGIA4EGPYAbANV8HogFGIgDH4DYEGQIE1RgPQmaGaBqQXoYmKF+zkAzvRNLGDRCvccB5Uuoq2s8ZIIGGDKYCHRaA5BORBJLhIpNRFMbzwh0wX8sTgRpWAB1HQMSez66QhYcfpwP1MAAizJcmkGAiYFCgMsF2LzAgM0VTNAUhhLaaH4GeScB6p1G9NTJDIwKUGIKQBI0AIpxAul+JLEAqLp8pGgEWwZLieeJSMIYSRroKkNYIAZCExADCUk5EB4L0IxhCM0oDERkJkOUzERJdgYIMADRhV+mXJ7YiAAAAABJRU5ErkJggg==);
+/*    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADtSURBVHjajFC7DkFREJy9iXg0t+EHRKJDJSqRuIVaJT7AF+jR+xuNRiJyS8WlRaHWeOU+kBy7eyKhs8lkJrOzZ3OWzMAD15gxYhB+yzAm0ndez+eYMYLngdkIf2vpSYbCfsNkOx07n8kgWa1UpptNII5VR/M56Nyt6Qq33bbhQsHy6aR0WSyEyEmiCG6vR2ffB65X4HCwYC2e9CTjJGGok4/7Hcjl+ImLBWv1uCRDu3peV5eGQ2C5/P1zq4X9dGpXP+LYhmYz4HbDMQgUosWTnmQoKKf0htVKBZvtFsx6S9bm48ktaV3EXwd/CzAAVjt+gHT5me0AAAAASUVORK5CYII=); */
+    background-repeat   : no-repeat;
+    background-position : 0 center;
+    cursor              : pointer;
+    line-height         : 0;
+    margin              : 0 8px 0 -27px;
+    padding             : 0 12px 3px;
+}
+
+input.wpdk-form-has-button-clear-left {
+    padding-right: 26px !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Subtitle under fieldset
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-description {
+    background-color      : #dff0d8;
+    border                : 1px solid #d6e9c6;
+    color                 : #468847;
+    display               : block;
+    font-size             : 13px;
+    line-height           : 150%;
+    text-shadow           : 1px 1px 0 #fff;
+    padding               : 12px;
+    text-align            : justify;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Field requires (apply to label too)
+   ------------------------------------------------------------------------------------------------------------------ */
+
+label.wpdk-form-label-inline {
+    display: inline !important;
+}
+
+label.wpdk-form-checkbox {
+    text-align: left;
+    margin-left: 4px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Textarea
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Swipe on/off like iPhone :)
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-swipe {
+    display               : inline-block;
+    *display              : inline;
+    zoom                  : 1;
+    width                 : 40px;
+    height                : 17px;
+    padding               : 1px 0 0 0;
+    margin                : 0 8px 0 0;
+    vertical-align: middle;
+    background-color      : #f00;
+    background-image      : -webkit-gradient(linear, left top, left bottom, from(#f00), to(#c00)); /* Saf4+, Chrome */
+    background-image      : -webkit-linear-gradient(top, #f00, #c00); /* Chrome 10+, Saf5.1+ */
+    background-image      : -moz-linear-gradient(top, #f00, #c00); /* FF3.6 */
+    background-image      : -ms-linear-gradient(top, #f00, #c00); /* IE10 */
+    background-image      : -o-linear-gradient(top, #f00, #c00); /* Opera 11.10+ */
+    background-image      : linear-gradient(top, #f00, #c00);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#f00', EndColorStr = '#c00'); /* IE6–IE9 */
+    -moz-box-shadow       : inset 0 0 1px #444, -1px -1px 1px rgba(0,0,0,0.5), 1px 1px 0 #fff;
+    -webkit-box-shadow    : inset 0 0 1px #444, -1px -1px 1px rgba(0,0,0,0.5), 1px 1px 0 #fff;
+    box-shadow            : inset 0 0 1px #444, -1px -1px 1px rgba(0,0,0,0.5), 1px 1px 0 #fff;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+}
+
+span.wpdk-form-swipe span {
+    display               : block;
+    width                 : 16px;
+    height                : 16px;
+    background-color      : #ebebeb;
+    background-image      : -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#aaaaaa)); /* Saf4+, Chrome */
+    background-image      : -webkit-linear-gradient(top, #ebebeb, #aaaaaa); /* Chrome 10+, Saf5.1+ */
+    background-image      : -moz-linear-gradient(top, #ebebeb, #aaaaaa); /* FF3.6 */
+    background-image      : -ms-linear-gradient(top, #ebebeb, #aaaaaa); /* IE10 */
+    background-image      : -o-linear-gradient(top, #ebebeb, #aaaaaa); /* Opera 11.10+ */
+    background-image      : linear-gradient(top, #ebebeb, #aaaaaa);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#ebebeb', EndColorStr = '#aaaaaa'); /* IE6–IE9 */
+    -moz-box-shadow       : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow    : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    box-shadow            : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    -moz-border-radius    : 50%;
+    -webkit-border-radius : 50%;
+    border-radius         : 50%;
+    cursor                : pointer;
+}
+
+span.wpdk-form-swipe.wpdk-form-swipe-on {
+    background-color : #a6c800;
+    background-image : -webkit-gradient(linear, left top, left bottom, from(#a6c800), to(#a6c000)); /* Saf4+, Chrome */
+    background-image : -webkit-linear-gradient(top, #a6c800, #a6c000); /* Chrome 10+, Saf5.1+ */
+    background-image : -moz-linear-gradient(top, #a6c800, #a6c000); /* FF3.6 */
+    background-image : -ms-linear-gradient(top, #a6c800, #a6c000); /* IE10 */
+    background-image : -o-linear-gradient(top, #a6c800, #a6c000); /* Opera 11.10+ */
+    background-image : linear-gradient(top, #a6c800, #a6c000);
+    filter           : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#a6c800', EndColorStr = '#a6c000'); /* IE6–IE9 */
+}
+
+span.wpdk-form-swipe.wpdk-form-swipe-on span {
+    margin-left : 23px;
+    -moz-box-shadow       : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow    : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+    box-shadow            : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Choose
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-choose { }
+
+span.wpdk-form-choose .wpdk-form-choose-label {
+    padding               : 6px 8px;
+    border                : 1px inset #aaa;
+    display               : inline-block;
+    *display              : inline;
+    zoom                  : 1;
+    max-width             : 250px;
+    min-width             : 250px;
+    width                 : 250px;
+    background            : #eee;
+    text-shadow           : 1px 1px 0 #fff;
+    white-space           : nowrap;
+    overflow              : hidden;
+    text-overflow         : ellipsis;
+    vertical-align        : middle;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+span.wpdk-form-choose .wpdk-form-choose-label.hide {
+    display: none;
+}
+
+span.wpdk-form-choose .wpdk-form-choose-button {
+    cursor : pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Table View
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-tableview {
+    height     : 320px !important;
+    overflow-y : scroll;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table { }
+
+div.wpdk-tableview table.wpdk-tableview-table thead { }
+
+div.wpdk-tableview table.wpdk-tableview-table tbody { }
+
+div.wpdk-tableview table.wpdk-tableview-table tbody td {
+    padding : 6px;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table tbody tr:hover {
+    background : #eee;
+    cursor     : pointer;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table tfoot { }
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   WordPress WP_List_Table integration
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-list-table-filter {
+    background-color      : #F4F4F4;
+    border                : 1px solid #CCCCCC;
+    clear                 : both;
+    margin                : 38px 6px 0;
+    padding               : 8px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : 1px 1px 0 #fff inset;
+    -webkit-box-shadow    : 1px 1px 0 #fff inset;
+    box-shadow            : 1px 1px 0 #fff inset;
+}
+
+div.wpdk-list-table-filter-row {
+    margin-bottom: 8px;
+}
+
+div.wpdk-list-table-filter-row span { }
+
+div.wpdk-list-table-filter-row input.wpdk-form-button {
+    background-color  : #5bb75b;
+    *background-color : #51a351;
+    background-image  : -ms-linear-gradient(top, #62c462, #51a351);
+    background-image  : -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+    background-image  : -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image  : -o-linear-gradient(top, #62c462, #51a351);
+    background-image  : -moz-linear-gradient(top, #62c462, #51a351);
+    background-image  : linear-gradient(top, #62c462, #51a351);
+    background-repeat : repeat-x;
+    border-color      : #51a351 #51a351 #387038;
+    border-color      : rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter            : progid:dximagetransform.microsoft.gradient(startColorstr = '#62c462', endColorstr = '#51a351', GradientType = 0);
+    filter            : progid:dximagetransform.microsoft.gradient(enabled = false);
+    color             : #fff;
+    text-shadow       : 1px 1px 0 #000;
+    margin-top        : 10px;
+}
+
+div.wpdk-list-table-filter-row select {
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Group
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-form-group {
+    border                : 1px solid #ddd;
+    margin                : 16px;
+    padding               : 16px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+
+    background-color      : #fafafa;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Navigation Controller
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.wpdk-navigationcontroller {}
+
+table.wpdk-navigationcontroller tbody {}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Dynamic Table
+   ------------------------------------------------------------------------------------------------------------------ */
+
+input.wpdk-dt-add-row,
+input.wpdk-dt-delete-row {
+    cursor                : pointer;
+    display               : block;
+    text-indent           : -10000px;
+    padding               : 0;
+    margin                : 0 auto;
+    background-image      : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAddJREFUeNqcU89LG1EQnrd5yUnNlkIwXhLDIoKLhYaqUBD0bwg5GaIn/wJBvEih+D8sQkKgvWjw0qOgl15aiEYTRYIIHiIkRs26ms2PzaYzq4Y1VUwc+HjzmPfNfO/NPBaPx4ExBnZzOp3AOZfQnUXsGIZx2mg0np1ptVpgmiYI8IJhUELSbDgcVmilPbxiLBaLBVDBJPr99kA0GlWoCqlLJBKLHTwNY38QZ7xer0+GQqEVURRl+4lms9n2I5GIYo+Vy+VsMplcQ/eM12q1frfbLaNU6NboPPHI59Vq1apmr9iNEc9KoOu69Zq9JKB3Id67FVCCtoJKpdKzAkEQgHg9X2Ep9w0OtCP4LI4j8UGBYFfwFtLXWfgyNQH7VxlLwd/BDPBCoaDl8/ms1+uVaXCeDNvU9ldOvsPh7THQwKtNFe7vNH3z6/Zy3WUEmSRJAZyB/yYxnU4rqqpSz+Hj+vD59NyMr/NKu1s7Keb3+6FUKj0LYHXrIxWLRcXj8SwaC67p1ohjlGJy+FMwu3GQemgHpJ6+ofCoQEQMIFyID4gAjSviBtGA1b6fQ/M++eLH+R44WRA4A0eHKmoFXf4ecYnIPa53FsZgVPt9hWNopkA3f8EAh38CDACLhgskZmFNZQAAAABJRU5ErkJggg==) !important;
+    background-repeat     : no-repeat !important;
+    background-position   : center center !important;
+    background-color      : transparent !important;
+    width                 : 16px;
+    height                : 16px;
+    border                : none !important;
+    -moz-border-radius    : 0;
+    -webkit-border-radius : 0;
+    border-radius         : 0;
+    -moz-box-shadow       : none !important;
+    -webkit-box-shadow    : none !important;
+    box-shadow            : none !important;
+}
+
+input.wpdk-dt-delete-row {
+    display: block;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYtJREFUeNqkU01LAlEUvW9mKDc1gcKApFCYhEFBq5ZR+/bmH2jRJlz4sZqVQb+gaJU/pHUbNxnSolIhhNlpJow+x+nc0mkcirIunLl35n6+M/eJfD5PQgjyi6qqjATMPeDacZwHYCrGdV0ajUak0NeSQMK+aZoXrPn9mzgSuVxuFRPswF7wO0ql0jl34emKxeJRIK8L3w3wRNlsNtNqte6Gw6Hrh5TSQ9DH8ZwHkIaAxUgksgEH/VY4nvPY1gaDgWAygiT9JJz3XqDf789cgHnhPG8CTp61wL8mUBTlc4K/FOBF8wrYtj1zAY7nvO16nbR2u91tNBr38Xh8nRdnIujg2Y+FAr1Wqx/n5z/Q69npZvMkJGVKxGKxJLrv4rvu71Kr1c46nQ7puk6X4fDzcSazHJzkqlyuiGg0SphiyoGlSkEdWJZ1ahhGIS3l1orrrgULaESVyTVUxndhCeANmwPTBvQmcIszW9ASeAG4W/eQyEmOjzQ52jwQGmv1C+6YZSbGZhqYSxOPNwEGAKntAJ5orlnVAAAAAElFTkSuQmCC) !important;
+}
+
+table.wpdk-dynamic-table {
+    width : 100%;
+}
+
+table.wpdk-dynamic-table thead th:first-child {
+    -moz-border-radius    : 4px 0 0 0;
+    -webkit-border-radius : 4px 0 0 0;
+    border-radius         : 4px 0 0 0;
+    border-left: none;
+}
+
+table.wpdk-dynamic-table thead th:last-child {
+    -moz-border-radius    : 0 4px 0 0;
+    -webkit-border-radius : 0 4px 0 0;
+    border-radius         : 0 4px 0 0;
+    border-right : none;
+}
+
+table.wpdk-dynamic-table thead th {
+    background   : #99a;
+    border-left  : 1px solid #ddd;
+    border-right : 1px solid #bbb;
+    color        : #fff;
+    font-size    : 14px;
+    padding      : 12px 4px;
+    text-shadow  : 1px 1px 0 #111;
+}
+
+table.wpdk-dynamic-table tbody td {
+    background    : #F1F1F1;
+    border-right  : 1px solid #ccc;
+    border-left   : 1px solid #fff;
+    border-bottom : 1px solid #ddd;
+    padding       : 6px 4px;
+    text-align    : center;
+}
+
+table.wpdk-dynamic-table tbody td:nth-child(2n) {
+    background : #fafafa;
+}
+
+table.wpdk-dynamic-table tbody tr:first-child {
+    display : none;
+}
+
+table.wpdk-dynamic-table tbody td:last-child {
+    width: 32px;
+}
+
+table.wpdk-dynamic-table tbody tr td {
+    -webkit-transition : background linear 0.3s;
+    -moz-transition    : background linear 0.3s;
+    -ms-transition     : background linear 0.3s;
+    -o-transition      : background linear 0.3s;
+    transition         : background linear 0.3s;
+}
+
+table.wpdk-dynamic-table tbody tr td span.wpdk-dt-clone-delete {
+    display: none;
+}
+
+table.wpdk-dynamic-table tbody tr.wpdk-dt-highlight-delete td {
+    background-color: rgba(255,0,0,0.2);
+}
+
+table.wpdk-dynamic-table tbody td:first-child {
+    border-left  : 1px solid #ccc;
+}
+
+table.wpdk-dynamic-table tbody td:last-child {
+    background            : none;
+    border-right          : none;
+    border-left           : none;
+    border-bottom         : none;
+    -moz-border-radius    : 0 100% 100% 0;
+    -webkit-border-radius : 0 100% 100% 0;
+    border-radius         : 0 100% 100% 0;
+}
+
+table.wpdk-dynamic-table tfoot td {
+    border-right  : 1px solid #ccc;
+    border-left   : 1px solid #fff;
+    border-bottom : 1px solid #ccc;
+    padding       : 4px;
+    background    : #eee;
+}
+
+table.wpdk-dynamic-table tfoot td:first-child {
+    border-left          : 1px solid #ccc;
+    -moz-border-radius    : 0 0 0 4px;
+    -webkit-border-radius : 0 0 0 4px;
+    border-radius         : 0 0 0 4px;
+}
+
+table.wpdk-dynamic-table tfoot td:last-child {
+    border-right          : 1px solid #ccc;
+    -moz-border-radius    : 0 0 4px 0;
+    -webkit-border-radius : 0 0 4px 0;
+    border-radius         : 0 0 4px 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   UI
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-ui-truncate {}
+
+div.wpdk-ui-truncate-size_small {}
+
+div.wpdk-ui-truncate-size_medium {}
+
+div.wpdk-ui-truncate-size_large {}
+
+div.wpdk-ui-truncate span {
+    text-overflow     : ellipsis;
+    -o-text-overflow  : ellipsis;
+    -ms-text-overflow : ellipsis;
+    -moz-binding      : url('ellipsis.xml#ellipsis');
+}
+
+div.wpdk-border-container {
+    border-bottom : 1px solid #DDDDDD;
+    border-left   : 1px solid #DDDDDD;
+    border-radius : 0 0 10px 10px;
+    border-right  : 1px solid #DDDDDD;
+    margin        : 16px 0 0 0;
+    padding       : 0 12px;
+    background    : -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(241, 241, 241, 1)));
+    background    : -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    filter        : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00ffffff', endColorstr = '#f1f1f1', GradientType = 0);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Debug Watchdog
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-watchdog-wp-error {
+    white-space           : pre; /* CSS2 */
+    white-space           : pre-wrap; /* CSS 2.1 */
+    white-space           : pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap             : break-word; /* IE */
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : 0 8px 16px #000;
+    -webkit-box-shadow    : 0 8px 16px #000;
+    box-shadow            : 0 8px 16px #000;
+    background            : #eee;
+    padding               : 8px;
+    position              : absolute;
+    left                  : 8px;
+    top                   : 8px;
+    z-index               : 99999;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Credits
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-credits { }
+
+div.wpdk-credits h3 {
+    font-size          : 19px;
+    font-weight        : lighter;
+    color              : #444;
+    text-shadow        : 1px 1px 0 #fff;
+    padding-bottom     : 8px;
+    border-bottom      : 1px solid #bbb;
+    -moz-box-shadow    : 0 2px 0 #fff;
+    -webkit-box-shadow : 0 2px 0 #fff;
+    box-shadow         : 0 2px 0 #fff;
+}
+
+div.wpdk-credits ul {
+    margin-left : 8px;
+}
+
+div.wpdk-credits ul li {
+    float  : left;
+    margin : 0 32px 8px 0;
+}
+
+div.wpdk-credits ul li img {
+    float                 : left;
+    margin                : 0 8px 0 0;
+    border                : 1px solid #888;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+div.wpdk-credits ul li a {
+    display         : block;
+    float           : left;
+    font-size       : 14px;
+    font-weight     : bold;
+    padding         : 12px 0;
+    text-decoration : none;
+}
+
+div.wpdk-credits ul li a:hover {
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Scroller
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-scroller-container {}
+
+div.wpdk-scroller {}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Start Twitter Bootstrap integration
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.fade {
+    opacity            : 0;
+    filter             : alpha(opacity = 0);
+    -webkit-transition : opacity 0.15s linear;
+    -moz-transition    : opacity 0.15s linear;
+    -ms-transition     : opacity 0.15s linear;
+    -o-transition      : opacity 0.15s linear;
+    transition         : opacity 0.15s linear;
+}
+.fade.in,
+.fade.error,
+.fade.information,
+.fade.warning,
+.fade.updated {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   End Twitter Bootstrap integration
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Start Twitter Bootstrap Tooltip
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.tooltip.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.tooltip.top {
+  margin-top: -3px;
+}
+
+.tooltip.right {
+  margin-left: 3px;
+}
+
+.tooltip.bottom {
+  margin-top: 3px;
+}
+
+.tooltip.left {
+  margin-left: -3px;
+}
+
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-right-color: #000000;
+  border-width: 5px 5px 5px 0;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-left-color: #000000;
+  border-width: 5px 0 5px 5px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   End Tooltip
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Special F/X
+   ------------------------------------------------------------------------------------------------------------------ */
+
+body.wpdk-body pre.wpdk-monitor,
+textarea.wpdk-form-textarea-code {
+    background-color      : #3f3f3f !important;
+    color                 : #B3D38D !important;
+    margin                : 10px 20px 0 0 !important;
+    padding               : 8px !important;
+    text-shadow           : 0 0 3px #B3D38D !important;
+    -moz-border-radius    : 3px !important;
+    -webkit-border-radius : 3px !important;
+    border-radius         : 3px !important;
+    white-space           : pre-wrap !important;
+    -moz-box-shadow       : inset 0 6px 16px #000, 1px 1px 0 #fff !important;
+    -webkit-box-shadow    : inset 0 6px 16px #000, 1px 1px 0 #fff !important;
+    box-shadow            : inset 0 6px 16px #000, 1px 1px 0 #fff !important;
+}
+
+textarea.wpdk-form-textarea-code {
+    width       : 95% !important;
+    display     : block !important;
+    text-align  : left !important;
+    font-family : Monaco, 'Courier New' !important;
+    line-height : 150%;
+    margin-right: 0 !important;
+}
+
+::selection,
+::-moz-selection {
+    background : #333 !important;
+    background-color : #333 !important;
+    color            : #fff !important;
+}
+
+body.wpdk-body pre.wpdk-monitor code,
+body.wpdk-body pre.wpdk-monitorpre {
+    background : none;
+    color      : #f6e2ac;
+}
+
+body.wpdk-body code {
+    display               : inline-block;
+    *display               : inline;
+    zoom                  : 1;
+    background-color      : #F7F7F9;
+    border                : 1px solid #E1E1E8;
+    padding               : 8px; background-color : #F7F7F9;
+    border                : 1px solid #E1E1E8;
+    padding               : 2px 8px;
+    margin                : 8px 0;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+body.wpdk-body pre.wpdk-monitor span.wpdk-monitor-cursor {
+    text-decoration : blink;
+    padding         : 8px 3px;
+}

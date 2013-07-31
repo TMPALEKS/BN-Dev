@@ -1,0 +1,3503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpx SmartShop\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-22 22:01+0100\n"
+"PO-Revision-Date: 2012-08-22 22:02+0100\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: wpXtreme <g.fazioli@wpxtre.me>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../main.php:341
+msgid "Are you sure to remove this product?"
+msgstr "Sei sicuro di voler rimuovere questo prodotto?"
+
+#: ../main.php:342
+msgid "Are you sure to remove all your products?"
+msgstr "Sei sicuro di voler rimuovere tutti i tuoi prodotti?"
+
+#: ../main.php:344
+msgid "Choose Time"
+msgstr "Seleziona un'orario"
+
+#: ../main.php:345
+msgid "Time"
+msgstr "Ore"
+
+#: ../main.php:346
+msgid "Hour"
+msgstr "Ora"
+
+#: ../main.php:347
+msgid "Minute"
+msgstr "Minuti"
+
+#: ../main.php:348
+msgid "Seconds"
+msgstr "Secondi"
+
+#: ../main.php:349
+msgid "Now"
+msgstr "Oggi"
+
+#: ../main.php:350
+msgid "Su,Mo,Tu,We,Th,Fr,Sa"
+msgstr "Dom,Lun,Mar,Mer,Gio,Ven,Sab"
+
+#: ../main.php:351
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,"
+"December"
+msgstr ""
+"Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,"
+"Novembre,Dicembre"
+
+#: ../main.php:352
+msgid "mm/dd/yy"
+msgstr "dd/mm/yy"
+
+#: ../main.php:355
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../main.php:356
+msgid "Ok"
+msgstr "Ok"
+
+#: ../main.php:357 ../classes/core/wpxss-ajax.php:380
+#: ../classes/core/wpxss-ajax.php:403 ../classes/core/wpxss-ajax.php:512
+#: ../classes/products/WPSmartShopProductPostType.php:261
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:172
+msgid "Yes"
+msgstr "Si"
+
+#: ../main.php:358 ../classes/core/wpxss-ajax.php:380
+#: ../classes/core/wpxss-ajax.php:403 ../classes/core/wpxss-ajax.php:512
+#: ../classes/products/WPSmartShopProductPostType.php:261
+msgid "No"
+msgstr "No"
+
+#: ../main.php:359
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../main.php:365 ../classes/products/WPSmartShopProductPicker.php:559
+msgid "Select a product"
+msgstr "Seleziona un Prodotto"
+
+#: ../main.php:366
+msgid "Select a product type"
+msgstr "Seleziona un Tipo Prodotto"
+
+#: ../main.php:367 ../classes/core/wpxss-users-picker.php:25
+msgid "Select an user"
+msgstr "Seleziona un utente"
+
+#: ../classes/WPSmartShopStorePagePostType.php:32
+msgid "Store Pages"
+msgstr "Pagine negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:33
+msgid "Store Page"
+msgstr "Pagina negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:34
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:37
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:43
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:40
+#: ../classes/orders/wpxss-orders-viewcontroller.php:45
+#: ../classes/products/WPSmartShopProductPostType.php:52
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:40
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:41
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:32
+#: ../classes/stats/wpxss-stats-viewcontroller.php:48
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: ../classes/WPSmartShopStorePagePostType.php:35
+msgid "Add New Store Page"
+msgstr "Aggiunti una nuova pagina del negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:36
+#: ../classes/carriers/wpxss-carriers-listtable.php:92
+#: ../classes/coupons/wpxss-coupons-listtable.php:120
+#: ../classes/memberships/wpxss-memberships-listtable.php:119
+#: ../classes/orders/wpxss-orders-listtable.php:130
+#: ../classes/products/WPSmartShopProductPostType.php:54
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:111
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:96
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:34
+#: ../classes/stats/wpxss-stats-listtable.php:187
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../classes/WPSmartShopStorePagePostType.php:37
+msgid "New Store Page"
+msgstr "Nuova pagine del negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:38
+msgid "View Store Page"
+msgstr "Visualizza pagina negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:39
+msgid "Store Page Search"
+msgstr "Cerca pagina negozio"
+
+#: ../classes/WPSmartShopStorePagePostType.php:40
+msgid "Store Pages not found"
+msgstr "Pagine negozio non trovate"
+
+#: ../classes/WPSmartShopStorePagePostType.php:41
+msgid "No Store Page in trash"
+msgstr "Nessuna pagina del negozio nel cestino"
+
+#: ../classes/WPSmartShopStorePagePostType.php:52
+msgid "store"
+msgstr "negozio"
+
+#: ../classes/admin/wpxss-admin.php:93
+msgid "wpx SmartShop Settings"
+msgstr "wpx SmartShop impostazioni"
+
+#: ../classes/admin/wpxss-admin.php:93 ../classes/admin/wpxss-admin.php:143
+#: ../classes/admin/wpxss-admin.php:221
+#: ../classes/settings/WPSmartShopSettingsViewController.php:74
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../classes/admin/wpxss-admin.php:98
+msgid "wpx SmartShop Orders"
+msgstr "wpx SmartShop Ordini"
+
+#: ../classes/admin/wpxss-admin.php:98
+#: ../classes/orders/wpxss-orders-viewcontroller.php:43
+#: ../classes/settings/WPSmartShopSettingsViewController.php:45
+#: ../classes/settings/views/SettingsOrdersView.php:24
+#: ../classes/settings/views/SettingsOrdersView.php:34
+msgid "Orders"
+msgstr "Ordini"
+
+#: ../classes/admin/wpxss-admin.php:103
+msgid "wpx SmartShop Stats"
+msgstr "wpx SmartShop Statistiche"
+
+#: ../classes/admin/wpxss-admin.php:103
+#: ../classes/stats/wpxss-stats-viewcontroller.php:46
+msgid "Stats"
+msgstr "Statistiche"
+
+#: ../classes/admin/wpxss-admin.php:108
+msgid "wpx SmartShop Coupons"
+msgstr ""
+
+#: ../classes/admin/wpxss-admin.php:108
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:41
+#: ../classes/products/wpxss-product-metabox.php:113
+msgid "Coupons"
+msgstr "Coupon"
+
+#: ../classes/admin/wpxss-admin.php:113
+msgid "wpx SmartShop Memberships"
+msgstr ""
+
+#: ../classes/admin/wpxss-admin.php:113
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:39
+msgid "Memberships"
+msgstr "Sottoscrizioni"
+
+#: ../classes/admin/wpxss-admin.php:117
+msgid "wpx SmartShop Payment Gateways"
+msgstr ""
+
+#: ../classes/admin/wpxss-admin.php:117
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:23
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:106
+msgid "Payment Gateways"
+msgstr "Gateway di pagamento"
+
+#: ../classes/admin/wpxss-admin.php:121
+msgid "wpx SmartShop Carriers"
+msgstr "WP SmartShop - Corieri"
+
+#: ../classes/admin/wpxss-admin.php:121
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:36
+msgid "Carriers"
+msgstr "Corrieri"
+
+#: ../classes/admin/wpxss-admin.php:125
+msgid "wpx SmartShop Shipping Countries"
+msgstr "wpx SmartShop - Paesi di spedizione"
+
+#: ../classes/admin/wpxss-admin.php:125
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:40
+msgid "Shipping Countries"
+msgstr "Paesi di spedizione"
+
+#: ../classes/admin/wpxss-admin.php:129
+msgid "wpx SmartShop Shipments"
+msgstr "wpx SmartShop Spedizioni"
+
+#: ../classes/admin/wpxss-admin.php:129
+#: ../classes/settings/WPSmartShopSettingsViewController.php:49
+#: ../classes/settings/views/SettingsShipmentsView.php:24
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:39
+msgid "Shipments"
+msgstr "Spedizioni"
+
+#: ../classes/admin/wpxss-admin.php:134
+msgid "wpx SmartShop Credits"
+msgstr "wpx SmartShop Crediti"
+
+#: ../classes/admin/wpxss-admin.php:134
+msgid "Credits"
+msgstr "Crediti"
+
+#: ../classes/admin/wpxss-admin.php:139
+#, fuzzy
+msgid "wpx SmartShop Unit Test"
+msgstr "WP SmartShop - Rapporto"
+
+#: ../classes/admin/wpxss-admin.php:139
+#, fuzzy
+msgid "Unit test"
+msgstr "Prezzo unitario"
+
+#: ../classes/admin/wpxss-admin.php:143
+msgid "wpx SmartShop Showcase Settings"
+msgstr "Impostazioni vetrina di SmartShop"
+
+#: ../classes/admin/wpxss-admin.php:240
+msgid "For more info and plugins visit"
+msgstr "Per maggiori informazioni e plugin visita"
+
+#: ../classes/admin/wpxss-admin.php:326 ../classes/admin/wpxss-admin.php:370
+#: ../classes/admin/wpxss-admin.php:415 ../classes/admin/wpxss-admin.php:469
+msgid "Items per page"
+msgstr "Elementi per pagina"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:46
+msgid "No Carriers found."
+msgstr "Nessun corriere trovato."
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:48
+#: ../classes/coupons/wpxss-coupons-listtable.php:35
+#: ../classes/memberships/wpxss-memberships-listtable.php:55
+#: ../classes/orders/wpxss-orders-listtable.php:51
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:59
+#: ../classes/stats/wpxss-stats-listtable.php:60
+msgid "Please, check your search filters parameters."
+msgstr "Verifica i parametri della ricerca."
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:93
+#: ../classes/carriers/wpxss-carriers-listtable.php:134
+#: ../classes/coupons/wpxss-coupons-listtable.php:121
+#: ../classes/coupons/wpxss-coupons-listtable.php:178
+#: ../classes/memberships/wpxss-memberships-listtable.php:120
+#: ../classes/memberships/wpxss-memberships-listtable.php:169
+#: ../classes/orders/wpxss-orders-listtable.php:131
+#: ../classes/orders/wpxss-orders-listtable.php:200
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:112
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:164
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:97
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:144
+#: ../classes/stats/wpxss-stats-listtable.php:188
+#: ../classes/stats/wpxss-stats-listtable.php:252
+msgid "Restore"
+msgstr "Ripristina"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:94
+#: ../classes/carriers/wpxss-carriers-listtable.php:132
+#: ../classes/coupons/wpxss-coupons-listtable.php:122
+#: ../classes/coupons/wpxss-coupons-listtable.php:176
+#: ../classes/memberships/wpxss-memberships-listtable.php:121
+#: ../classes/memberships/wpxss-memberships-listtable.php:167
+#: ../classes/orders/wpxss-orders-listtable.php:132
+#: ../classes/orders/wpxss-orders-listtable.php:198
+#: ../classes/orders/wpxss-orders.php:846
+#: ../classes/orders/wpxss-orders.php:847
+#: ../classes/orders/wpxss-shopping-cart.php:530
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:381
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:382
+#: ../classes/products/wpxss-product-metabox.php:484
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:113
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:162
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:98
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:142
+#: ../classes/stats/wpxss-stats-listtable.php:189
+#: ../classes/stats/wpxss-stats-listtable.php:250
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:95
+#: ../classes/carriers/wpxss-carriers.php:111
+#: ../classes/coupons/wpxss-coupons-listtable.php:123
+#: ../classes/coupons/wpxss-coupons.php:362
+#: ../classes/memberships/wpxss-memberships-listtable.php:122
+#: ../classes/memberships/wpxss-memberships.php:225
+#: ../classes/orders/wpxss-orders-listtable.php:133
+#: ../classes/orders/wpxss-orders.php:218
+#: ../classes/shipments/WPSmartShopShipments.php:509
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:114
+#: ../classes/shipments/WPSmartShopShippingCountries.php:491
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:99
+#: ../classes/stats/wpxss-stats-listtable.php:190
+#: ../classes/stats/wpxss-stats.php:64
+msgid "Trash"
+msgstr "Cestina"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:113
+#: ../classes/carriers/wpxss-carriers.php:63
+#: ../classes/core/wpxss-users-picker.php:32
+msgid "Name"
+msgstr "Nome"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:114
+#: ../classes/carriers/wpxss-carriers.php:79
+msgid "Measure shipping unit"
+msgstr "Unità di misura per le spedizioni"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:115
+#: ../classes/carriers/wpxss-carriers.php:71
+msgid "Web site"
+msgstr "Sito Web"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:133
+#: ../classes/coupons/wpxss-coupons-listtable.php:177
+#: ../classes/memberships/wpxss-memberships-listtable.php:168
+#: ../classes/orders/wpxss-orders-listtable.php:199
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:163
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:143
+#: ../classes/stats/wpxss-stats-listtable.php:251
+msgid "Move to Trash"
+msgstr "Sposta nel Cestino"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:165
+msgid "Carrier(s) deleted successfully"
+msgstr "Corrieri eliminati con successo"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:171
+msgid "Error while deleting carrier"
+msgstr "Errore mentre si cancellava un Corriere"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:182
+msgid "Carrier update successfully"
+msgstr "Corriere aggiornato con successo"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:188
+msgid "Error while updating carrier"
+msgstr "Errore mentre si aggiornava un Corriere"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:199
+msgid "Carrier added successfully"
+msgstr "Corriere aggiunto con successo"
+
+#: ../classes/carriers/wpxss-carriers-listtable.php:205
+msgid "Error while adding carrier"
+msgstr "Errore mentre si inseriva un Corriere"
+
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:68
+msgid "New Carrier"
+msgstr "Nuovo Corriere"
+
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:70
+msgid "Edit Carrier"
+msgstr "Modifica Corriere"
+
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:94
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:107
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:96
+#: ../classes/orders/wpxss-orders-viewcontroller.php:158
+#: ../classes/products/wpxss-product-metabox.php:488
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:97
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:103
+msgid "Add"
+msgstr "Aggiungi"
+
+#: ../classes/carriers/wpxss-carriers-viewcontroller.php:97
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:110
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:99
+#: ../classes/orders/wpxss-orders-viewcontroller.php:161
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:323
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:330
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:128
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:100
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:106
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../classes/carriers/wpxss-carriers.php:49
+msgid "Carrier information"
+msgstr "Informazioni Corriere"
+
+#: ../classes/carriers/wpxss-carriers.php:54
+#: ../classes/coupons/wpxss-coupons-listtable.php:159
+#: ../classes/coupons/wpxss-coupons.php:168
+#: ../classes/frontend/wpxss-frontend.php:117
+#: ../classes/memberships/wpxss-memberships-listtable.php:148
+#: ../classes/memberships/wpxss-memberships.php:178
+#: ../classes/orders/wpxss-orders-listtable.php:169
+#: ../classes/orders/wpxss-orders.php:65
+#: ../classes/orders/wpxss-orders.php:1079
+msgid "Status"
+msgstr "Stato"
+
+#: ../classes/carriers/wpxss-carriers.php:81
+#: ../classes/products/wpxss-product-metabox.php:383
+#: ../classes/products/wpxss-product.php:1145
+#: ../classes/settings/views/SettingsGeneralView.php:110
+msgid "Weight"
+msgstr "Peso"
+
+#: ../classes/carriers/wpxss-carriers.php:82
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:57
+msgid "Size"
+msgstr "Dimensione"
+
+#: ../classes/carriers/wpxss-carriers.php:83
+#: ../classes/products/wpxss-product-metabox.php:391
+#: ../classes/products/wpxss-product.php:1149
+#: ../classes/settings/views/SettingsGeneralView.php:129
+#: ../classes/shipments/WPSmartShopShipments.php:457
+#: ../classes/shipments/WPSmartShopShipments.php:462
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:144
+msgid "Volume"
+msgstr "Volume"
+
+#: ../classes/carriers/wpxss-carriers.php:103
+#: ../classes/coupons/wpxss-coupons.php:346
+#: ../classes/memberships/wpxss-memberships.php:209
+#: ../classes/orders/wpxss-orders.php:198
+#: ../classes/shipments/WPSmartShopShipments.php:501
+#: ../classes/shipments/WPSmartShopShippingCountries.php:483
+#: ../classes/stats/wpxss-stats.php:56
+msgid "All"
+msgstr "Tutti"
+
+#: ../classes/carriers/wpxss-carriers.php:107
+#: ../classes/shipments/WPSmartShopShipments.php:505
+#: ../classes/shipments/WPSmartShopShippingCountries.php:487
+#: ../classes/stats/wpxss-stats.php:60
+msgid "Publish"
+msgstr "Pubblicato"
+
+#: ../classes/carriers/wpxss-carriers.php:278
+msgid "Filter by Carrier"
+msgstr "Filtra per Corriere"
+
+#: ../classes/core/wpxss-permalink.php:40
+msgid "debug"
+msgstr ""
+
+#: ../classes/core/wpxss-permalink.php:50
+#: ../classes/showcase/WPSmartShopShowcase.php:57
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:50
+msgid "showcase"
+msgstr "vetrina"
+
+#: ../classes/core/wpxss-permalink.php:60
+#: ../classes/core/wpxss-shortcode.php:451
+msgid "print"
+msgstr "stampa"
+
+#: ../classes/core/wpxss-session.php:269
+#, php-format
+msgid "Too many orders in %s status for user with id %s"
+msgstr "Troppi ordini in stato %s per l'utente con id %s"
+
+#: ../classes/core/wpxss-session.php:373
+msgid ""
+"Your coupon code is incorrect or not valid for this product. Please try "
+"again!"
+msgstr ""
+"Codice coupon sbagliato o non valido per questo prodotto. Si prega di "
+"riprovare."
+
+#: ../classes/core/wpxss-session.php:414
+msgid ""
+"This coupon code is not available for you. Please try with different coupon "
+"code."
+msgstr ""
+"Questo codice coupon non è disponibile per te. Usa un differente codice "
+"coupon."
+
+#: ../classes/core/wpxss-session.php:434
+msgid ""
+"The Coupon code is busy by you and/or someone else . Please try again later"
+msgstr ""
+"Il codice coupon è occupato da te o da qualcun altro. Riprova più tardi."
+
+#: ../classes/core/wpxss-session.php:458
+#, php-format
+msgid ""
+"On %s purchased products, coupon successfully used for the %s units to which "
+"you are entitled"
+msgstr ""
+"Sui %s prodotti acquistati, coupon utilizzato con successo per le %s unità "
+"alle quali hai diritto"
+
+#: ../classes/core/wpxss-session.php:462
+msgid "Coupon successfully used for the units to which you are entitled."
+msgstr "Coupon utilizzato con successo per le unità alla quali hai diritto."
+
+#: ../classes/core/wpxss-session.php:795 ../classes/core/wpxss-session.php:810
+msgid "Your coupon discount apply successfully!"
+msgstr "Lo sconto Coupon è stato applicato!"
+
+#: ../classes/core/wpxss-session.php:799
+msgid "No cumulative coupon found!"
+msgstr "Nessun Coupon cumulativo trovato!"
+
+#: ../classes/core/wpxss-session.php:814
+msgid "No order coupon available at this moment!"
+msgstr "Nessun Coupon Ordine disponibile al momento!"
+
+#: ../classes/core/wpxss-shortcode.php:170
+#: ../classes/orders/wpxss-shopping-cart.php:659
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: ../classes/core/wpxss-shortcode.php:452
+#: ../classes/orders/wpxss-orders-listtable.php:549
+#: ../classes/stats/wpxss-stats-listtable.php:572
+msgid "Print"
+msgstr "Stampa"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:33
+msgid "No Coupons found."
+msgstr "Nessun coupon trovato."
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:68
+msgid "Anyone"
+msgstr "Chiunque"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:74
+#: ../classes/coupons/wpxss-coupons-listtable.php:86
+#: ../classes/coupons/wpxss-coupons.php:103
+#: ../classes/memberships/wpxss-memberships-listtable.php:97
+#: ../classes/products/WPSmartShopProductCoupon.php:133
+#: ../classes/products/WPSmartShopProductMembership.php:35
+#: ../classes/products/wpxss-product-metabox.php:287
+#: ../classes/settings/views/SettingsOrdersView.php:50
+msgid "None"
+msgstr "Niente"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:80
+#: ../classes/coupons/wpxss-coupons-listtable.php:92
+msgid "Any"
+msgstr "Qualsiasi"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:99
+#: ../classes/coupons/wpxss-coupons.php:47
+#: ../classes/coupons/wpxss-coupons.php:60
+#: ../classes/coupons/wpxss-coupons.php:73
+#: ../classes/coupons/wpxss-coupons.php:496
+#: ../classes/coupons/wpxss-coupons.php:501
+#: ../classes/coupons/wpxss-coupons.php:630
+#: ../classes/coupons/wpxss-coupons.php:635
+#: ../classes/frontend/wpxss-frontend.php:132
+#: ../classes/frontend/wpxss-frontend.php:268
+#: ../classes/memberships/wpxss-memberships-listtable.php:104
+#: ../classes/memberships/wpxss-memberships.php:112
+#: ../classes/memberships/wpxss-memberships.php:113
+#: ../classes/memberships/wpxss-memberships.php:124
+#: ../classes/memberships/wpxss-memberships.php:132
+#: ../classes/memberships/wpxss-memberships.php:495
+#: ../classes/memberships/wpxss-memberships.php:496
+#: ../classes/memberships/wpxss-memberships.php:522
+#: ../classes/memberships/wpxss-memberships.php:523
+#: ../classes/memberships/wpxss-memberships.php:590
+#: ../classes/memberships/wpxss-memberships.php:596
+#: ../classes/orders/wpxss-orders-listtable.php:101
+#: ../classes/orders/wpxss-orders-listtable.php:240
+#: ../classes/orders/wpxss-orders-listtable.php:402
+#: ../classes/orders/wpxss-orders-listtable.php:410
+#: ../classes/orders/wpxss-orders-listtable.php:491
+#: ../classes/orders/wpxss-orders-listtable.php:513
+#: ../classes/orders/wpxss-orders.php:61
+#: ../classes/orders/wpxss-orders.php:1022
+#: ../classes/orders/wpxss-orders.php:1030
+#: ../classes/products/WPSmartShopProductCoupon.php:292
+#: ../classes/products/WPSmartShopProductCoupon.php:293
+#: ../classes/products/WPSmartShopProductCoupon.php:295
+#: ../classes/products/WPSmartShopProductMaker.php:286
+#: ../classes/products/wpxss-product-metabox.php:184
+#: ../classes/products/wpxss-product-metabox.php:192
+#: ../classes/products/wpxss-product-metabox.php:613
+#: ../classes/products/wpxss-product-metabox.php:620
+#: ../classes/products/wpxss-product-metabox.php:884
+#: ../classes/products/wpxss-product-metabox.php:885
+#: ../classes/products/wpxss-product-metabox.php:985
+#: ../classes/products/wpxss-product.php:62
+#: ../classes/products/wpxss-product.php:64
+#: ../classes/products/wpxss-product.php:66
+#: ../classes/products/wpxss-product.php:781
+#: ../classes/products/wpxss-product.php:785
+#: ../classes/stats/wpxss-stats-listtable.php:205
+#: ../classes/stats/wpxss-stats-listtable.php:412
+#: ../classes/stats/wpxss-stats-listtable.php:418
+#: ../classes/stats/wpxss-stats-listtable.php:516
+#: ../classes/stats/wpxss-stats-listtable.php:536
+#: ../classes/stats/wpxss-stats.php:781 ../classes/stats/wpxss-stats.php:787
+msgid "m/d/Y H:i"
+msgstr "d/m/Y H:i"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:102
+#: ../classes/coupons/wpxss-coupons.php:259
+msgid "Nobody"
+msgstr "Nessuno"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:148
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:58
+#: ../classes/coupons/wpxss-coupons.php:326
+#: ../classes/invoices/wpxss-invoice.php:64
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:62
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:451
+#: ../classes/stats/wpxss-stats-listtable.php:224
+#: ../classes/stats/wpxss-stats.php:611
+msgid "Coupon"
+msgstr "Coupon"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:149
+#: ../classes/frontend/wpxss-frontend.php:114
+#: ../classes/memberships/wpxss-memberships-listtable.php:140
+#: ../classes/orders/wpxss-orders-listtable.php:162
+#: ../classes/orders/wpxss-orders.php:908
+msgid "Date"
+msgstr "Data"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:150
+#: ../classes/memberships/wpxss-memberships-listtable.php:146
+msgid "Create by"
+msgstr "Creato da"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:151
+msgid "Product maker"
+msgstr "Creatore di prodotti"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:152
+#: ../classes/coupons/wpxss-coupons.php:194
+#: ../classes/products/WPSmartShopProductCoupon.php:82
+#: ../classes/products/wpxss-product-metabox.php:460
+msgid "Value"
+msgstr "Valore"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:153
+msgid "Only for"
+msgstr "Solo per"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:154
+#: ../classes/coupons/wpxss-coupons.php:115
+#: ../classes/frontend/wpxss-frontend.php:252
+#: ../classes/memberships/wpxss-memberships-listtable.php:147
+#: ../classes/orders/wpxss-orders.php:826
+#: ../classes/orders/wpxss-shopping-cart.php:63
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:37
+#: ../classes/products/WPSmartShopProductCoupon.php:144
+#: ../classes/products/WPSmartShopProductPostType.php:51
+#: ../classes/products/WPSmartShopProductPostType.php:209
+#: ../classes/settings/WPSmartShopSettingsViewController.php:41
+msgid "Product"
+msgstr "Prodotto"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:155
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:36
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:45
+msgid "Product Type"
+msgstr "Tipo Prodotto"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:156
+msgid "Available from"
+msgstr "Disponibile da"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:157
+msgid "Available to"
+msgstr "Disponibile fino"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:158
+msgid "Used by"
+msgstr "Usato da"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:209
+msgid "Coupon(s) deleted successfully"
+msgstr "Buono Sconto eliminati con successo"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:215
+msgid "Error while deleting coupon"
+msgstr "Errore durante l'eliminazione di un Buono Sconto"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:227
+msgid "Coupon update successfully"
+msgstr "Buono Sconto aggiornato con successo "
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:233
+msgid "Error while updating coupon"
+msgstr "Errore durante l'aggiornamento del coupon"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:245
+msgid "Coupon(s) added successfully"
+msgstr "Buono Sconto aggiunto con successo"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:251
+#, fuzzy
+msgid "Error while adding coupon"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:438
+msgid "Filter for User Maker"
+msgstr "Filtra per utente creatore"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:442
+msgid "Filter for User owner"
+msgstr "Filtra per utente proprietario"
+
+#: ../classes/coupons/wpxss-coupons-listtable.php:444
+#: ../classes/memberships/wpxss-memberships-listtable.php:382
+#: ../classes/orders/wpxss-orders-listtable.php:530
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:368
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:354
+#: ../classes/stats/wpxss-stats-listtable.php:553
+msgid "Apply"
+msgstr "Applica"
+
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:78
+msgid "New Coupon"
+msgstr "Nuovo Buono sconto"
+
+#: ../classes/coupons/wpxss-coupons-viewcontroller.php:83
+#, php-format
+msgid "Edit Coupon #%s"
+msgstr "Modifica Buono Sconto #%s"
+
+#: ../classes/coupons/wpxss-coupons.php:93
+msgid "Coupon restrictions"
+msgstr "Restrizioni sui Buoni Sconto"
+
+#: ../classes/coupons/wpxss-coupons.php:94
+#: ../classes/products/WPSmartShopProductCoupon.php:124
+msgid "Restrict your coupon usage for"
+msgstr "Applica le restrizione al tuo Buono Sconto per"
+
+#: ../classes/coupons/wpxss-coupons.php:114
+msgid "Restrict this Coupon for a specify product"
+msgstr ""
+
+#: ../classes/coupons/wpxss-coupons.php:120
+#: ../classes/coupons/wpxss-coupons.php:139
+#, fuzzy
+msgid "This Coupon is restrict to this product"
+msgstr ""
+"Il codice Coupon che hai inserito non esiste o non è applicabile al prodotto "
+"selezionato!"
+
+#: ../classes/coupons/wpxss-coupons.php:133
+msgid "Restrict this Coupon for a specify product type"
+msgstr ""
+
+#: ../classes/coupons/wpxss-coupons.php:134
+#: ../classes/frontend/wpxss-frontend.php:253
+#: ../classes/products/WPSmartShopProductCoupon.php:161
+msgid "Product type"
+msgstr "Tipo prodotto"
+
+#: ../classes/coupons/wpxss-coupons.php:148
+#: ../classes/memberships/wpxss-memberships-listtable.php:141
+msgid "User"
+msgstr "Utente"
+
+#: ../classes/coupons/wpxss-coupons.php:162
+msgid "Availability"
+msgstr "Disponibilità"
+
+#: ../classes/coupons/wpxss-coupons.php:163
+msgid "Makes this coupon available"
+msgstr "Rendi questo Buono Sconto disponibile"
+
+#: ../classes/coupons/wpxss-coupons.php:177
+#: ../classes/memberships/wpxss-memberships.php:120
+#: ../classes/orders/wpxss-orders-listtable.php:501
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:48
+#: ../classes/stats/wpxss-stats-listtable.php:524
+msgid "Date start"
+msgstr "Data inizio"
+
+#: ../classes/coupons/wpxss-coupons.php:183
+msgid "To"
+msgstr "alla data"
+
+#: ../classes/coupons/wpxss-coupons.php:196
+#: ../classes/products/WPSmartShopProductCoupon.php:84
+msgid ""
+"This is a numeric value for currency money. Append % for percentage. For "
+"apply Free to a product insert 100%"
+msgstr ""
+"Inserire un valore che indicherà la cifra da sottrarre come sconto nella "
+"valuta corrente. Aggiungere il carattere % (percentuale) alla fine, per "
+"indicare uno sconto percentuale. Se si volesse creare un Buono Sconto per "
+"l'intero valore del prodotto, inserire 100%"
+
+#: ../classes/coupons/wpxss-coupons.php:201
+#: ../classes/products/WPSmartShopProductCoupon.php:89
+msgid "Limit"
+msgstr "Limite"
+
+#: ../classes/coupons/wpxss-coupons.php:203
+#: ../classes/products/WPSmartShopProductCoupon.php:91
+msgid "Limit this coupon for product"
+msgstr "Limita questo coupon per prodotto"
+
+#: ../classes/coupons/wpxss-coupons.php:208
+msgid "Cumulative "
+msgstr "Cumulativo"
+
+#: ../classes/coupons/wpxss-coupons.php:211
+msgid "Set on for use this Coupon at the edge of order"
+msgstr ""
+
+#: ../classes/coupons/wpxss-coupons.php:218
+#: ../classes/coupons/wpxss-coupons.php:229
+#: ../classes/products/WPSmartShopProductCoupon.php:63
+msgid "Custom Unique Code"
+msgstr "Codice univoco personale"
+
+#: ../classes/coupons/wpxss-coupons.php:221
+msgid ""
+"Usually will be Smart Shop to create coupon uniqcode. Left empty for "
+"automatic unique code or enter a your custom code."
+msgstr ""
+
+#: ../classes/coupons/wpxss-coupons.php:232
+#: ../classes/products/WPSmartShopProductCoupon.php:66
+msgid "Prefix"
+msgstr "Prefisso "
+
+#: ../classes/coupons/wpxss-coupons.php:245
+#: ../classes/products/WPSmartShopProductCoupon.php:72
+msgid "Postfix"
+msgstr "Postfisso"
+
+#: ../classes/coupons/wpxss-coupons.php:246
+#: ../classes/products/WPSmartShopProductCoupon.php:74
+msgid ""
+"Usually will be Smart Shop to create coupon uniqcode. You can set prefix and "
+"postfix. Left empty for automatic unique code or enter a your custom code."
+msgstr ""
+
+#: ../classes/coupons/wpxss-coupons.php:263
+#: ../classes/coupons/wpxss-coupons.php:284
+msgid "Primary Coupon informations"
+msgstr "informazioni princiapli sul Buono Sconto"
+
+#: ../classes/coupons/wpxss-coupons.php:276
+msgid "This coupon has been used by "
+msgstr "Questo Buono Sconto è stato usato da"
+
+#: ../classes/coupons/wpxss-coupons.php:296
+#: ../classes/invoices/wpxss-invoice.php:39
+#: ../classes/products/WPSmartShopProductCoupon.php:98
+msgid "Quantity"
+msgstr "Quantità"
+
+#: ../classes/coupons/wpxss-coupons.php:298
+#: ../classes/products/WPSmartShopProductCoupon.php:100
+msgid "Coupon number to generate"
+msgstr "Numero di Buoni Sconto da generare"
+
+#: ../classes/coupons/wpxss-coupons.php:305
+#: ../classes/products/WPSmartShopProductCoupon.php:107
+msgid "Generate an only one unique code"
+msgstr "Genera un solo codice univoco"
+
+#: ../classes/coupons/wpxss-coupons.php:307
+msgid "Set this flag for create more coupon with the same unique code."
+msgstr ""
+"Impostare questa opzione per generare una serie di Buoni Sconto con lo "
+"stesso codice univoco. Questo permette di realizzare un unico Buono Sconto, "
+"cioè con il medesimo codice, da poter utilizzare (e riutilizzare) per un "
+"certo numero di volte. Ad esempio generando dieci (10) Buoni Sconto con lo "
+"steso codice univoco, tale codice potrà essere utilizzato - appunto - per "
+"dieci (10) volte; a meno di altri parametri di disponibilità come la data."
+
+#: ../classes/coupons/wpxss-coupons.php:314
+msgid "Makes quantity unlimited"
+msgstr "Rendi illimitato"
+
+#: ../classes/coupons/wpxss-coupons.php:316
+msgid ""
+"If you check this flag the coupons will be used to up \"date to\" value if "
+"present."
+msgstr ""
+"Impostando questa opzione, il Buono Sconto sarà valido fino alla data di "
+"scadenza se presente. Si potrà utilizzare questo Buono Sconto quante volte "
+"si vuole senza nessuna limitazione, fatta eccezione per il range di date di "
+"disponibilità."
+
+#: ../classes/coupons/wpxss-coupons.php:350
+#: ../classes/frontend/wpxss-frontend.php:286
+#: ../classes/memberships/wpxss-memberships.php:221
+#: ../classes/products/WPSmartShopProductPostType.php:213
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:156
+msgid "Available"
+msgstr "Disponibile"
+
+#: ../classes/coupons/wpxss-coupons.php:354
+#: ../classes/orders/wpxss-orders.php:202
+#: ../classes/products/wpxss-product-metabox.php:585
+msgid "Pending"
+msgstr "In attesa"
+
+#: ../classes/coupons/wpxss-coupons.php:358
+#: ../classes/orders/wpxss-orders.php:206
+msgid "Confirmed"
+msgstr "Confermato"
+
+#: ../classes/coupons/wpxss-coupons.php:452
+msgid "Select a restrict product"
+msgstr "Seleziona una restrizione per Prodotto"
+
+#: ../classes/coupons/wpxss-coupons.php:453
+#: ../classes/products/WPSmartShopProductPicker.php:560
+msgid "Loading..."
+msgstr "Attendere..."
+
+#: ../classes/coupons/wpxss-coupons.php:734
+msgid "Internal Error: Wrong coupon parameter!"
+msgstr ""
+
+#: ../classes/dashboards/wpxss-dashboards.php:24
+#, fuzzy
+msgid "wpx SmartShop - Summary Report"
+msgstr "WP SmartShop - Rapporto"
+
+#: ../classes/dashboards/views/wpxss-dashboard-view.php:3
+msgid ""
+"This software is free. You don't need to donate money to support it. Just "
+"talk about it."
+msgstr ""
+"Questo software è gratuito. Non è necessario donare denaro per supportarlo. "
+"Basta che ne parli!"
+
+#: ../classes/frontend/wpxss-frontend.php:115
+#: ../classes/orders/wpxss-orders-listtable.php:160
+#: ../classes/orders/wpxss-orders.php:906
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:584
+#: ../classes/stats/wpxss-stats-listtable.php:218
+#: ../classes/stats/wpxss-stats.php:603
+msgid "Order"
+msgstr "Ordine"
+
+#: ../classes/frontend/wpxss-frontend.php:116
+msgid "Amount"
+msgstr "Quantità"
+
+#: ../classes/frontend/wpxss-frontend.php:179
+msgid "No order for selected filters"
+msgstr "Nessun ordine per i filtri selezionati"
+
+#: ../classes/frontend/wpxss-frontend.php:251
+#: ../classes/invoices/wpxss-invoice.php:36
+#: ../classes/shipments/WPSmartShopShippingCountries.php:447
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:123
+msgid "Code"
+msgstr "Codice"
+
+#: ../classes/frontend/wpxss-frontend.php:287
+msgid "Used"
+msgstr "Usato"
+
+#: ../classes/frontend/wpxss-frontend.php:328
+msgid "No coupons for selected filters"
+msgstr "Nessun coupon per i filtri selezionati"
+
+#: ../classes/helper/wpxss-help.php:32
+msgid "For more information:"
+msgstr "Per più informazioni:"
+
+#: ../classes/helper/wpxss-help.php:33
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">wpXtreme Web Site</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:34
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">Store</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:35
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">Projects on Github</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:36
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">WPDK Docs</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:37
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">Official Forum</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:38
+msgid "<a href=\"http://wpxtre.me/\" target=\"_blank\">Official Support</a>"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:50
+msgid "What's an order?"
+msgstr ""
+
+#: ../classes/helper/wpxss-help.php:59
+msgid "Manage"
+msgstr "Gestisci"
+
+#: ../classes/helper/wpxss-pointer.php:32
+msgid "Welcome in SmartShop Orders"
+msgstr "Benvenuto negli ordini di SmartShop"
+
+#: ../classes/helper/wpxss-pointer.php:33
+msgid "Fron this view you can manage and display all your orders."
+msgstr ""
+
+#: ../classes/invoices/wpxss-invoice.php:37
+msgid "Product name"
+msgstr "Nome prodotto"
+
+#: ../classes/invoices/wpxss-invoice.php:38
+msgid "Unit Price"
+msgstr "Prezzo unitario"
+
+#: ../classes/invoices/wpxss-invoice.php:40
+#: ../classes/invoices/wpxss-invoice.php:66
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:64
+#: ../classes/shipments/WPSmartShopShippingCountries.php:882
+msgid "VAT"
+msgstr "IVA"
+
+#: ../classes/invoices/wpxss-invoice.php:41
+#: ../classes/orders/wpxss-orders.php:828
+#: ../classes/orders/wpxss-shopping-cart.php:65
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:39
+#: ../classes/products/WPSmartShopProductPostType.php:210
+#: ../classes/products/wpxss-product-metabox.php:196
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:145
+#: ../classes/stats/wpxss-stats.php:612
+msgid "Price"
+msgstr "Prezzo"
+
+#: ../classes/invoices/wpxss-invoice.php:63
+#: ../classes/orders/wpxss-shopping-cart.php:80
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:61
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: ../classes/invoices/wpxss-invoice.php:65
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:63
+msgid "Discount"
+msgstr "Sconto"
+
+#: ../classes/invoices/wpxss-invoice.php:67
+#: ../classes/orders/wpxss-orders.php:103
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:65
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:393
+#: ../classes/products/wpxss-product-metabox.php:100
+#: ../classes/products/wpxss-product-metabox.php:540
+#: ../classes/settings/views/SettingsProductView.php:64
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: ../classes/invoices/wpxss-invoice.php:68
+#: ../classes/orders/wpxss-orders-listtable.php:166
+#: ../classes/orders/wpxss-orders.php:112
+#: ../classes/orders/wpxss-orders.php:829
+#: ../classes/orders/wpxss-orders.php:857
+#: ../classes/orders/wpxss-orders.php:912
+#: ../classes/orders/wpxss-orders.php:1080
+#: ../classes/orders/wpxss-shopping-cart.php:82
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:41
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:66
+#: ../classes/stats/wpxss-stats.php:858
+msgid "Total"
+msgstr "Totale"
+
+#: ../classes/invoices/wpxss-invoice.php:109
+#, fuzzy
+msgid "No products found for order"
+msgstr "Prodotti non trovati"
+
+#: ../classes/invoices/wpxss-invoice.php:115
+msgid "No order found"
+msgstr "Nessun ordine trovato"
+
+#: ../classes/invoices/wpxss-invoice.php:129
+msgid "Print Invoice"
+msgstr "Stampa fattura"
+
+#: ../classes/invoices/wpxss-invoice.php:333
+#: ../classes/orders/wpxss-orders-listtable.php:613
+#: ../classes/orders/wpxss-orders-listtable.php:615
+msgid "Order ID"
+msgstr "ID Ordine"
+
+#: ../classes/invoices/wpxss-invoice.php:418
+msgid "Sent to"
+msgstr "Spedito a"
+
+#: ../classes/invoices/wpxss-invoice.php:461
+msgid "Purchased by"
+msgstr "Acquistato da"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:53
+msgid "No Membership or subscription found."
+msgstr "Nessuna sottoscrizione trovata per i filtri selezionati"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:142
+#: ../classes/memberships/wpxss-memberships.php:166
+msgid "Role"
+msgstr "Ruolo"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:143
+#: ../classes/memberships/wpxss-memberships.php:108
+msgid "Capabilities"
+msgstr "Permessi"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:144
+msgid "Start"
+msgstr "Inizio"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:145
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:54
+msgid "Expiry"
+msgstr "Scaduto "
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:192
+#, fuzzy
+msgid "Membership(s) deleted successfully"
+msgstr "Ordine(i) eliminati con successo"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:198
+#, fuzzy
+msgid "Error while deleting Membership"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:209
+#, fuzzy
+msgid "Membership update successfully"
+msgstr "Ordine aggiornato con successo"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:215
+#, fuzzy
+msgid "Error while updating Membership"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:226
+#, fuzzy
+msgid "Membership added successfully"
+msgstr "Ordine aggiunto con successo"
+
+#: ../classes/memberships/wpxss-memberships-listtable.php:232
+#, fuzzy
+msgid "Error while adding Membership"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:54
+msgid "Name or email"
+msgstr "Nome o email"
+
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:71
+msgid "New Memberships"
+msgstr "Nuova sottoscrizione"
+
+#: ../classes/memberships/wpxss-memberships-viewcontroller.php:73
+msgid "Edit Memberships"
+msgstr "Modifica sottoscrizione"
+
+#: ../classes/memberships/wpxss-memberships.php:71
+msgid "Previous Role"
+msgstr "Ruolo precedente "
+
+#: ../classes/memberships/wpxss-memberships.php:74
+msgid "When this subscription is over, the user back with this role."
+msgstr ""
+
+#: ../classes/memberships/wpxss-memberships.php:116
+msgid "Membership information"
+msgstr "Informazioni sottoscrizione"
+
+#: ../classes/memberships/wpxss-memberships.php:128
+msgid "Date expired"
+msgstr "Data scadenza"
+
+#: ../classes/memberships/wpxss-memberships.php:144
+msgid "Apply to user"
+msgstr "Applica all'utente"
+
+#: ../classes/memberships/wpxss-memberships.php:213
+msgid "Current"
+msgstr "Corrente"
+
+#: ../classes/memberships/wpxss-memberships.php:217
+#: ../classes/products/wpxss-product-metabox.php:601
+msgid "Expired"
+msgstr "Scaduto"
+
+#: ../classes/memberships/wpxss-memberships.php:851
+#: ../classes/orders/wpxss-orders.php:1141
+msgid "Filter for User"
+msgstr "Filtra per utente"
+
+#: ../classes/orders/wpxss-orders-listtable.php:49
+msgid "No Orders found."
+msgstr "Nessun ordine trovato."
+
+#: ../classes/orders/wpxss-orders-listtable.php:85
+#: ../classes/orders/wpxss-orders-listtable.php:93
+#: ../classes/stats/wpxss-stats-listtable.php:96
+#: ../classes/stats/wpxss-stats-listtable.php:104
+msgid "No user found"
+msgstr "Nessun utente trovato"
+
+#: ../classes/orders/wpxss-orders-listtable.php:161
+#: ../classes/orders/wpxss-orders-listtable.php:551
+#: ../classes/orders/wpxss-orders.php:907
+msgid "Transaction ID"
+msgstr "ID transazione"
+
+#: ../classes/orders/wpxss-orders-listtable.php:163
+#: ../classes/orders/wpxss-orders.php:909
+#: ../classes/stats/wpxss-stats-listtable.php:221
+#: ../classes/stats/wpxss-stats.php:607
+msgid "Ordered by"
+msgstr "Ordinati da"
+
+#: ../classes/orders/wpxss-orders-listtable.php:164
+#: ../classes/orders/wpxss-orders.php:910
+#: ../classes/stats/wpxss-stats-listtable.php:220
+#: ../classes/stats/wpxss-stats-listtable.php:576
+#: ../classes/stats/wpxss-stats.php:605
+msgid "Ordered for"
+msgstr "Ordinato per conto di"
+
+#: ../classes/orders/wpxss-orders-listtable.php:165
+msgid "Updated"
+msgstr "Aggiornato"
+
+#: ../classes/orders/wpxss-orders-listtable.php:167
+#: ../classes/orders/wpxss-orders.php:1077
+msgid "Payment type"
+msgstr "Tipo di pagamento"
+
+#: ../classes/orders/wpxss-orders-listtable.php:168
+msgid "Payment gateway"
+msgstr "Gateway di pagamento "
+
+#: ../classes/orders/wpxss-orders-listtable.php:231
+#, fuzzy
+msgid "Error while deleting order"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/orders/wpxss-orders-listtable.php:233
+#, fuzzy
+msgid "Orders(s) deleted successfully"
+msgstr "Ordine(i) eliminati con successo"
+
+#: ../classes/orders/wpxss-orders-listtable.php:258
+#, fuzzy
+msgid "Error while updating order"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/orders/wpxss-orders-listtable.php:260
+#, fuzzy
+msgid "Orders updated successfully"
+msgstr "Ordine aggiornato con successo"
+
+#: ../classes/orders/wpxss-orders-listtable.php:287
+#, fuzzy
+msgid "Error while adding order"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/orders/wpxss-orders-listtable.php:289
+#, fuzzy
+msgid "Order added successfully"
+msgstr "Ordine aggiunto con successo"
+
+#: ../classes/orders/wpxss-orders-listtable.php:520
+#: ../classes/stats/wpxss-stats-listtable.php:543
+msgid "Date to"
+msgstr "alla data"
+
+#: ../classes/orders/wpxss-orders-listtable.php:546
+#: ../classes/stats/wpxss-stats-listtable.php:569
+msgid "Export CSV"
+msgstr "Esporta in CSV"
+
+#: ../classes/orders/wpxss-orders-listtable.php:609
+#: ../classes/orders/wpxss-orders-listtable.php:611
+msgid "Track ID"
+msgstr "Track ID"
+
+#: ../classes/orders/wpxss-orders-viewcontroller.php:84
+msgid "Print Orders"
+msgstr "Stampa ordini"
+
+#: ../classes/orders/wpxss-orders-viewcontroller.php:129
+msgid "New Order"
+msgstr "Nuovo ordine"
+
+#: ../classes/orders/wpxss-orders-viewcontroller.php:134
+#, php-format
+msgid "Edit Order #%s"
+msgstr "Modifica ordine #%s"
+
+#: ../classes/orders/wpxss-orders.php:52
+msgid "Order information"
+msgstr "Informazioni ordine"
+
+#: ../classes/orders/wpxss-orders.php:53
+msgid "Important"
+msgstr "Importante"
+
+#: ../classes/orders/wpxss-orders.php:57
+msgid "Order Date"
+msgstr "Data ordine"
+
+#: ../classes/orders/wpxss-orders.php:79
+msgid "Price information"
+msgstr "informazioni sul prezzo"
+
+#: ../classes/orders/wpxss-orders.php:84
+msgid "Sub total"
+msgstr "Sub totale"
+
+#: ../classes/orders/wpxss-orders.php:93
+#: ../classes/orders/wpxss-shopping-cart.php:81
+#: ../classes/shipments/WPSmartShopShippingCountries.php:429
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:124
+msgid "Tax"
+msgstr "Tassa"
+
+#: ../classes/orders/wpxss-orders.php:118
+msgid "Billing information"
+msgstr "Informazioni sul pagamento"
+
+#: ../classes/orders/wpxss-orders.php:124
+msgid "First Name"
+msgstr "Nome"
+
+#: ../classes/orders/wpxss-orders.php:131
+msgid "Last name"
+msgstr "Cognome"
+
+#: ../classes/orders/wpxss-orders.php:140
+#: ../classes/settings/views/SettingsGeneralView.php:89
+msgid "Email"
+msgstr "Email"
+
+#: ../classes/orders/wpxss-orders.php:147
+#: ../classes/settings/views/SettingsGeneralView.php:72
+msgid "Address"
+msgstr "Indirizzo"
+
+#: ../classes/orders/wpxss-orders.php:156
+msgid "ZIP code"
+msgstr "CAP"
+
+#: ../classes/orders/wpxss-orders.php:163
+msgid "Town"
+msgstr "Città"
+
+#: ../classes/orders/wpxss-orders.php:176
+msgid "Phone"
+msgstr "Telefono"
+
+#: ../classes/orders/wpxss-orders.php:210
+#: ../classes/products/wpxss-product-metabox.php:593
+#: ../classes/settings/views/SettingsOrdersView.php:52
+msgid "Cancelled"
+msgstr "Cancellato"
+
+#: ../classes/orders/wpxss-orders.php:214
+#: ../classes/settings/views/SettingsOrdersView.php:51
+msgid "Defunct"
+msgstr "Defunto"
+
+#: ../classes/orders/wpxss-orders.php:246
+#: ../classes/products/WPSmartShopProductCoupon.php:233
+#: ../classes/products/WPSmartShopProductMembership.php:128
+msgid "Minutes"
+msgstr "Minuti"
+
+#: ../classes/orders/wpxss-orders.php:247
+#: ../classes/products/WPSmartShopProductCoupon.php:234
+#: ../classes/products/WPSmartShopProductMembership.php:129
+msgid "Days"
+msgstr "Giorni"
+
+#: ../classes/orders/wpxss-orders.php:248
+#: ../classes/products/WPSmartShopProductCoupon.php:235
+#: ../classes/products/WPSmartShopProductMembership.php:130
+msgid "Months"
+msgstr "Mesi"
+
+#: ../classes/orders/wpxss-orders.php:249
+#: ../classes/products/WPSmartShopProductCoupon.php:236
+#: ../classes/products/WPSmartShopProductMembership.php:131
+msgid "Years"
+msgstr "Anni"
+
+#: ../classes/orders/wpxss-orders.php:827
+#: ../classes/orders/wpxss-orders.php:1076
+#: ../classes/orders/wpxss-shopping-cart.php:64
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:38
+#: ../classes/products/WPSmartShopProductPostType.php:211
+#: ../classes/stats/wpxss-stats.php:854
+msgid "Qty"
+msgstr "Quantità"
+
+#: ../classes/orders/wpxss-orders.php:911
+#: ../classes/settings/views/SettingsIntegrationView.php:55
+msgid "Payment"
+msgstr "Pagamento"
+
+#: ../classes/orders/wpxss-orders.php:1075
+#: ../classes/stats/wpxss-stats.php:853
+msgid "Summary"
+msgstr "Riepilogo"
+
+#: ../classes/orders/wpxss-orders.php:1078
+msgid "Gateway"
+msgstr ""
+
+#: ../classes/orders/wpxss-orders.php:1185
+msgid "Filter for User Order"
+msgstr "Filtra per utente ordine"
+
+#: ../classes/orders/wpxss-orders.php:1227
+msgid "Filter for Payment Type"
+msgstr "Filtra per tipo di pagamento"
+
+#: ../classes/orders/wpxss-orders.php:1267
+msgid "Filter for Payment Gateway"
+msgstr "Filtra per gateway di pagamento"
+
+#: ../classes/orders/wpxss-orders.php:1309
+#: ../classes/stats/wpxss-stats.php:1047
+msgid "Filter for Product"
+msgstr "Filtra per Prodotto"
+
+#: ../classes/orders/wpxss-shopping-cart.php:43
+#: ../classes/orders/wpxss-shopping-cart.php:356
+msgid "Log in to Purchase"
+msgstr "Accedi per acquistare"
+
+#: ../classes/orders/wpxss-shopping-cart.php:236
+#, php-format
+msgid ""
+"Warning! Quantity overflow. In the warehouse there are %s products available."
+msgstr ""
+
+#: ../classes/orders/wpxss-shopping-cart.php:341
+#: ../classes/widgets/wpxss-widget-shopping-cart.php:63
+msgid "Shop Closed for maintenance"
+msgstr "Il negozio è momentaneamente chiuso per manutenzione"
+
+#: ../classes/orders/wpxss-shopping-cart.php:370
+#: ../classes/orders/wpxss-shopping-cart.php:407
+msgid "Product not available"
+msgstr "Prodotto non disponibile"
+
+#: ../classes/orders/wpxss-shopping-cart.php:394
+msgid "Product sold out"
+msgstr "Prodotto esaurito"
+
+#: ../classes/orders/wpxss-shopping-cart.php:449
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:193
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:134
+msgid "Your Shopping Cart is empty"
+msgstr "il tuo carrello è vuoto"
+
+#: ../classes/orders/wpxss-shopping-cart.php:590
+msgid "Empty Cart"
+msgstr "Svuota carrello"
+
+#: ../classes/orders/wpxss-shopping-cart.php:591
+#: ../classes/settings/views/SettingsIntegrationView.php:45
+msgid "Checkout"
+msgstr "Vai alla Cassa"
+
+#: ../classes/orders/wpxss-shopping-cart.php:639
+#: ../classes/products/wpxss-product.php:130
+msgid "Wrong product parameter"
+msgstr "Parametri del prodotto sbagliati"
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:40
+msgid "Coupon Code"
+msgstr "Codice Coupon"
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:177
+msgid "Payment method"
+msgstr "Metodo di Pagamento"
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:187
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:80
+msgid "Purchase"
+msgstr "Acquista"
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:240
+msgid "Paid"
+msgstr "Pagato"
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:427
+msgid "You can change your product's quantity"
+msgstr ""
+
+#: ../classes/orders/wpxss-summary-order-viewcontroller.php:527
+msgid "Insert your Coupon code"
+msgstr "inserisci il tuo codice Coupon"
+
+#: ../classes/orders/wpxss-summary-order.php:44
+msgid "Cash"
+msgstr "Contanti"
+
+#: ../classes/orders/wpxss-summary-order.php:45
+msgid "Card"
+msgstr "Carta"
+
+#: ../classes/orders/wpxss-summary-order.php:46
+msgid "Pos"
+msgstr ""
+
+#: ../classes/orders/wpxss-summary-order.php:231
+#: ../classes/stats/wpxss-stats-listtable.php:147
+#: ../classes/stats/wpxss-stats.php:644
+msgid "Base price"
+msgstr "Prezzo base"
+
+#: ../classes/orders/wpxss-summary-order.php:232
+#: ../classes/products/wpxss-product-metabox.php:250
+#: ../classes/stats/wpxss-stats-listtable.php:153
+#: ../classes/stats/wpxss-stats.php:650
+msgid "Date range"
+msgstr "Intervallo date"
+
+#: ../classes/orders/wpxss-summary-order.php:233
+#: ../classes/products/wpxss-product-metabox.php:249
+#: ../classes/stats/wpxss-stats-listtable.php:141
+#: ../classes/stats/wpxss-stats.php:638
+msgid "Online"
+msgstr ""
+
+#: ../classes/orders/wpxss-summary-order.php:256
+#, php-format
+msgid ""
+"<strong>%s</strong> at the price of <strong>%s</strong> as <strong>%s</"
+"strong>"
+msgstr ""
+"<strong>%s</strong> al prezzo di <strong>%s</strong> come <strong>%s</"
+"strong> "
+
+#: ../classes/orders/wpxss-summary-order.php:258
+#, php-format
+msgid "You pay <ul><li>%s</li></ul>"
+msgstr "Paghi <ul><li>%s</li></ul>"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:147
+msgid "Transaction zero"
+msgstr "Transazione a zero"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:167
+msgid "Payment with Cash"
+msgstr "Pagamento Cash"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:175
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:190
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:288
+msgid "Payment Gateway not set"
+msgstr "Gateway di pagamento non impostato"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:238
+msgid "Error while contacting secure Bank"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:244
+msgid "Redirect to secure Bank"
+msgstr "Stai per essere rediretto verso la connessione sicura della Banca"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:251
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:333
+msgid "Severe Error"
+msgstr "Errore Grave!"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:276
+msgid "No order"
+msgstr "Nessun ordine"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:328
+msgid "Thanks for purchase"
+msgstr "Grazie per l'acquisto"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGateway.php:568
+msgid "Unable to select display mode for Payment Gateways "
+msgstr ""
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGatewayClass.php:77
+#: ../classes/products/wpxss-product-metabox.php:692
+msgid "Version"
+msgstr "Versione"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGatewayClass.php:100
+msgid "Well, You are being redirected to the secure connection of the bank"
+msgstr ""
+"Bene, stai per essere rediretto verso la connessione sicura della banca"
+
+#: ../classes/payment_gateways/WPSmartShopPaymentGatewayClass.php:107
+msgid "Please wait..."
+msgstr "Attendere prego..."
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:47
+msgid "Mode"
+msgstr "Modalità"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:49
+msgid "Please, select testing or real mode and purchase modality"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:68
+msgid "Test mode"
+msgstr "Modalità di prova"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:69
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:73
+msgid "Use test mode for testing transation"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:76
+msgid "Action Modality"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:79
+msgid "Select a transition type"
+msgstr "Seleziona un tipo di transizione"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:81
+msgid "Authorization"
+msgstr "Autorizzazione"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:83
+msgid "Use test mode for testing transition"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:88
+msgid "Merchand Informations"
+msgstr "Informazioni sul venditore"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:89
+msgid "Your shop license informations"
+msgstr "Informazioni sulla licenza del tuo negozio"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:95
+msgid "ID"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:96
+msgid ""
+"This is the your Merchand ID. If you do not have this code, please contact "
+"your Bank"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:105
+msgid "Password"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:106
+msgid "This is the password for your ID."
+msgstr "Questa è la password del tuo ID"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:113
+msgid "URLs"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:114
+msgid ""
+"These are the bank URL for test and exercise and response/error URL on your "
+"web site"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:120
+msgid "Primary URL"
+msgstr "URL primario"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:121
+msgid "This is the real URL for transition"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:132
+msgid "URL for test"
+msgstr "URL per i test"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:133
+msgid "This is the test URL"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:144
+msgid "Response URL"
+msgstr "URL di risposta"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:145
+msgid ""
+"When the transition is over with success, the Bank call this URL on your site"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:156
+msgid "Error URL"
+msgstr "URL di errore"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:157
+msgid ""
+"When the transition is over with an error, the Bank call this URL on your "
+"site"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:290
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:293
+msgid "Settings Reset to default successfully!"
+msgstr "Impostazioni reimpostate ai valori originali!"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:312
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:319
+msgid "Settings update successfully!"
+msgstr "Impostazioni aggiornate con successo!"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:327
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:334
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:132
+msgid "Reset to default"
+msgstr "Reimposta ai valori predefiniti"
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:415
+msgid "MPS Error"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:493
+msgid "MPS Error. Payment id empty"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/MPS/MPS.php:510
+msgid "MPS Error! Transaction reject"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:51
+msgid "Test Mode"
+msgstr "Modalità di prova "
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:53
+msgid "Enable test mode"
+msgstr "Abilita modalità di prova"
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:72
+msgid "Test mode (uncheck for Live)"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:79
+msgid "(Test) API Username"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:89
+msgid "(Test) API Password"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:98
+msgid "(Test) API Signature"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:107
+msgid "Merchand information"
+msgstr "Informazioni sul venditore"
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:112
+msgid "API Username"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:122
+msgid "API Password"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:131
+msgid "API Signature"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:140
+msgid "Callback URLs"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:145
+msgid "Return URL"
+msgstr "URL di risposta "
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:155
+msgid "Cancel URL"
+msgstr "URL di annullamento"
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:489
+msgid "Method failed"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:512
+msgid "Invalid HTTP Response"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:635
+msgid "SetExpressCheckout failed"
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:658
+msgid "Token is not received."
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:692
+msgid "GetExpressCheckoutDetails failed."
+msgstr ""
+
+#: ../classes/payment_gateways/gateways/PayPalExpressCheckout/PayPalExpressCheckout.php:738
+msgid "DoExpressCheckoutPayment failed"
+msgstr ""
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:24
+#: ../classes/settings/views/SettingsIntegrationView.php:23
+#: ../classes/settings/views/SettingsOrdersView.php:25
+#: ../classes/settings/views/SettingsShipmentsView.php:25
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:26
+msgid "Please, write an introduction"
+msgstr ""
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:34
+msgid "Available Payment Gateways"
+msgstr "Gateway di pagamento disponibili"
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:35
+msgid "Enable the appropriate Payment Gateways"
+msgstr "Abilita il giusto gateway di pagamento"
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:38
+msgid "Display"
+msgstr "Visualizza"
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:39
+msgid "Choose display mode"
+msgstr "Scegli una modalità di visualizzazione"
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:44
+msgid "Combo Menu"
+msgstr "Menu a tendina"
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:53
+msgid "Radio button with image"
+msgstr ""
+
+#: ../classes/payment_gateways/views/SettingsPaymentGatewaysView.php:110
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:47
+msgid ""
+"Enable this feature to create coupons packages when an order (with this "
+"product) is confirmed"
+msgstr "Attivare per creare dei Coupon quando questo prodotto è acquistato"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:52
+msgid "Enabled Coupon creation"
+msgstr "Abilita creazione Coupon"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:53
+msgid "Creates coupons when this product is purchased"
+msgstr "Crea automaticamente dei coupon quando questo prodotto è acquistato"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:110
+#, fuzzy
+msgid "Turn on this flag to create more coupons with the same unique code"
+msgstr ""
+"Impostare questa opzione per generare una serie di Buoni Sconto con lo "
+"stesso codice univoco. Questo permette di realizzare un unico Buono Sconto, "
+"cioè con il medesimo codice, da poter utilizzare (e riutilizzare) per un "
+"certo numero di volte. Ad esempio generando dieci (10) Buoni Sconto con lo "
+"steso codice univoco, tale codice potrà essere utilizzato - appunto - per "
+"dieci (10) volte; a meno di altri parametri di disponibilità come la data."
+
+#: ../classes/products/WPSmartShopProductCoupon.php:174
+msgid "Buyer"
+msgstr "Acquirente"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:177
+msgid ""
+"Select this option to constrain the use of coupons only to the user who has "
+"purchased (buyer)"
+msgstr ""
+
+#: ../classes/products/WPSmartShopProductCoupon.php:184
+msgid "Keep the coupons valid"
+msgstr "Mantieni il coupon valido"
+
+#: ../classes/products/WPSmartShopProductCoupon.php:192
+msgid "from purchase"
+msgstr "da acquistare"
+
+#: ../classes/products/WPSmartShopProductMembership.php:70
+msgid ""
+"Enable this feature to change the user' role when a order (with this "
+"product) is confirmed"
+msgstr ""
+
+#: ../classes/products/WPSmartShopProductMembership.php:76
+msgid "Enabled Membership"
+msgstr "Abilita sottoscrizioni"
+
+#: ../classes/products/WPSmartShopProductMembership.php:77
+#: ../classes/products/WPSmartShopProductMembership.php:88
+msgid "Switch user role when this product is purchased"
+msgstr "Commuta il ruolo utente quando questo prodotto è acquistato"
+
+#: ../classes/products/WPSmartShopProductMembership.php:87
+msgid "Change role in"
+msgstr "Cambio il ruolo in"
+
+#: ../classes/products/WPSmartShopProductMembership.php:99
+msgid "Keep this role for"
+msgstr "Mantiene questo ruolo per"
+
+#: ../classes/products/WPSmartShopProductMembership.php:108
+msgid "from purchase (or activation)"
+msgstr "dall'acquisto (o attivazione)"
+
+#: ../classes/products/WPSmartShopProductPicker.php:66
+#: ../classes/settings/views/SettingsIntegrationView.php:115
+msgid "Product Picker"
+msgstr "Selettore Prodotto"
+
+#: ../classes/products/WPSmartShopProductPicker.php:240
+msgid "Search"
+msgstr "Cerca"
+
+#: ../classes/products/WPSmartShopProductPicker.php:311
+#, fuzzy
+msgid "Please select a Product Type"
+msgstr "Tipo Prodotto genitore"
+
+#: ../classes/products/WPSmartShopProductPicker.php:347
+msgid "Load next items"
+msgstr "Carica elementi successivi"
+
+#: ../classes/products/WPSmartShopProductPicker.php:418
+msgid "No products found!"
+msgstr "Prodotti non trovati"
+
+#: ../classes/products/WPSmartShopProductPicker.php:524
+msgid "Product Types"
+msgstr "Tipi di Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:50
+#: ../classes/settings/views/SettingsProductView.php:25
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:26
+msgid "Products"
+msgstr "Prodotti"
+
+#: ../classes/products/WPSmartShopProductPostType.php:53
+msgid "Add New Product"
+msgstr "Aggiungi Nuovo Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:55
+msgid "New Product"
+msgstr "Nuovo Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:56
+msgid "View Product"
+msgstr "Visualizza Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:57
+msgid "Product Search"
+msgstr "Cerca Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:58
+msgid "Products not found"
+msgstr "Prodotti non trovati"
+
+#: ../classes/products/WPSmartShopProductPostType.php:59
+msgid "No Product in trash"
+msgstr "Nessun prodotto nel cestino"
+
+#: ../classes/products/WPSmartShopProductPostType.php:72
+msgid "product"
+msgstr "prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:191
+msgid "Product Image"
+msgstr "Immagine Prodotto"
+
+#: ../classes/products/WPSmartShopProductPostType.php:208
+msgid "Preview"
+msgstr "Anteprima"
+
+#: ../classes/products/WPSmartShopProductPostType.php:212
+msgid "Sold"
+msgstr "Venduti"
+
+#: ../classes/products/WPSmartShopProductPostType.php:214
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:157
+msgid "Enabled"
+msgstr "Abilita"
+
+#: ../classes/products/WPSmartShopProductPostType.php:352
+msgid "Show All"
+msgstr "Mostra tutti"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:36
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:46
+msgid "Product Tags"
+msgstr "Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:37
+msgid "Product Tag"
+msgstr "Tag Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:38
+msgid "Search Product Tags"
+msgstr "Cerca Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:39
+msgid "All Product Tags"
+msgstr "Tutti i Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:40
+msgid "Parent Product Tas"
+msgstr "Tags Prodotto genitore"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:41
+msgid "Parent Product Tag:"
+msgstr "Tags Prodotto genitore:"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:42
+msgid "Edit Product Tags"
+msgstr "Modifica Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:43
+msgid "Update Product Tags"
+msgstr "Aggiorna Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:44
+msgid "Add New Product Tags"
+msgstr "Aggiungi Nuovo Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:45
+msgid "New Product Tags"
+msgstr "Nuovo Tags Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:48
+msgid "Popular Product Tags"
+msgstr "Tags Prodotto Popolari"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:49
+msgid "Separate Product Tags with commas"
+msgstr "Separa i Tags Prodotto con la virgola"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:50
+msgid "Add or remove Product Tags"
+msgstr "Aggiungi o rimuovi un Tag Prodotto"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:51
+#, fuzzy
+msgid "Choose from the most popular Product Tags"
+msgstr "Scegli tra le confezioni più usate"
+
+#: ../classes/products/WPSmartShopProductTagTaxonomy.php:63
+msgid "product-tags"
+msgstr "tags-prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:35
+msgid "Products Types"
+msgstr "Tipi di Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:37
+msgid "Search Product Type"
+msgstr "Cerca Tipo Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:38
+msgid "All Product Types"
+msgstr "Tutti i Tipi di Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:39
+msgid "Parent Product Type"
+msgstr "Tipo Prodotto genitore"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:40
+msgid "Parent Product Type:"
+msgstr "Tipo Prodotto genitore:"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:41
+msgid "Edit Product Type"
+msgstr "Modifica Tipo Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:42
+msgid "Update Product Type"
+msgstr "Aggiorna Tipo di Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:43
+msgid "Add New Product Type"
+msgstr "Aggiungi un nuovo Tipo di Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:44
+msgid "New Product Type"
+msgstr "Nuovo Tipo di Prodotto"
+
+#: ../classes/products/WPSmartShopProductTypeTaxonomy.php:54
+msgid "product-types"
+msgstr "tipi-prodotto"
+
+#: ../classes/products/wpxss-product-metabox.php:85
+msgid "Base price and rules"
+msgstr "Prezzo base e regole"
+
+#: ../classes/products/wpxss-product-metabox.php:90
+#: ../classes/settings/views/SettingsProductView.php:46
+msgid "Purchasable"
+msgstr "Acquistabile"
+
+#: ../classes/products/wpxss-product-metabox.php:95
+msgid "Variants"
+msgstr "Varianti"
+
+#: ../classes/products/wpxss-product-metabox.php:105
+msgid "Stocks"
+msgstr "Scorte"
+
+#: ../classes/products/wpxss-product-metabox.php:109
+msgid "Membership"
+msgstr "Sottoscrizioni"
+
+#: ../classes/products/wpxss-product-metabox.php:118
+#: ../classes/products/wpxss-product-metabox.php:675
+msgid "Digital Product"
+msgstr "Prodotto Digitale"
+
+#: ../classes/products/wpxss-product-metabox.php:131
+#, php-format
+msgid ""
+"From the <a href=\"%s\">Settings</a> you have chosen <strong>to include VAT</"
+"strong> in the price."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:133
+#, php-format
+msgid ""
+"From the <a href=\"%s\">Settings</a> you have chosen <strong>not to include "
+"VAT</strong> in the price."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:137
+msgid "Price Manager"
+msgstr "Gestore dei prezzi"
+
+#: ../classes/products/wpxss-product-metabox.php:138
+msgid ""
+"Create your own list Price/Rule. You can add a Price for a certain category "
+"of users or for anyone and discount"
+msgstr ""
+"Crea la tua lista di Prezzi/Regole. Puoi aggiungere un determinato prezzo "
+"per una certa categoria di utenti."
+
+#: ../classes/products/wpxss-product-metabox.php:145
+msgid "Base Price"
+msgstr "Prezzo base"
+
+#: ../classes/products/wpxss-product-metabox.php:146
+msgid ""
+"This is the main-base price for a product. Select more rules/prices below."
+msgstr ""
+"Questo è il prezzo principale di un prodotto. Da questo prezzo ne possono "
+"derivare altri"
+
+#: ../classes/products/wpxss-product-metabox.php:169
+#: ../classes/settings/views/SettingsProductView.php:107
+msgid "Price rules"
+msgstr "Regole sul prezzo"
+
+#: ../classes/products/wpxss-product-metabox.php:174
+msgid "Select a price rule"
+msgstr "Seleziona una regola sul prezzo"
+
+#: ../classes/products/wpxss-product-metabox.php:180
+msgid "From date"
+msgstr "Dalla data"
+
+#: ../classes/products/wpxss-product-metabox.php:188
+msgid "To date"
+msgstr "alla data"
+
+#: ../classes/products/wpxss-product-metabox.php:204
+msgid "Percentage %"
+msgstr "Percentuale %"
+
+#: ../classes/products/wpxss-product-metabox.php:213
+msgid "For order"
+msgstr "Per ordine"
+
+#: ../classes/products/wpxss-product-metabox.php:217
+msgid "This is the max number of this products to buy for a single Order"
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:223
+msgid "For product"
+msgstr "Per prodotto"
+
+#: ../classes/products/wpxss-product-metabox.php:226
+msgid ""
+"This is the max number of this product that it possible to buy for a user"
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:247
+msgid "Select a rules"
+msgstr "Seleziona una regola"
+
+#: ../classes/products/wpxss-product-metabox.php:248
+msgid "Common"
+msgstr "Comune"
+
+#: ../classes/products/wpxss-product-metabox.php:255
+msgid "User roles"
+msgstr "Ruoli utente"
+
+#: ../classes/products/wpxss-product-metabox.php:326
+msgid "Purchasable management"
+msgstr "Gestione acquistabilità"
+
+#: ../classes/products/wpxss-product-metabox.php:327
+msgid ""
+"Allow only at the user's role and capabilities below to buy this product."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:333
+msgid "Purchasable only by this Role"
+msgstr "Acquistabile solo per questo ruolo"
+
+#: ../classes/products/wpxss-product-metabox.php:349
+msgid "Appearance & variants"
+msgstr "Apparenza & varianti"
+
+#: ../classes/products/wpxss-product-metabox.php:350
+msgid "Please describe the appearance of the product and its variants."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:366
+msgid "Name/ID"
+msgstr "Nome/ID"
+
+#: ../classes/products/wpxss-product-metabox.php:369
+msgid ""
+"This is the unique Name/ID identifier of this aspect/variant. Eg. Red "
+"version, Lux model, etc..."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:402
+#: ../classes/products/wpxss-product.php:1146
+msgid "Width"
+msgstr "Larghezza"
+
+#: ../classes/products/wpxss-product-metabox.php:410
+#: ../classes/products/wpxss-product.php:1147
+msgid "Height"
+msgstr "Altezza"
+
+#: ../classes/products/wpxss-product-metabox.php:418
+#: ../classes/products/wpxss-product.php:1148
+msgid "Depth"
+msgstr "Profondità"
+
+#: ../classes/products/wpxss-product-metabox.php:431
+#: ../classes/products/wpxss-product.php:1150
+msgid "Color"
+msgstr "Colore"
+
+#: ../classes/products/wpxss-product-metabox.php:440
+#: ../classes/products/wpxss-product.php:1151
+msgid "Material"
+msgstr "Materiale"
+
+#: ../classes/products/wpxss-product-metabox.php:449
+#: ../classes/products/wpxss-product.php:1152
+#: ../classes/stats/wpxss-stats-listtable.php:223
+#: ../classes/stats/wpxss-stats.php:610 ../classes/stats/wpxss-stats.php:857
+msgid "Model"
+msgstr "Modello"
+
+#: ../classes/products/wpxss-product-metabox.php:464
+msgid ""
+"Enter only a number for currency. Else enter a number + \"%\" for percentage"
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:470
+#: ../classes/stats/wpxss-stats.php:608
+msgid "Note"
+msgstr "Note"
+
+#: ../classes/products/wpxss-product-metabox.php:541
+msgid "Turn on for shipping this product"
+msgstr "Attiva per spedire questo prodotto"
+
+#: ../classes/products/wpxss-product-metabox.php:546
+msgid "Is shipping"
+msgstr "Spedibile"
+
+#: ../classes/products/wpxss-product-metabox.php:562
+msgid "Warehouse Management"
+msgstr "Gestione Magazzino"
+
+#: ../classes/products/wpxss-product-metabox.php:563
+msgid ""
+"Set stocks number and product's available rules. Furthermore if you set date "
+"start and date end, you can make available a product for a date range."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:568
+msgid "Store Quantity"
+msgstr "Quantità magazzino"
+
+#: ../classes/products/wpxss-product-metabox.php:569
+msgid ""
+"Quantity available in store. Left to zero for unlimited stocks. When "
+"quantity is zero this product will not available for purchase. Furthermore "
+"if you set date start and date end, you can make available a product for "
+"date range."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:577
+msgid "Quantity for Confirmed"
+msgstr "Quantità confermati"
+
+#: ../classes/products/wpxss-product-metabox.php:611
+msgid "Available from date"
+msgstr "Disponibile dalla data"
+
+#: ../classes/products/wpxss-product-metabox.php:612
+msgid "Left blank for make available from now"
+msgstr "Lasciare vuoto per rendere disponibile da subito"
+
+#: ../classes/products/wpxss-product-metabox.php:618
+msgid "to date"
+msgstr "alla data"
+
+#: ../classes/products/wpxss-product-metabox.php:619
+msgid "Left blank for make available forever"
+msgstr "Lasciare vuoto per rendere disponibile per sempre"
+
+#: ../classes/products/wpxss-product-metabox.php:627
+msgid "Stock Keeping Unit ID"
+msgstr "Identificatore unità (SKU)"
+
+#: ../classes/products/wpxss-product-metabox.php:628
+msgid ""
+"Is a unique numerical identifying number that refers to a specific stock "
+"item in a retailer's inventory or product catalog. The SKU is often used to "
+"identify the product, product size or type, and the manufacturer. In the "
+"retail industry, the SKU is a part of the backend inventory control system "
+"and enables a retailer to track a product in their inventory that may be in "
+"warehouses or in retail outlets."
+msgstr ""
+"È un identificatore univoco che si riferisce ad uno specifico elemento "
+"dell'inventario del magazzino. Lo SKU è spesso usato per identificare in "
+"modo univoco un prodotto, la sua dimensione, tipo e peso. Esso fa parte "
+"anche dell'inventario usato per il controllo delle giacenze e nelle "
+"spedizioni."
+
+#: ../classes/products/wpxss-product-metabox.php:643
+msgid "Membership Management"
+msgstr "Gestione delle sottoscrizioni"
+
+#: ../classes/products/wpxss-product-metabox.php:654
+msgid "Coupon management"
+msgstr "Gestore dei Coupon"
+
+#: ../classes/products/wpxss-product-metabox.php:676
+msgid "Set media digital product information."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:681
+msgid "URL"
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:683
+msgid "This is the real (unwatchable) url of the digital product."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:694
+msgid "This is the version number, usaful for upgrade management. Eg. 1.4"
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:702
+msgid "Download Count"
+msgstr "Numero download"
+
+#: ../classes/products/wpxss-product-metabox.php:712
+msgid "Languages"
+msgstr "Lingue"
+
+#: ../classes/products/wpxss-product-metabox.php:714
+msgid "Insert available language comma separated."
+msgstr ""
+
+#: ../classes/products/wpxss-product-metabox.php:731
+#, fuzzy
+msgid "Smart Shop Product Settings"
+msgstr "Cerca Tags Prodotto"
+
+#: ../classes/products/wpxss-product.php:905
+msgid "Show product"
+msgstr "Visualizza prodotto"
+
+#: ../classes/products/wpxss-product.php:967
+msgid "Details"
+msgstr "Dettagli "
+
+#: ../classes/products/wpxss-product.php:1212
+msgid "Appearance"
+msgstr "Apparenza"
+
+#: ../classes/products/wpxss-product.php:1236
+msgid "Available in"
+msgstr "Disponibile in"
+
+#: ../classes/settings/WPSmartShopSettings.php:127
+msgid "checkout"
+msgstr "checkout"
+
+#: ../classes/settings/WPSmartShopSettings.php:128
+msgid "payment"
+msgstr "pagamento"
+
+#: ../classes/settings/WPSmartShopSettings.php:129
+msgid "receipt"
+msgstr ""
+
+#: ../classes/settings/WPSmartShopSettings.php:130
+msgid "error"
+msgstr ""
+
+#: ../classes/settings/WPSmartShopSettingsViewController.php:33
+#: ../classes/settings/views/SettingsGeneralView.php:23
+msgid "General"
+msgstr "Generale"
+
+#: ../classes/settings/WPSmartShopSettingsViewController.php:37
+#: ../classes/settings/views/SettingsIntegrationView.php:22
+msgid "WordPress Integration"
+msgstr "Integrazione con WordPress"
+
+#: ../classes/settings/views/SettingsGeneralView.php:43
+msgid "Shop information"
+msgstr "Informazioni negozio"
+
+#: ../classes/settings/views/SettingsGeneralView.php:48
+msgid "Shop open"
+msgstr "Negozio aperto"
+
+#: ../classes/settings/views/SettingsGeneralView.php:56
+msgid "Shop name"
+msgstr "Nome del negozio"
+
+#: ../classes/settings/views/SettingsGeneralView.php:64
+msgid "Logo"
+msgstr ""
+
+#: ../classes/settings/views/SettingsGeneralView.php:80
+#: ../classes/shipments/WPSmartShopShippingCountries.php:375
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:117
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:56
+msgid "Country"
+msgstr "Paese"
+
+#: ../classes/settings/views/SettingsGeneralView.php:99
+msgid "Extra info"
+msgstr ""
+
+#: ../classes/settings/views/SettingsGeneralView.php:104
+msgid "Symbol measures"
+msgstr "Simbolo per le dimensioni"
+
+#: ../classes/settings/views/SettingsGeneralView.php:111
+msgid "Eg. g or Kg"
+msgstr "Es. g o Kg"
+
+#: ../classes/settings/views/SettingsGeneralView.php:120
+msgid "Sizes"
+msgstr "Dimensioni"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:39
+msgid "Services Pages URLs"
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:40
+msgid ""
+"Smart Shop needs some page for internal use, like: checkout processing, "
+"store view, etc..."
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:48
+msgid "Checkout page slug name"
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:58
+msgid "Payment page slug name"
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:65
+msgid "Receipt"
+msgstr "Ricevuta"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:68
+msgid "Receipt page slug name"
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:75
+msgid "Error"
+msgstr "Errore"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:78
+msgid "Error page slug name"
+msgstr ""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:87
+msgid "Store"
+msgstr "Magazzino"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:91
+msgid "Store URL"
+msgstr "URL del negozio"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:95
+msgid "Shopping Cart"
+msgstr "Carrello della spesa"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:100
+msgid "Show only for user logon"
+msgstr "Mostra solo per utenti registrati"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:109
+msgid "Display empty button"
+msgstr "Mostra il bottone \"Svuta Carrello\""
+
+#: ../classes/settings/views/SettingsIntegrationView.php:116
+msgid "Product Picker tools will display in new/edit page for this Post Type"
+msgstr "Scegli il tipo di Post dove vuoi che apparirà il Selettore di Prodotti"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:130
+msgid "Hide Product Type (category) when no product linked"
+msgstr "Nascondi i Tipo di Prodotto che non hanno prodotti associati"
+
+#: ../classes/settings/views/SettingsIntegrationView.php:139
+msgid "Items number"
+msgstr "Numero di elementi"
+
+#: ../classes/settings/views/SettingsOrdersView.php:39
+#, fuzzy
+msgid "Count Product in Pending orders"
+msgstr "Nessun prodotto nel cestino"
+
+#: ../classes/settings/views/SettingsOrdersView.php:48
+#, fuzzy
+msgid "Set an Order in"
+msgstr "Seleziona un utente"
+
+#: ../classes/settings/views/SettingsOrdersView.php:60
+msgid "after"
+msgstr "dopo"
+
+#: ../classes/settings/views/SettingsProductView.php:26
+msgid ""
+"The product is a core of wpx SmartShop. From this panel settings you can "
+"edit all product featured."
+msgstr ""
+
+#: ../classes/settings/views/SettingsProductView.php:40
+msgid "WordPress integration"
+msgstr "Integrazione con WordPress "
+
+#: ../classes/settings/views/SettingsProductView.php:41
+#, fuzzy
+msgid ""
+"Please select the Managment what you want to enable in the add/edit product "
+"window."
+msgstr "Seleziona il gateway dei pagamenti che vuoi abilitare"
+
+#: ../classes/settings/views/SettingsProductView.php:55
+#, fuzzy
+msgid "Appearance & variants (Weight, Colors, ...)"
+msgstr "Apparenza & varianti"
+
+#: ../classes/settings/views/SettingsProductView.php:73
+msgid "Warehouse (Stock, availability)"
+msgstr "Scorte e disponibilità "
+
+#: ../classes/settings/views/SettingsProductView.php:82
+msgid "Membership (Subscriptions, ability user role)"
+msgstr ""
+
+#: ../classes/settings/views/SettingsProductView.php:91
+msgid "Coupons (Discount, gift, special subscriptions)"
+msgstr ""
+
+#: ../classes/settings/views/SettingsProductView.php:100
+msgid "Digital product"
+msgstr "Prodotto digitale"
+
+#: ../classes/settings/views/SettingsProductView.php:108
+msgid "Set all price rules"
+msgstr "Imposta tutte le regole del prezzo"
+
+#: ../classes/settings/views/SettingsProductView.php:113
+msgid "Prices includes the VAT"
+msgstr "Il prezzo include l'IVA"
+
+#: ../classes/settings/views/SettingsProductView.php:116
+msgid "When you enter a price this is VAT included"
+msgstr "Quando inserisci un prezzo esso è con IVA inclusa"
+
+#: ../classes/settings/views/SettingsProductView.php:123
+msgid "Display price with the VAT"
+msgstr "Mostra il prezzo con IVA "
+
+#: ../classes/settings/views/SettingsProductView.php:126
+msgid "Display the price with or without the VAT. Be ware to setting above"
+msgstr "Mostra il prezzo con o senza IVA. Attenzione all'impostazione sopra."
+
+#: ../classes/settings/views/SettingsProductView.php:133
+msgid "Display VAT information close to the price"
+msgstr "Mostra le informazioni sull'IVA accanto al prezzo "
+
+#: ../classes/settings/views/SettingsProductView.php:136
+msgid "Set on for \"10,33 (vat included/excluded)\" or off for  \"10,33\""
+msgstr "Imposta per \"10,33 (IVA includa/esclusa)\" o disattiva per \"10,33\""
+
+#: ../classes/settings/views/SettingsProductView.php:143
+msgid "Show currency symbol close to the price"
+msgstr "Mostra il simbolo della moneta accanto al prezzo"
+
+#: ../classes/settings/views/SettingsShipmentsView.php:34
+msgid "Carrier"
+msgstr "Corriere"
+
+#: ../classes/settings/views/SettingsShipmentsView.php:39
+msgid "Choose a default carrier"
+msgstr "Scegli un corriere predefinito"
+
+#: ../classes/shipments/WPSmartShopShipments.php:387
+msgid "Shipments Range"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShipments.php:389
+msgid "Weight range"
+msgstr "Intervallo peso"
+
+#: ../classes/shipments/WPSmartShopShipments.php:394
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:136
+msgid "Weight from"
+msgstr "Dal peso"
+
+#: ../classes/shipments/WPSmartShopShipments.php:401
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:137
+msgid "Weight to"
+msgstr "Al peso"
+
+#: ../classes/shipments/WPSmartShopShipments.php:407
+msgid "Size range"
+msgstr "Intervallo dimensioni"
+
+#: ../classes/shipments/WPSmartShopShipments.php:412
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:138
+msgid "Width from"
+msgstr "Dalla larghezza"
+
+#: ../classes/shipments/WPSmartShopShipments.php:419
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:139
+msgid "Width to"
+msgstr "Alla larghezza"
+
+#: ../classes/shipments/WPSmartShopShipments.php:428
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:140
+msgid "Height from"
+msgstr "Dall'altezza"
+
+#: ../classes/shipments/WPSmartShopShipments.php:435
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:141
+msgid "Height to"
+msgstr "All'altezza"
+
+#: ../classes/shipments/WPSmartShopShipments.php:444
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:142
+msgid "Depth from"
+msgstr "Dalla profondità"
+
+#: ../classes/shipments/WPSmartShopShipments.php:451
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:143
+msgid "Depth to"
+msgstr "Alla profondità"
+
+#: ../classes/shipments/WPSmartShopShipments.php:469
+msgid "Shipements Rules"
+msgstr "Regole di spedizione"
+
+#: ../classes/shipments/WPSmartShopShipments.php:470
+msgid "Enter price for Carrier and Zone"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:57
+msgid "No Shipments found."
+msgstr "Nessuna spedizione trovata."
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:194
+msgid "Shipment deleted successfully"
+msgstr "Spedizione eliminata con successo"
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:200
+#, fuzzy
+msgid "Error while deleting Shipment"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:212
+#, fuzzy
+msgid "Shipment update successfully"
+msgstr "Buono Sconto aggiornato con successo"
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:218
+#, fuzzy
+msgid "Error while updating Shipment"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:231
+#, fuzzy
+msgid "Shipment added successfully"
+msgstr "Buono Sconto aggiunto con successo"
+
+#: ../classes/shipments/WPSmartShopShipmentsListTable.php:237
+#, fuzzy
+msgid "Error while adding Shipment"
+msgstr "Errore mentre si contrattava la connessione sicura della Banca"
+
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:71
+msgid "New Shipments"
+msgstr "Nuova spedizione"
+
+#: ../classes/shipments/WPSmartShopShipmentsViewController.php:73
+msgid "Edit Shipments"
+msgstr "Modifica spedizione"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:370
+msgid "Shipping Country Information"
+msgstr "Informazioni sul paese di spedizione"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:381
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:118
+msgid "Continent"
+msgstr "Continente"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:393
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:119
+msgid "Zone"
+msgstr "Zona"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:408
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:120
+msgid "Currency"
+msgstr "Moneta"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:415
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:121
+msgid "Symbol"
+msgstr "Simbolo"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:422
+msgid "Symbol HTML"
+msgstr "Simbolo HTML"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:440
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:122
+msgid "ISO Code"
+msgstr "Codice ISO"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:855
+#: ../classes/shipments/WPSmartShopShippingCountries.php:879
+msgid "Select a country"
+msgstr "Seleziona una nazione"
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:956
+msgid "Filter by Continent"
+msgstr "Filtra per Continente "
+
+#: ../classes/shipments/WPSmartShopShippingCountries.php:989
+msgid "Filter by Zone"
+msgstr "Filtra per Zona"
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:175
+#, fuzzy
+msgid "The Shipping Country has been deleted successfully"
+msgstr "Buono Sconto eliminati con successo"
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:181
+msgid "Error while deleting Shipping Country"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:192
+msgid "The Shipping Country has been updated successfully"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:198
+msgid "Error while updating of Shipping Country"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:209
+msgid "The Shipping Country has been added successfully"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShippingCountriesListTable.php:215
+msgid "Error while adding Shippping Country"
+msgstr ""
+
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:78
+msgid "New Shipping Country"
+msgstr "Nuovo paese di spedizione"
+
+#: ../classes/shipments/WPSmartShopShippingCountriesViewController.php:80
+msgid "Edit Shipping Country"
+msgstr "Modifica paese di spedizione"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:27
+msgid "Select the Product and their order"
+msgstr "Seleziona un prodotto e il loro ordine"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:42
+msgid "Visibility"
+msgstr "Visibilità"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:43
+msgid "Choose when this showcase is visible"
+msgstr ""
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:79
+msgid "Properties"
+msgstr "Proprietà"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:84
+msgid "No display"
+msgstr "Non visualizzare"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:93
+msgid "Toolbar on top"
+msgstr ""
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:102
+msgid "Toolbar after content"
+msgstr ""
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:125
+msgid "Showcase Management"
+msgstr "Gestione Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:126
+msgid "Product Types Toolbar"
+msgstr "Toolbar Tipi di Prodotto"
+
+#: ../classes/showcase/WPSmartShopShowcaseMetaBox.php:193
+msgid "Drop your product here and build your showcase"
+msgstr ""
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:30
+msgid "Showcase Pages"
+msgstr "Pagine Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:31
+msgid "Showcase Page"
+msgstr "Pagina Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:33
+msgid "Add New Showcase"
+msgstr "Aggiunti una nuova Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:35
+msgid "New Showcase"
+msgstr "Nuova Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:36
+msgid "View Showcase"
+msgstr "Visualizza Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:37
+msgid "Showcase Search"
+msgstr "Cerca Vetrina"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:38
+msgid "Showcase not found"
+msgstr "Vetrina non trovata"
+
+#: ../classes/showcase/WPSmartShopShowcasePostType.php:39
+msgid "No Showcase in trash"
+msgstr "Nessuna Vetrina nel cestino"
+
+#: ../classes/showcase/WPSmartShopShowcaseViewController.php:34
+msgid "Theme render layout"
+msgstr "Layout del tema"
+
+#: ../classes/showcase/WPSmartShopShowcaseViewController.php:38
+msgid "Product Card layout"
+msgstr "Layout scheda prodotto"
+
+#: ../classes/showcase/WPSmartShopShowcaseViewController.php:64
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:23
+msgid "Showcase"
+msgstr "Vetrina"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:25
+msgid "Product Card"
+msgstr "Scheda Prodotto "
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:45
+msgid "Product card"
+msgstr "Scheda Prodotto"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:50
+msgid "Display thumbail"
+msgstr "Visualizza miniatira"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:66
+msgid "Do Link"
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:73
+msgid "Display Link as button"
+msgstr "Mostra il link come un pulsante"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:82
+msgid "Display price"
+msgstr "Mostra il prezzo"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:92
+msgid "Display excerpt"
+msgstr "Mostra riassunto"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:101
+msgid "Display add to Shopping Cart button"
+msgstr "Visualizza il bottone \"aggiungi al carrello\""
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:110
+msgid "Display Product Types"
+msgstr "Visualizza tipi prodotto"
+
+#: ../classes/showcase/views/SettingsShowcaseProductCardView.php:117
+msgid "Display Product Types Tree"
+msgstr "Visualizza i tipi di prodotto ad albero"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:24
+msgid ""
+"From this settings panel you can set all render layut theme for Showcase "
+"pages."
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:44
+msgid "Theme integration"
+msgstr "Integrazione con il tema"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:45
+msgid "Choose if use your page template for display Showcase"
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:50
+msgid "Use page layout <code>page.php</code>"
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:57
+msgid "Post <code>single.php</code>"
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:64
+msgid "Custom"
+msgstr "Personale"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:75
+msgid "Include header"
+msgstr "Includi testata"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:86
+msgid "HTML Markup (before and after sidebar)"
+msgstr ""
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:96
+msgid "Include sidebar"
+msgstr "Includi sidebar"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:103
+msgid "Sidebar ID"
+msgstr "ID della Sidebar"
+
+#: ../classes/showcase/views/SettingsShowcaseThemeView.php:122
+msgid "Include footer"
+msgstr "Includi footer"
+
+#: ../classes/stats/wpxss-stats-listtable.php:58
+msgid "No Products found."
+msgstr "Nessun prodotto trovato."
+
+#: ../classes/stats/wpxss-stats-listtable.php:167
+#: ../classes/stats/wpxss-stats.php:664
+msgid "Unknown"
+msgstr ""
+
+#: ../classes/stats/wpxss-stats-listtable.php:219
+#: ../classes/stats/wpxss-stats.php:604
+msgid "Product title"
+msgstr "Nome prodotto"
+
+#: ../classes/stats/wpxss-stats-listtable.php:222
+#: ../classes/stats/wpxss-stats.php:609 ../classes/stats/wpxss-stats.php:856
+msgid "Variant"
+msgstr "Variante"
+
+#: ../classes/stats/wpxss-stats-listtable.php:225
+#: ../classes/stats/wpxss-stats.php:613
+msgid "Price rule"
+msgstr "Regola sul prezzo"
+
+#: ../classes/stats/wpxss-stats-listtable.php:226
+msgid "Price / Purchased"
+msgstr "Prezzo / Acquistato"
+
+#: ../classes/stats/wpxss-stats-listtable.php:283
+#, fuzzy
+msgid "Error while deleting stats"
+msgstr "Errore mentre si cancellava un Corriere"
+
+#: ../classes/stats/wpxss-stats-listtable.php:285
+#, fuzzy
+msgid "Stats deleted successfully"
+msgstr "Statistiche eliminate con successo"
+
+#: ../classes/stats/wpxss-stats-listtable.php:318
+#, fuzzy
+msgid "Error while adding stats"
+msgstr "Errore mentre si inseriva un Corriere"
+
+#: ../classes/stats/wpxss-stats-listtable.php:320
+msgid "Stats added successfully"
+msgstr "Statistica aggiunta con successo"
+
+#: ../classes/stats/wpxss-stats-viewcontroller.php:83
+msgid "Print Stats"
+msgstr "Stampa Statistiche"
+
+#: ../classes/stats/wpxss-stats.php:606
+msgid "EMail & Phone"
+msgstr "EMail & telefono"
+
+#: ../classes/stats/wpxss-stats.php:614
+msgid "Purchased"
+msgstr "Acquistato"
+
+#: ../classes/stats/wpxss-stats.php:855
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../classes/stats/wpxss-stats.php:910
+msgid "Filter for User Role"
+msgstr "Filtra per ruolo utente"
+
+#: ../classes/stats/wpxss-stats.php:952
+msgid "Filter for Variant"
+msgstr "Filtra per variante"
+
+#: ../classes/stats/wpxss-stats.php:1005
+msgid "Filter for Model"
+msgstr "Filtra per modello"
+
+#: ../classes/utility/wpxss-currency.php:67
+msgid "Free"
+msgstr "Gratis"
+
+#: ../classes/utility/wpxss-currency.php:73
+#: ../classes/utility/wpxss-currency.php:96
+msgid "(VAT excluded)"
+msgstr "(IVA esclusa)"
+
+#: ../classes/utility/wpxss-currency.php:86
+#: ../classes/utility/wpxss-currency.php:90
+msgid "(VAT included)"
+msgstr "(IVA inclusa)"
+
+#: ../classes/widgets/wpxss-widget-shopping-cart.php:28
+msgid "Cart"
+msgstr "Carrello"
+
+#: ../classes/widgets/wpxss-widget-shopping-cart.php:33
+msgid "This is the shopping Cart to position on your sidebar"
+msgstr "Questo è il Carrello che normalmente è posizionato nella sidebar"
+
+#: ../classes/widgets/wpxss-widget-shopping-cart.php:42
+msgid "WP SmartShop Shopping Cart"
+msgstr "Carrello della spesa di WP SmartShop"
+
+#: ../classes/widgets/wpxss-widget-shopping-cart.php:116
+msgid "Title"
+msgstr "Titolo"
+
+#~ msgid "You have %s products quantity and only %s coupons yet avaialble."
+#~ msgstr "Tua hai %s prodotti e solo %s Coupon ancora disponibili."
+
+#~ msgid "Discount for Date Range"
+#~ msgstr "Sconto per intervallo date"
+
+#~ msgid "Discount Online"
+#~ msgstr "Prezzo scontato online "
+
+#, fuzzy
+#~ msgid "Stats update successfully"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "Error while updating stats"
+#~ msgstr "Errore mentre si aggiornava un Corriere"
+
+#~ msgid "Your coupon was successfully used."
+#~ msgstr "Coupon utilizzato con successo."
+
+#~ msgid "The Coupon code doesn't exist or is not applicable on this product!"
+#~ msgstr ""
+#~ "Il codice Coupon che hai inserito non esiste o non è applicabile al "
+#~ "prodotto selezionato!"
+
+#~ msgid "Totals"
+#~ msgstr "Totale"
+
+#~ msgid "Bill"
+#~ msgstr "Acquista"
+
+#, fuzzy
+#~ msgid "Product price"
+#~ msgstr "Selettore Prodotto"
+
+#~ msgid "Billed"
+#~ msgstr "Acquistato"
+
+#~ msgid "Keep this capabilities for"
+#~ msgstr "Mantiene questo permesso per"
+
+#~ msgid "Product's coupon"
+#~ msgstr "Coupon del Prodotto"
+
+#~ msgid "Checkout URL"
+#~ msgstr "URL per la cassa"
+
+#~ msgid "Shop logo"
+#~ msgstr "Logo negozio"
+
+#~ msgid "Shop address"
+#~ msgstr "Indirizzo del negozio"
+
+#~ msgid "Select shop country"
+#~ msgstr "Seleziona la nazione del tuo negozio"
+
+#~ msgid "Measures"
+#~ msgstr "Unità di misura"
+
+#~ msgid "Symbol for Weight"
+#~ msgstr "Simbolo per il Peso"
+
+#~ msgid "Symbol for Volume"
+#~ msgstr "Simbolo per il Volume"
+
+#, fuzzy
+#~ msgid "Shocase"
+#~ msgstr "vetrina"
+
+#~ msgid "Item"
+#~ msgstr "Elemento"
+
+#~ msgid "Sub Total"
+#~ msgstr "Sub totale"
+
+#~ msgid "Ship to"
+#~ msgstr "Spedito a"
+
+#~ msgid "Bill to"
+#~ msgstr "Acquistato da"
+
+#, fuzzy
+#~ msgid "Settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "Settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#~ msgid "Appearance & Variants"
+#~ msgstr "Apparenza & Varianti"
+
+#~ msgid "Coupons Management"
+#~ msgstr "Gestione dei Coupon"
+
+#~ msgid "Or"
+#~ msgstr "Oppure"
+
+#~ msgid "For quantity"
+#~ msgstr "Per quantità"
+
+#~ msgid "Cart Display"
+#~ msgstr "Visualizzazione Carrello"
+
+#, fuzzy
+#~ msgid "The Cart settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Cart settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "The ... settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The ... settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#~ msgid "Show Product Choose Panel in"
+#~ msgstr "Mostra il pannello per la selezione di un Prodotto in"
+
+#~ msgid ""
+#~ "The Product Picker is the Tools display when you edit a Post Type "
+#~ "selected above. The Product Picker display your prodcuts list and "
+#~ "organize them in Product Type group."
+#~ msgstr ""
+#~ "Il Selettore prodotto è uno strumento visualizzato quando modifichi un "
+#~ "determinato elemento sopra elencato."
+
+#, fuzzy
+#~ msgid ""
+#~ "The Integration settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Integration settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "The Measures settings were restored to defaults values successfully"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Measures settings values were updated successfully"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "The Orders settings were restored to defaults values successfully"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Orders settings values were updated successfully"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "The Product settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Product settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#~ msgid "Your e-commerce"
+#~ msgstr "Il Tou e-commerce"
+
+#, fuzzy
+#~ msgid "The Shipments settings were restored to defaults values successfully"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Shipments settings values were updated successfully"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid ""
+#~ "The Showcase Product Card settings were restored to defaults values "
+#~ "successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Showcase Product Card settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#, fuzzy
+#~ msgid "The Showcase settings were restored to defaults values successfully!"
+#~ msgstr "Impostazioni reimpostate ai valori originali!"
+
+#, fuzzy
+#~ msgid "The Showcase settings values were updated successfully!"
+#~ msgstr "Impostazioni aggiornate con successo!"
+
+#~ msgid "Sorry, this product is not available"
+#~ msgstr "Spiacente, questo prodotto non è disponibile al momento"
+
+#~ msgid "An error occours"
+#~ msgstr "È avvenuto un errore "
+
+#~ msgid "Order not found"
+#~ msgstr "Ordine non trovato"
+
+#~ msgid "Order already exists"
+#~ msgstr "L'ordine già esiste"
+
+#~ msgid "Do you want write a Payment Gateway plugins? Please..."
+#~ msgstr "Vuoi scrivere un tuo Gateway per i pagamenti? Contattaci..."
+
+#, fuzzy
+#~ msgid "Please, select the Payment Gateway that you want to enabled"
+#~ msgstr "Seleziona il gateway dei pagamenti che vuoi abilitare"
+
+#~ msgid "Select a restrict user"
+#~ msgstr "Seleziona una restrizione per Utente"
+
+#~ msgid "Additional Price"
+#~ msgstr "Prezzo aggiuntivo"
+
+#~ msgid "Insert into Editor"
+#~ msgstr "Inserisci nell'editor"
+
+#~ msgid "Back"
+#~ msgstr "Indietro"
+
+#~ msgid "SKU"
+#~ msgstr "SKU"
+
+#, fuzzy
+#~ msgid "product_type"
+#~ msgstr "tipo-prodotto"
+
+#, fuzzy
+#~ msgid "product_tag"
+#~ msgstr "prodotto"
+
+#~ msgid "ProductType"
+#~ msgstr "TipoProdotto"
+
+#~ msgid "Filter by carriers"
+#~ msgstr "Filtra per corriere"
+
+#~ msgid "Set as pending"
+#~ msgstr "Imposta come in attesa di conferma"
+
+#~ msgid "Order #"
+#~ msgstr "Ordine #"
+
+#~ msgid "Set as confirmed"
+#~ msgstr "Imposta come confermato"
+
+#~ msgid "Set as cancelled"
+#~ msgstr "imposta come cancellato"
+
+#~ msgid "Set as defunct"
+#~ msgstr "Imposta come defunto"
+
+#~ msgid "Filter by zone"
+#~ msgstr "Filtra per Zona"
+
+#~ msgid "Show Sub Total"
+#~ msgstr "Mostra Sub totale"
+
+#, fuzzy
+#~ msgid "You have to login for purchase"
+#~ msgstr "Grazie per l'acquisto"
+
+#~ msgid "Updated on"
+#~ msgstr "Aggiorna su"
+
+#~ msgid "Price for"
+#~ msgstr "Prezzo per"
+
+#~ msgid "Availability Status"
+#~ msgstr "Disponibilità"
+
+#~ msgid ""
+#~ "Please confirm before unlock this form field.\n"
+#~ "Do you want unlock this form field?"
+#~ msgstr ""
+#~ "Per favore, conferma prima di sbloccare questo campo.\n"
+#~ "Se sicuro di voler modificare il campo? "
+
+#~ msgid "The Coupon code is not valid!"
+#~ msgstr ""
+#~ "Il codice del Coupon/ Carnet / Buono Sconto che hai inserito NON è valido!"
+
+#~ msgid "Your billing information"
+#~ msgstr "Informazioni sul tuo pagamento"
+
+#~ msgid "First name"
+#~ msgstr "Nome"
+
+#~ msgid "Shipping address different"
+#~ msgstr "Indirizzo di spedizione diverso da quello di fatturazione"
+
+#~ msgid "Last Name"
+#~ msgstr "Cognome"
+
+#~ msgid "Something wrong"
+#~ msgstr "Qualcosa è sbagliato"
+
+#~ msgid "Personal Information"
+#~ msgstr "Informazioni personali"
+
+#~ msgid "For retrive full register user information, insert email before."
+#~ msgstr ""
+#~ "Per recuperare le informazioni complete su un utente, inserisci il suo "
+#~ "indirizzo di posta elettronica."
+
+#~ msgid "Help"
+#~ msgstr "Aiuto"
+
+#~ msgid "Quantity available in store"
+#~ msgstr "Quantità disponibili"
+
+#~ msgid "Price:"
+#~ msgstr "Prezzo:"
+
+#~ msgid "Show All "
+#~ msgstr "Mostra tutti"
+
+#~ msgid "This is a discount price"
+#~ msgstr "Questo è il prezzo scontato"
+
+#~ msgid "Applicable tax for this product. Can be set to zero"
+#~ msgstr "Tassa per questo tipo di prodotto. Potrebbe essere zero."
+
+#~ msgid "Bundles"
+#~ msgstr "Confezioni"
+
+#~ msgid "Bundle"
+#~ msgstr "Confezione"
+
+#~ msgid "All Bundles"
+#~ msgstr "Tutte le confezioni"
+
+#~ msgid "Parent Bundle"
+#~ msgstr "Confezione genitore"
+
+#~ msgid "Parent Bundle:"
+#~ msgstr "Confezione genitore:"
+
+#~ msgid "Edit Bundle"
+#~ msgstr "Modifica confezione"
+
+#~ msgid "Add New Bundle"
+#~ msgstr "Aggiungi nuova confezione"
+
+#~ msgid "New Bundle"
+#~ msgstr "Nuova Confezione"
+
+#~ msgid "Welcome"
+#~ msgstr "Benvenuto"
+
+#~ msgid "Commodity"
+#~ msgstr "Comodità"
+
+#~ msgid "bundle"
+#~ msgstr "Confezione"

@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blue Note Milano HTML5 Theme v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-17 11:51+0100\n"
+"PO-Revision-Date: 2012-10-11 16:28:38+0200\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: g.fazioli@saidmade.com <g.fazioli@saidmade.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:11
+#@ bnm
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: 503.php:36
+#@ default
+msgid "Log In"
+msgstr ""
+
+#: __ex__category.php:83
+#: archive.php:65
+#: search.php:31
+#@ bnm
+msgid "Continue"
+msgstr "Continua"
+
+#: __ex__category.php:106
+#@ bnm
+msgid "Posts categories not found"
+msgstr "Categoria articolo non trovata."
+
+#: archive.php:18
+#@ bnm
+msgid "Post with Tag"
+msgstr ""
+
+#: archive.php:23
+#: archive.php:28
+#: archive.php:33
+#@ bnm
+msgid "Archive"
+msgstr "Archivio"
+
+#: archive.php:38
+#@ bnm
+msgid "Author's Archive"
+msgstr "Archicio autore"
+
+#: archive.php:43
+#@ bnm
+msgid "Archives"
+msgstr "Archivi"
+
+#: archive.php:88
+#: search.php:57
+#@ bnm
+msgid "Nothing found"
+msgstr "Non ho trovato nulla"
+
+#: comments.php:3
+#@ bnm
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Questo articolo è protetto da password."
+
+#: comments.php:17
+#: single.php:28
+#@ bnm
+msgid "No comment"
+msgstr "Nessun commento"
+
+#: comments.php:17
+#: single.php:28
+#@ bnm
+msgid "One comment"
+msgstr "Un commento"
+
+#: comments.php:17
+#: single.php:28
+#, php-format
+#@ bnm
+msgid "% comments"
+msgstr "% commenti"
+
+#: comments.php:40
+#@ bnm
+msgid "Your comment is wating to moderation"
+msgstr "Il tuo commento è in attesa di approvazione"
+
+#: comments.php:57
+#@ bnm
+msgid "No comments for this post"
+msgstr "Nessun commento per questo post"
+
+#: comments.php:60
+#@ bnm
+msgid "Comment are closed"
+msgstr "I commenti sono chiusi"
+
+#: comments.php:66
+#@ bnm
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: comments.php:113
+#@ bnm
+msgid "Send"
+msgstr "Invia"
+
+#: functions.php:436
+#@ bnm
+msgid "Most read"
+msgstr "Articoli più letti"
+
+#: functions.php:503
+#@ bnm
+msgid "Shopping Cart"
+msgstr "Carrello della spesa"
+
+#: header.php:119
+#@ bnm
+msgid "Login"
+msgstr "Accedi"
+
+#: header.php:124
+#: page-template-register.php:56
+#@ bnm
+msgid "Register"
+msgstr "Registrati"
+
+#: header.php:133
+#@ bnm
+msgid "Enter"
+msgstr "Accedi"
+
+#: header.php:135
+#@ bnm
+msgid "Cancel"
+msgstr "Annulla"
+
+#: header.php:140
+#@ bnm
+msgid "Remember me"
+msgstr "Ricordami"
+
+#: header.php:146
+#@ bnm
+msgid "Forgot your password?"
+msgstr "Dimenticato la password?"
+
+#: header.php:150
+#@ bnm
+msgid "Retrieve"
+msgstr "Recupera"
+
+#: header.php:158
+#@ bnm
+msgid "Hello,"
+msgstr "Salve,"
+
+#: header.php:161
+#: page-template-coupons.php:32
+#: page-template-orders.php:40
+#@ bnm
+msgid "Your profile"
+msgstr "Il Tuo Profilo"
+
+#: header.php:162
+#@ bnm
+msgid "Logout"
+msgstr "Esci"
+
+#: page-template-boxoffice-summary.php:87
+#@ bnm
+msgid "Seleziona uno spettacolo"
+msgstr ""
+
+#: page-template-boxoffice-summary.php:96
+#@ bnm
+msgid "Spettacolo"
+msgstr ""
+
+#: page-template-boxoffice-summary.php:328
+#: page-template-boxoffice-summary.php:343
+#@ bnm
+msgid "m/d/Y H:i"
+msgstr "d/m/Y H:i"
+
+#: page-template-boxoffice-summary.php:532
+#: page-template-invoice.php:51
+#@ bnm
+msgid "print"
+msgstr "stampa"
+
+#: page-template-boxoffice-summary.php:533
+#: page-template-invoice.php:52
+#@ bnm
+msgid "Print"
+msgstr "Stampa"
+
+#: page-template-boxoffice-summary.php:533
+#@ bnm
+msgid "Export CSV"
+msgstr "Esporta in CSV"
+
+#: page-template-boxoffice-summary.php:535
+#@ bnm
+msgid "Nessun acquisto per questo spettacolo"
+msgstr ""
+
+#: page-template-contacts.php:30
+#@ bnm
+msgid "More on Google Maps"
+msgstr "Vedi in Google Maps"
+
+#: page-template-coupons.php:33
+#: page-template-invoice.php:42
+#: page-template-profile.php:53
+#@ bnm
+msgid "Your orders"
+msgstr "I Tuoi Ordini"
+
+#: page-template-orders.php:41
+#: page-template-profile.php:54
+#@ bnm
+msgid "Your coupons"
+msgstr "I Tuoi Coupon"
+
+#: page-template-profile.php:48
+#@ bnm
+msgid "Summary"
+msgstr "Riepilogo"
+
+#: page-template-profile.php:68
+#@ bnm
+msgid "Your profile has been updated successfully"
+msgstr "Il tuo profilo è stato aggiornato correttamente"
+
+#: page-template-profile.php:83
+#@ bnm
+msgid "Save"
+msgstr "Salva"
+
+#: page-template-register.php:40
+#@ bnm
+msgid "Your registration request has been successfully sent. Please, check your email and follow the link to complete your registration."
+msgstr "La tua richiesta di registrazione è stata inviata con successo. Controlla nella tua casella email e segui il link indicato per completare la tua registrazione. Se non ricevi la mail, controlla i tuoi filtri anti spam."
+
+#: page-template-register.php:45
+#@ bnm
+msgid "User already register"
+msgstr "Utente già registrato"
+
+#: search.php:12
+#: search.php:56
+#@ bnm
+msgid "Search results"
+msgstr "Risultati della ricerca"
+
+#: searchform.php:3
+#@ bnm
+msgid "Search this site"
+msgstr "Ricerca nel sito"
+
+#: single-bnm-event.php:35
+#@ bnm
+msgid "Time"
+msgstr "Ore"
+
+#: single-bnm-event.php:67
+#@ bnm
+msgid "Purchase Tickets"
+msgstr "Acquista Biglietti"
+
+#: single-bnm-event.php:90
+#@ bnm
+msgid "Advance price:"
+msgstr "Prezzo Advance:"
+
+#: single-bnm-event.php:152
+#@ bnm
+msgid "Post navigation"
+msgstr "Navigazione Post"
+
+#: single-bnm-event.php:153
+#@ bnm
+msgid "Previous Event"
+msgstr "Evento precedente"
+
+#: single-bnm-event.php:153
+#@ bnm
+msgid "Next Event"
+msgstr "Prossimo evento"
+
+#: single-wpss-cpt-product.php:56
+#@ bnm
+msgid "Purchase"
+msgstr "Acquista"
+
+#: single-wpss-cpt-product.php:69
+#: taxonomy-wpss-ctx-product-type.php:44
+#@ bnm
+msgid "Back to Store"
+msgstr "Ritorna alla Vetrina"
+
+#: taxonomy-wpss-ctx-product-type.php:57
+#@ wp-smartshop
+msgid "Product Type Not Found!"
+msgstr "Tipo Prodotto non trovato!"
+
+#: 503.php:36
+#@ default
+msgid "Log in to your WordPress dashboard"
+msgstr ""
+
+#: comments.php:74
+#@ bnm
+msgid "Login upper right to comment"
+msgstr "Accedi in alto a destra per commentare"
+
+#: page-template-boxoffice-summary.php:333
+#: page-template-boxoffice-summary.php:348
+#@ bnm
+msgid "Yes"
+msgstr "Sì"
+
+#: page-template-boxoffice-summary.php:333
+#@ bnm
+msgid "No"
+msgstr ""
+

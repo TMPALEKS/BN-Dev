@@ -1,0 +1,25 @@
+ ========
+ = TODO =
+ ========
+
+ * Tutte le funzioni come 'bnm_dateTimeToMeta' non tengono conto della localizzazione della data. In realtà questo non
+ è un problema in quanto la data di un evento, ad esempio, è modificata sempre dalla lingua italiana, quindi le date
+ nel backend sono sempre visualizzate in dd/mm/yyyy. Comunque sia tenerlo a mente se domani le cose cambiano
+
+
+ * Personalizzato Login WordPress in functions.php
+
+ * Eliminare nome e cognome dai custom field dell'artista
+
+ * BNMExtends: iniziata stesura Plugin BNMExtends per patchare WordPress
+ * BNMExtends: abilitati tutta una serie di filtri per personalizzare il backend
+ * BNMExtends: aggiunta gestione Post Type "Artista"
+ * BNMExtends: aggiunto meta box per "Artista"
+
+
+ =========
+ = NOTES =
+ =========
+
+ - Date evento: le date di un evento sono registrate nel postmeta come "yyyymmdd" e così le lasciamo per poter effetuare i sort, gli ordinamenti. Sarà cura della parte di visualizzazione operare le split necessarie per visualizzarlo nella forma dd/mm/yyyy o mm/dd/yyyy
+ 

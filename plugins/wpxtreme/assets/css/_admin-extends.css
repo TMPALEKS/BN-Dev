@@ -1,0 +1,1220 @@
+/**
+ * Questo file effettua una serie di modifiche al backend di WordPress.
+ *
+ * Tutte le clssi e id hanno body.wpxm-body davanti, in modo da poter funzionare solo su richiesta.
+ *
+ * @package			wpXtreme
+ * @subpackage		admin_extends
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c) 2012 wpXtreme, Inc.
+ * @link            http://wpxtre.me
+ * @created			13/04/12
+ * @version			1.0.0
+ *
+ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Patch generale se attivo: wpxm-body
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Patch media se attivo: wpxm-body-media
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Patch media se attivo: wpxm-body-post
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Patch media se attivo: wpxm-body-page
+   ------------------------------------------------------------------------------------------------------------------ */
+
+
+body.wpxm-body div.wrap .icon32 {
+    margin : 16px 8px 0 16px;
+}
+
+body.wpxm-body div.postbox {
+    -moz-box-shadow    : 0 8px 8px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow : 0 8px 8px rgba(0, 0, 0, 0.4);
+    box-shadow         : 0 8px 8px rgba(0, 0, 0, 0.4);
+
+    margin: 0 8px 16px;
+}
+
+body.wpxm-body div.wrap h2:after {
+    content               : "";
+    display               : block;
+    height                : 64px;
+    margin                : -50px auto 0;
+    position              : relative;
+    width                 : 90%;
+    z-index               : -1;
+    -moz-box-shadow       : 0 -6px 10px rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow    : 0 -6px 10px rgba(0, 0, 0, 0.7);
+    box-shadow            : 0 -6px 10px rgba(0, 0, 0, 0.7);
+    -moz-border-radius    : 100%;
+    -webkit-border-radius : 100%;
+    border-radius         : 100%;
+}
+
+body.wpxm-body div.wrap h2 {
+    margin                : 28px 2px 6px 2px;
+    padding               : 24px 0 6px;
+    text-shadow           : 1px 1px 0 #fff;
+    -moz-border-radius    : 12px 12px 0 0;
+    -webkit-border-radius : 12px 12px 0 0;
+    border-radius         : 12px 12px 0 0;
+    -moz-box-shadow       : inset 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 2px 0px #fff;
+    -webkit-box-shadow    : inset 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 2px 0px #fff;
+    box-shadow            : inset 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 2px 0px #fff;
+    background-color      : #dddddd;
+    background-image      : -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff)); /* Saf4+, Chrome */
+    background-image      : -webkit-linear-gradient(top, #dddddd, #ffffff); /* Chrome 10+, Saf5.1+ */
+    background-image      : -moz-linear-gradient(top, #dddddd, #ffffff); /* FF3.6 */
+    background-image      : -ms-linear-gradient(top, #dddddd, #ffffff); /* IE10 */
+    background-image      : -o-linear-gradient(top, #dddddd, #ffffff); /* Opera 11.10+ */
+    background-image      : linear-gradient(top, #dddddd, #ffffff);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#dddddd', EndColorStr = '#ffffff'); /* IE6–IE9 */
+}
+
+body.wpxm-body div.wrap ul.subsubsub {
+    height : 36px !important;
+    padding: 6px 4px 0 !important;
+}
+
+body.wpxm-body div.wrap ul.subsubsub span#icl_subsubsub {
+    border-left : 1px groove #FFFFFF;
+    padding     : 4px 0 4px 6px;
+}
+
+body.wpxm-body div.wrap p.search-box,
+body.wpxm-body div.wrap div.tablenav.top,
+body.wpxm-body div.wrap ul.subsubsub {
+    border                : 1px solid #ddd;
+    background            : #f1f1f1;
+    padding               : 4px;
+    margin: 16px 0;
+    height                : auto;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : inset 0 1px 0 #fff;
+    -webkit-box-shadow    : inset 0 1px 0 #fff;
+    box-shadow            : inset 0 1px 0 #fff;
+}
+
+/*
+body.wpxm-body div.wrap p.search-box input[type=text]:focus  {
+    -moz-box-shadow    : inset 0 2px 4px #aaa, 0 0 8px rgba(82, 168, 236, 0.8);
+    -webkit-box-shadow : inset 0 2px 4px #aaa, 0 0 8px rgba(82, 168, 236, 0.8);
+    box-shadow         : inset 0 2px 4px #aaa, 0 0 8px rgba(82, 168, 236, 0.8);
+}
+
+
+body.wpxm-body div.wrap p.search-box input[type=text],
+body.wpxm-body div.wrap select {
+    border                : none;
+    background            : #fafafa;
+    padding               : 4px 8px;
+    margin                : 0;
+    height                : 26px;
+    color                 : #888;
+    outline               : none;
+    font-size             : 12px;
+    vertical-align        : middle;
+    -moz-box-shadow       : inset 0 2px 4px #aaa;
+    -webkit-box-shadow    : inset 0 2px 4px #aaa;
+    box-shadow            : inset 0 2px 4px #aaa;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+    -webkit-transition    : box-shadow linear 0.2s;
+    -moz-transition       : box-shadow linear 0.2s;
+    -ms-transition        : box-shadow linear 0.2s;
+    -o-transition         : box-shadow linear 0.2s;
+    transition            : box-shadow linear 0.2s;
+}
+*/
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   WordPress List Table
+   ------------------------------------------------------------------------------------------------------------------ */
+
+th#wpdk_post_internal-publish {
+    width : 100px;
+    text-align: right;
+}
+td.wpdk_post_internal-publish {
+    text-align: right;
+}
+
+th#wpdk_post_internal-icon {
+    width : 80px;
+}
+
+th#wpdk_post_internal-author {
+    width : 90px;
+}
+
+td.wpdk_post_internal-author {
+    text-align : center;
+    background : rgba(0, 0, 200, 0.04);
+}
+
+td.wpdk_post_internal-author img {
+    border             : 3px solid #fff;
+    -moz-box-shadow    : 0 2px 4px #aaa;
+    -webkit-box-shadow : 0 2px 4px #aaa;
+    box-shadow         : 0 2px 4px #aaa;
+}
+
+a,
+a:focus,
+a:hover,
+a:active {
+    outline : none;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor             : pointer;
+    -webkit-appearance : button;
+}
+
+input[type="image"],
+input[type="checkbox"],
+input[type="radio"] {
+    width                 : auto;
+    height                : auto;
+    padding               : 0;
+    margin                : 0;
+    *margin-top           : 0;
+    /* IE7 */
+    line-height           : normal;
+    border                : 0;
+    cursor                : pointer;
+    -webkit-border-radius : 0;
+    -moz-border-radius    : 0;
+    border-radius         : 0;
+}
+
+input[type="file"]:focus,
+input[type="checkbox"]:focus,
+select:focus {
+    -webkit-box-shadow : none;
+    -moz-box-shadow    : none;
+    box-shadow         : none;
+    outline            : thin dotted;
+    outline            : 5px auto -webkit-focus-ring-color;
+    outline-offset     : -2px;
+}
+
+.clearfix {
+    *zoom : 1 !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    display : table !important;
+    content : "" !important;
+}
+
+.clearfix:after {
+    clear : both !important;
+}
+
+code, pre {
+    padding               : 0 3px 2px;
+    font-family           : Menlo, Monaco, "Courier New", monospace;
+    font-size             : 12px;
+    color                 : #333333;
+    -webkit-border-radius : 3px;
+    -moz-border-radius    : 3px;
+    border-radius         : 3px;
+}
+
+code {
+    padding          : 3px 4px;
+    color            : #d14;
+    background-color : #f7f7f9;
+    border           : 1px solid #e1e1e8;
+    margin           : 4px 0;
+    display          : block;
+}
+
+.wpdk-form-label code {
+    display: inline;
+}
+
+.wpdk-aligncenter {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* @todo Da rinominare in wpdk-hide */
+.hide {
+    display : none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Form
+   ------------------------------------------------------------------------------------------------------------------ */
+body.wpxm-body fieldset,
+fieldset.wpdk-form-fieldset {
+    padding               : 6px;
+    background-color      : #fcfcfc;
+    border                : 1px solid #aaa;
+    margin-bottom         : 16px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+div.wpdk-form-row {
+    *zoom : 1 !important;
+}
+
+div.wpdk-form-row:before,
+div.wpdk-form-row:after {
+    display : table !important;
+    content : "" !important;
+}
+
+div.wpdk-form-row:after {
+    clear : both !important;
+}
+
+fieldset.wpdk-form-fieldset div.wpdk-form-row {
+    line-height    : 100%;
+    margin         : 12px 0;
+    padding        : 0;
+    font-size      : 13px;
+    vertical-align : middle;
+}
+
+fieldset.wpdk-form-fieldset legend {
+    color       : #09c;
+    font-size   : 19px;
+    font-style  : inherit;
+    font-weight : inherit;
+    margin      : 0 16px 4px;
+    padding     : 2px 4px;
+    text-shadow : 0px 0px 4px #4cf, 1px 1px 2px #fff;
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+body.wpxm-body label,
+label.wpdk-form-label {
+    line-height    : 100%;
+    font-size      : 13px;
+    font-weight    : bold;
+    vertical-align : middle;
+    margin   : 0 6px 0 16px;
+}
+
+div.wpdk-form-row > label.wpdk-form-label:first-child {
+    display    : inline-block;
+    *display   : inline;
+    zoom       : 1;
+    text-align : right;
+    min-width  : 140px;
+}
+
+label.inline {
+    width   : auto;
+    display : inline;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Validate
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-ok {
+    -moz-box-shadow    : 0 0 2px 0 green, inset 0 0 3px 0 green !important;
+    -webkit-box-shadow : 0 0 2px 0 green, inset 0 0 3px 0 green !important;
+    box-shadow         : 0 0 2px 0 green, inset 0 0 3px 0 green !important;
+}
+
+.wpdk-form-wrong {
+    -moz-box-shadow    : 0 0 2px 0 red, inset 0 0 3px 0 red !important;
+    -webkit-box-shadow : 0 0 2px 0 red, inset 0 0 3px 0 red !important;
+    box-shadow         : 0 0 2px 0 red, inset 0 0 3px 0 red !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Inputs
+   ------------------------------------------------------------------------------------------------------------------ */
+body.wpxm-body label,
+body.wpxm-body input,
+body.wpxm-body button,
+body.wpxm-body select,
+body.wpxm-body textarea {
+    font-size   : 13px;
+    font-weight : normal;
+    line-height : 18px;
+}
+body.wpxm-body label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+    color:#444;
+}
+
+body.wpxm-body input,
+body.wpxm-body button,
+body.wpxm-body select,
+body.wpxm-body textarea {
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body.wpxm-body input[type="text"],
+body.wpxm-body input[type="password"],
+input.wpdk-form-input,
+textarea.wpdk-form-textarea,
+body.wpxm-body textarea {
+    -webkit-box-shadow : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow    : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow         : inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition : border linear 0.2s, box-shadow linear 0.2s;
+    -moz-transition    : border linear 0.2s, box-shadow linear 0.2s;
+    -ms-transition     : border linear 0.2s, box-shadow linear 0.2s;
+    -o-transition      : border linear 0.2s, box-shadow linear 0.2s;
+    transition         : border linear 0.2s, box-shadow linear 0.2s;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+body.wpxm-body input[type="text"]:focus,
+body.wpxm-body input[type="password"]:focus,
+input.wpdk-form-input:focus,
+textarea:focus,
+textarea.wpdk-form-textarea:focus {
+    border-color       : rgba(82, 168, 236, 0.8);
+    outline            : 0;
+    outline            : thin dotted \9;
+    /* IE6-9 */
+    -webkit-box-shadow : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    -moz-box-shadow    : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+    box-shadow         : inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6);
+}
+
+body.wpxm-body input[type="text"],
+body.wpxm-body input[type="password"],
+input.wpdk-form-input,
+textarea.wpdk-form-textarea,
+select.wpdk-form-select,
+body.wpxm-body select,
+body.wpxm-body textarea {
+    width: auto;
+    background            : #fff;
+    padding               : 4px;
+    margin                : 0 4px 0 2px;
+    color                 : #888;
+    outline               : none;
+    font-size             : 13px !important;
+    vertical-align        : middle;
+    -moz-box-shadow       : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    -webkit-box-shadow    : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    box-shadow            : inset 0 2px 3px #eee, 0 1px 0 #fff;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    -webkit-transition    : box-shadow linear 0.2s;
+    -moz-transition       : box-shadow linear 0.2s;
+    -ms-transition        : box-shadow linear 0.2s;
+    -o-transition         : box-shadow linear 0.2s;
+    transition            : box-shadow linear 0.2s;
+}
+
+body.wpxm-body input[type="text"],
+body.wpxm-body input[type="password"],
+input.wpdk-form-input,
+select.wpdk-form-select,
+body.wpxm-body select {
+    height : 19px;
+}
+
+body.wpxm-body .wp-editor-container textarea.wp-editor-area {
+    padding            : 0;
+    margin             : 0;
+    border             : none;
+    -moz-box-shadow    : none;
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+    font-family        : "Lucida Console", Monaco, Courier, "Courier New", monospace;
+    line-height        : 24px;
+    color              : #444;
+}
+
+body.wpxm-body #titlediv #title {
+    height             : 32px;
+    padding            : 0;
+    font-size          : 20px !important;
+    margin             : 0;
+    border             : none;
+    -moz-box-shadow    : none;
+    -webkit-box-shadow : none;
+    box-shadow         : none;
+}
+
+body.wpxm-body #titlewrap {
+    border                : 1px solid #aaa !important;
+    padding-left: 16px !important;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+body.wpxm-body #titlediv #title-prompt-text, #wp-fullscreen-title-prompt-text {
+    margin: 0;
+}
+
+input.wpdk-form-input-search {
+
+}
+
+select.wpdk-form-select.wpdk-form-select-size {
+    height                : auto !important;
+    min-width             : 200px !important;
+    -moz-border-radius    : 4px !important;
+    -webkit-border-radius : 4px !important;
+    border-radius         : 4px !important;
+}
+
+body.wpxm-body textarea {
+    min-width: 200px;
+    min-height: 50px;
+}
+
+body.wpxm-body select.wpdk-form-select,
+body.wpxm-body select {
+    height: 28px;
+    line-height: 28px;
+}
+
+select + .wpdk-form-append {
+    vertical-align: top;
+}
+.wpdk-form-append {}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Input type
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-number,
+.wpdk-form-phone,
+.wpdk-form-date,
+.wpdk-form-datetime {
+    text-align: right;
+}
+
+input.wpdk-form-uppercase {
+    text-transform : uppercase;
+}
+
+input.wpdk-form-lowercase {
+    text-transform : lowercase;
+}
+
+input.wpdk-form-capitalize {
+    text-transform : capitalize;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Input type
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/*
+input.wpdk-form-button {
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size             : 13px;
+    background            : #fafafa;
+    border                : none;
+    padding               : 6px 16px;
+    outline               : none;
+    -moz-box-shadow       : inset 0 -2px 4px #aaa;
+    -webkit-box-shadow    : inset 0 -2px 4px #aaa;
+    box-shadow            : inset 0 -2px 4px #aaa;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+    -webkit-appearance    : none;
+}
+
+input.wpdk-form-button:active {
+    -moz-box-shadow       : inset 0 2px 4px #aaa;
+    -webkit-box-shadow    : inset 0 2px 4px #aaa;
+    box-shadow            : inset 0 2px 4px #aaa;
+}
+*/
+option.wpdk-form-option {}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Locked field
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-locked,
+.wpdk-form-unlocked {
+    display             : inline-block;
+    *display            : inline;
+    zoom                : 1;
+    width               : 24px;
+    height              : 24px;
+    vertical-align      : top;
+    cursor              : pointer;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADzUlEQVR4nL2TXWhcVRDH/3PvJpuvJjZtJKImNmKC1ihNoSFF3FALUTBgNKRvPvjikxFfBBVsFGnim9C31hdbQYSE+OBDk2isMRVhu1IoCLHbpGk+rNlNN9l1783dc86MD/uR7pdRUAcud+5h7vxm5j8H+I+N/m5gX9/z5PPZNrOQ1srMzMzwvwI4PTLSfuRI1+vNzc0n6uvrH2ZmbG5uri4u3rx8NRg8Hw6Hf5mampJ/DBg6dYqGhobe6ek5/j6L+NkYMczExogxBixCWilvenrq4x+vXDkzMTHhlcpjlwOcGR39MBAIjHheyjZakzEGO66rlFKGLMtmZiLLsg8dagukUqnaqir/7MLCQtHYfKWSj42NHevt7X13ezsOrTWuBoOh2dlvz0aj0SAA1dTUdDgQ6H3zcGdnwOez8WwgMBy+8esMgEvlCs6zH+bnv9yIRCS8uCQXLn4+Pzg42FIYMzAwUPvZhYtfLS7dkmDoZzl3/tNL/f39lYVxVuHBi/39FR3tHSeTSQfezo6enp76aHx8/HZh3OTkZPL7y9+9nUopU1FRgZaW1m6/339wT0BDfcPBmprq/SmlsL6+vuE6zrVynS4vL9+MRiNLFlmoqq5u8Pl8DxTGFGnAbHyLS7fuxuNxOxKJ3DHGuOUA8USClVJ/MDOMMWTbdt2egLW1tbUPRk53EpFPRHQ8Hk+UAwgzRAQZgEiJtS8CzM3NMYDfyiW91yorK3cBWgNSfN/yAJ+MDj9dV2M9CdEANCDZRxV8px9jmBrw0/5qz4/7EKNjj6081/rGicTo2dlQScATbbWvnuxpfAvsgMQlYUfALogViSghdnbPxCFhV8DXQexAGj3pfkHe+2Lu8YeOHj36WigUkiKAsAMyRGAXEAfELoEdZBNGt1KwxKHG2gQgLogdAu9AWANMBCGIkIW0FsUAiAMxSvI7SIMWViDnvukmrTwZ7vsaj94fIxEtYABskTAJmADO1zkfwA5gGNkOstWDHaxt7INhgtKE1d8FbQc0IATJJuWML/kAqxBAZovIxAg6tuubLTzTcYPIW4afl+h4+wbBWBBtEYxFMBYyb9qzAzHbubGIZEV2yXEgd+5aZJQt3o4NuxIEJslUnfNFcuMvBXABE8uNBeICrCAMhFfq8OC+29BKI7zqx1OtKn88kvXzMhaLTGYrszkpgIWQ+bGrzaWuR64DTCRiQYyV3hzO6ZCO/asOEkmdjMRS2+mtqEY2eZ6Yco+YhdULwfEqHMDLEfIUeeXll2pB9gEAICJI5upn/VJnxT6S4+MTm/i/7E/UDng7/Z01hwAAAABJRU5ErkJggg==);
+    background-repeat   : no-repeat;
+    background-position : 0 center;
+    margin              : 0;
+}
+
+.wpdk-form-locked {
+    background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAADyUlEQVR4nL2UTUwcZRjH/8/MfrBsAfuBwRjBYoSYppqS2IZGXVqb4KEkokgP3rx4EuPFpB6UGFPwoDHprfXS1sSQQPDgoYBiVWpMtmtMmhixW5CCpIXFhdKd2dmZ53k8sLs4+yGaqG8ymSfv+8z/93y9A/zHi/6uY3f3cxQImKaIkue5PDU1Jf8K4J3BwbZDhzpebWpqOl5fX/+QiGBtbW1pbu7mlWvx+PlkMvnTxMSE/mNA/6lT1N/ff7qz8+jbohoWZmUREmZlZogqea7rTE5OvP/d1atnxsbGnEo6ZjXAmaGhd2Ox2KDj5Ez2PGJmZG3bdV2XyTBMESEyDHP//tZYLpeL1tSEp2dnZ8vKFqgkPjw8fLirq+utjY278DwP1+LxxPT0l2dTqVQcgNvY2HggFut6/cDBg7FAwMQzsdhA8sYvUwAuVwvYt76dmRlZWV3V5Ny8Xrz0yUxfX19zqU9vb2/0wsVLn83N/6rxxA967vzHl3t6ekKlfkbpxsmenmB7W/uJTMaCk816k5MT742Ojt4q9RsfH898feWrN3M5l4PBIJqbW46Ew+F9OwIa6hv21dZGdudcF8vLyyu2Zf1YLdOFhYWbqdTqvEEGaiKRhkAg8MCOAEBrVEHMDNu2bWbOVgPc3dwU13XviQiYmUzT3LUjQFWhqsoeQ0SgWnXEofnzPEC1wtiXAQzDgKqCmcEsIKp+F0Oh0DbA84AKwfjG9KOhgSdqI6FjfO9nqpHbaIzeiR57su6lk0+/bAEeoP6HWagB3++OOGHchzQdfnTx2ZbXjm8OnZ1OFDR94U2OnP7gROeeNyAWSG1SsRRig8QiVVtJrO09tUjFVoiVP3cUovj0m8cufDgSeCWRSGhZBioWiIkgNqAWSGyCWCgIptZzMNSiPdFNQLfAkCxUPECIoARVMvKBlwOgFpRd9WewBZpdhJ774gh5rqMD3Z/jkfvTpOopBIAYpEIKIUD8PfMDxAJYUMigED3Ewm8rdWAhuB5h6Y6ida8HKEELopK31Q8wSgHE60ScJnjpbZvX8VT7DSJnAWGZp6NtKwQ2oJ5BYIPABvJv2jED5Y1iWVQLTbbJsqC3fzeIXVOdrAkzBIKQ5qMu2qrF8lcC2ACni2WB2oC4UAGSi7vwYN0teK6H5FIYj7e4/vJowfYpljeZeD0/OTlAlJD/sKPVpo6HrwNCpGpA2diaHCn2Ycv3rzLYzHiZ1XRuY2sqIiiI+5qpf2pmafRKsJygBThFgq8jL77wfBRk7gUAIir+hwp2pb1yG5nR0bE1/F/rD9lDgDufNyjSAAAAAElFTkSuQmCC);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Clear
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpdk-form-clear-left {
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADtSURBVHjajFC7DkFREJy9iXg0t+EHRKJDJSqRuIVaJT7AF+jR+xuNRiJyS8WlRaHWeOU+kBy7eyKhs8lkJrOzZ3OWzMAD15gxYhB+yzAm0ndez+eYMYLngdkIf2vpSYbCfsNkOx07n8kgWa1UpptNII5VR/M56Nyt6Qq33bbhQsHy6aR0WSyEyEmiCG6vR2ffB65X4HCwYC2e9CTjJGGok4/7Hcjl+ImLBWv1uCRDu3peV5eGQ2C5/P1zq4X9dGpXP+LYhmYz4HbDMQgUosWTnmQoKKf0htVKBZvtFsx6S9bm48ktaV3EXwd/CzAAVjt+gHT5me0AAAAASUVORK5CYII=);
+    background-repeat   : no-repeat;
+    background-position : 0 center;
+    cursor              : pointer;
+    line-height         : 0;
+    margin              : 0 8px 0 -20px;
+    padding             : 0 5px 2px;
+}
+
+input.wpdk-form-has-button-clear-left {
+    padding-right: 26px !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Subtitle under fieldset
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-description {
+    background-color      : #dff0d8;
+    border                : 1px solid #d6e9c6;
+    color                 : #468847;
+    display               : block;
+    font-size             : 13px;
+    line-height           : 150%;
+    text-shadow           : 1px 1px 0 #fff;
+    padding               : 12px;
+    text-align            : justify;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Field requires (apply to label too)
+   ------------------------------------------------------------------------------------------------------------------ */
+
+label.wpdk-form-label-inline {
+    display: inline !important;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Textarea
+   ------------------------------------------------------------------------------------------------------------------ */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Swipe on/off like iPhone :)
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-swipe {
+    display               : inline-block;
+    *display              : inline;
+    zoom                  : 1;
+    width                 : 40px;
+    height                : 17px;
+    padding               : 1px 0 0 0;
+    margin                : 0 8px 0 0;
+    vertical-align: middle;
+    background-color      : #f00;
+    background-image      : -webkit-gradient(linear, left top, left bottom, from(#f00), to(#c00)); /* Saf4+, Chrome */
+    background-image      : -webkit-linear-gradient(top, #f00, #c00); /* Chrome 10+, Saf5.1+ */
+    background-image      : -moz-linear-gradient(top, #f00, #c00); /* FF3.6 */
+    background-image      : -ms-linear-gradient(top, #f00, #c00); /* IE10 */
+    background-image      : -o-linear-gradient(top, #f00, #c00); /* Opera 11.10+ */
+    background-image      : linear-gradient(top, #f00, #c00);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#f00', EndColorStr = '#c00'); /* IE6–IE9 */
+    -moz-box-shadow       : inset 0 0 1px #444;
+    -webkit-box-shadow    : inset 0 0 1px #444;
+    box-shadow            : inset 0 0 1px #444;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+}
+
+span.wpdk-form-swipe span {
+    display               : block;
+    width                 : 16px;
+    height                : 16px;
+    background-color      : #ebebeb;
+    background-image      : -webkit-gradient(linear, left top, left bottom, from(#ebebeb), to(#aaaaaa)); /* Saf4+, Chrome */
+    background-image      : -webkit-linear-gradient(top, #ebebeb, #aaaaaa); /* Chrome 10+, Saf5.1+ */
+    background-image      : -moz-linear-gradient(top, #ebebeb, #aaaaaa); /* FF3.6 */
+    background-image      : -ms-linear-gradient(top, #ebebeb, #aaaaaa); /* IE10 */
+    background-image      : -o-linear-gradient(top, #ebebeb, #aaaaaa); /* Opera 11.10+ */
+    background-image      : linear-gradient(top, #ebebeb, #aaaaaa);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#ebebeb', EndColorStr = '#aaaaaa'); /* IE6–IE9 */
+    -moz-box-shadow       : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow    : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    box-shadow            : 0 0 1px #222, inset 1px 2px 1px #fff, 2px 0 1px rgba(0,0,0,0.4);
+    -moz-border-radius    : 50%;
+    -webkit-border-radius : 50%;
+    border-radius         : 50%;
+    cursor                : pointer;
+}
+
+span.wpdk-form-swipe.wpdk-form-swipe-on {
+    background-color : #a6c800;
+    background-image : -webkit-gradient(linear, left top, left bottom, from(#a6c800), to(#a6c000)); /* Saf4+, Chrome */
+    background-image : -webkit-linear-gradient(top, #a6c800, #a6c000); /* Chrome 10+, Saf5.1+ */
+    background-image : -moz-linear-gradient(top, #a6c800, #a6c000); /* FF3.6 */
+    background-image : -ms-linear-gradient(top, #a6c800, #a6c000); /* IE10 */
+    background-image : -o-linear-gradient(top, #a6c800, #a6c000); /* Opera 11.10+ */
+    background-image : linear-gradient(top, #a6c800, #a6c000);
+    filter           : progid:DXImageTransform.Microsoft.gradient(startColorStr = '#a6c800', EndColorStr = '#a6c000'); /* IE6–IE9 */
+}
+
+span.wpdk-form-swipe.wpdk-form-swipe-on span {
+    margin-left : 23px;
+    -moz-box-shadow       : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+    -webkit-box-shadow    : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+    box-shadow            : 0 0 1px #222, inset 1px 2px 1px #fff, -2px 0 1px rgba(0,0,0,0.4);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Choose
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpdk-form-choose { }
+
+span.wpdk-form-choose .wpdk-form-choose-label {
+    padding               : 6px 8px;
+    border                : 1px inset #aaa;
+    display               : inline-block;
+    *display              : inline;
+    zoom                  : 1;
+    max-width             : 250px;
+    min-width             : 250px;
+    width                 : 250px;
+    background            : #eee;
+    text-shadow           : 1px 1px 0 #fff;
+    white-space           : nowrap;
+    overflow              : hidden;
+    text-overflow         : ellipsis;
+    vertical-align        : middle;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+span.wpdk-form-choose .wpdk-form-choose-label.hide {
+    display: none;
+}
+
+span.wpdk-form-choose .wpdk-form-choose-button {
+    cursor : pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Table View
+   ------------------------------------------------------------------------------------------------------------------ */
+div.wpdk-tableview {
+    height     : 320px !important;
+    overflow-y : scroll;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table { }
+
+div.wpdk-tableview table.wpdk-tableview-table thead { }
+
+div.wpdk-tableview table.wpdk-tableview-table tbody { }
+
+div.wpdk-tableview table.wpdk-tableview-table tbody td {
+    padding : 6px;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table tbody tr:hover {
+    background : #eee;
+    cursor     : pointer;
+}
+
+div.wpdk-tableview table.wpdk-tableview-table tfoot { }
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Group
+   ------------------------------------------------------------------------------------------------------------------ */
+div.wpdk-form-group {
+    border                : 1px solid #ddd;
+    margin                : 16px;
+    padding               : 16px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+
+    background-color      : #fafafa;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Navigation Controller
+   ------------------------------------------------------------------------------------------------------------------ */
+table.wpdk-navigationcontroller {}
+table.wpdk-navigationcontroller tbody {}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Dynamic Table
+   ------------------------------------------------------------------------------------------------------------------ */
+input.wpdk-dt-add-row,
+input.wpdk-dt-delete-row {
+    display               : block;
+    text-indent           : -10000px;
+    padding               : 0;
+    margin                : 0 auto;
+    background-image      : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAddJREFUeNqcU89LG1EQnrd5yUnNlkIwXhLDIoKLhYaqUBD0bwg5GaIn/wJBvEih+D8sQkKgvWjw0qOgl15aiEYTRYIIHiIkRs26ms2PzaYzq4Y1VUwc+HjzmPfNfO/NPBaPx4ExBnZzOp3AOZfQnUXsGIZx2mg0np1ptVpgmiYI8IJhUELSbDgcVmilPbxiLBaLBVDBJPr99kA0GlWoCqlLJBKLHTwNY38QZ7xer0+GQqEVURRl+4lms9n2I5GIYo+Vy+VsMplcQ/eM12q1frfbLaNU6NboPPHI59Vq1apmr9iNEc9KoOu69Zq9JKB3Id67FVCCtoJKpdKzAkEQgHg9X2Ep9w0OtCP4LI4j8UGBYFfwFtLXWfgyNQH7VxlLwd/BDPBCoaDl8/ms1+uVaXCeDNvU9ldOvsPh7THQwKtNFe7vNH3z6/Zy3WUEmSRJAZyB/yYxnU4rqqpSz+Hj+vD59NyMr/NKu1s7Keb3+6FUKj0LYHXrIxWLRcXj8SwaC67p1ohjlGJy+FMwu3GQemgHpJ6+ofCoQEQMIFyID4gAjSviBtGA1b6fQ/M++eLH+R44WRA4A0eHKmoFXf4ecYnIPa53FsZgVPt9hWNopkA3f8EAh38CDACLhgskZmFNZQAAAABJRU5ErkJggg==) !important;
+    background-repeat     : no-repeat !important;
+    background-position   : center center !important;
+    background-color      : transparent !important;
+    width                 : 16px;
+    height                : 16px;
+    border                : none !important;
+    -moz-border-radius    : 0;
+    -webkit-border-radius : 0;
+    border-radius         : 0;
+    -moz-box-shadow       : none !important;
+    -webkit-box-shadow    : none !important;
+    box-shadow            : none !important;
+}
+
+input.wpdk-dt-delete-row {
+    display: block;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYtJREFUeNqkU01LAlEUvW9mKDc1gcKApFCYhEFBq5ZR+/bmH2jRJlz4sZqVQb+gaJU/pHUbNxnSolIhhNlpJow+x+nc0mkcirIunLl35n6+M/eJfD5PQgjyi6qqjATMPeDacZwHYCrGdV0ajUak0NeSQMK+aZoXrPn9mzgSuVxuFRPswF7wO0ql0jl34emKxeJRIK8L3w3wRNlsNtNqte6Gw6Hrh5TSQ9DH8ZwHkIaAxUgksgEH/VY4nvPY1gaDgWAygiT9JJz3XqDf789cgHnhPG8CTp61wL8mUBTlc4K/FOBF8wrYtj1zAY7nvO16nbR2u91tNBr38Xh8nRdnIujg2Y+FAr1Wqx/n5z/Q69npZvMkJGVKxGKxJLrv4rvu71Kr1c46nQ7puk6X4fDzcSazHJzkqlyuiGg0SphiyoGlSkEdWJZ1ahhGIS3l1orrrgULaESVyTVUxndhCeANmwPTBvQmcIszW9ASeAG4W/eQyEmOjzQ52jwQGmv1C+6YZSbGZhqYSxOPNwEGAKntAJ5orlnVAAAAAElFTkSuQmCC) !important;
+}
+
+table.wpdk-dynamic-table {
+    width : 100%;
+}
+
+table.wpdk-dynamic-table thead th:first-child {
+    -moz-border-radius    : 4px 0 0 0;
+    -webkit-border-radius : 4px 0 0 0;
+    border-radius         : 4px 0 0 0;
+    border-left: none;
+}
+
+table.wpdk-dynamic-table thead th:last-child {
+    -moz-border-radius    : 0 4px 0 0;
+    -webkit-border-radius : 0 4px 0 0;
+    border-radius         : 0 4px 0 0;
+    border-right : none;
+}
+
+table.wpdk-dynamic-table thead th {
+    background   : #99a;
+    border-left  : 1px solid #ddd;
+    border-right : 1px solid #bbb;
+    color        : #fff;
+    font-size    : 14px;
+    padding      : 12px 4px;
+    text-shadow  : 1px 1px 0 #111;
+}
+
+table.wpdk-dynamic-table tbody td {
+    background    : #F1F1F1;
+    border-right  : 1px solid #ccc;
+    border-left   : 1px solid #fff;
+    border-bottom : 1px solid #ddd;
+    padding       : 6px 4px;
+    text-align    : center;
+}
+
+table.wpdk-dynamic-table tbody td:nth-child(2n) {
+    background : #fafafa;
+}
+
+table.wpdk-dynamic-table tbody tr:first-child {
+    display : none;
+}
+
+table.wpdk-dynamic-table tbody td:last-child {
+    width: 32px;
+}
+
+table.wpdk-dynamic-table tbody tr td {
+    -webkit-transition : background linear 0.3s;
+    -moz-transition    : background linear 0.3s;
+    -ms-transition     : background linear 0.3s;
+    -o-transition      : background linear 0.3s;
+    transition         : background linear 0.3s;
+}
+
+table.wpdk-dynamic-table tbody tr td span.wpdk-dt-clone-delete {
+    display: none;
+}
+
+table.wpdk-dynamic-table tbody tr.wpdk-dt-highlight-delete td {
+    background-color: rgba(255,0,0,0.2);
+}
+
+table.wpdk-dynamic-table tbody td:first-child {
+    border-left  : 1px solid #ccc;
+}
+
+table.wpdk-dynamic-table tbody td:last-child {
+    background            : none;
+    border-right          : none;
+    border-left           : none;
+    border-bottom         : none;
+    -moz-border-radius    : 0 100% 100% 0;
+    -webkit-border-radius : 0 100% 100% 0;
+    border-radius         : 0 100% 100% 0;
+}
+
+table.wpdk-dynamic-table tfoot td {
+    border-right  : 1px solid #ccc;
+    border-left   : 1px solid #fff;
+    border-bottom : 1px solid #ccc;
+    padding       : 4px;
+    background    : #eee;
+}
+
+table.wpdk-dynamic-table tfoot td:first-child {
+    border-left          : 1px solid #ccc;
+    -moz-border-radius    : 0 0 0 4px;
+    -webkit-border-radius : 0 0 0 4px;
+    border-radius         : 0 0 0 4px;
+}
+
+table.wpdk-dynamic-table tfoot td:last-child {
+    border-right          : 1px solid #ccc;
+    -moz-border-radius    : 0 0 4px 0;
+    -webkit-border-radius : 0 0 4px 0;
+    border-radius         : 0 0 4px 0;
+}
+/* ---------------------------------------------------------------------------------------------------------------------
+   UI
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-ui-truncate {
+    background            : rgba(255, 204, 0, 0.37);
+    border                : 1px solid;
+    border-color          : rgba(207, 166, 0, 0.58);
+    padding               : 1px 12px;
+    -moz-border-radius    : 16px;
+    -webkit-border-radius : 16px;
+    border-radius         : 16px;
+}
+
+div.wpdk-ui-truncate-size_small {
+    width       : 150px;
+}
+
+div.wpdk-ui-truncate-size_medium {
+    width       : 200px;
+}
+
+div.wpdk-ui-truncate-size_large {
+    width       : 300px;
+}
+
+div.wpdk-ui-truncate span {
+    white-space       : nowrap;
+    display           : block;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+    -o-text-overflow  : ellipsis; /* required for Opera */
+    -ms-text-overflow : ellipsis; /* required for IE8, allegedly */
+    -moz-binding      : url('ellipsis.xml#ellipsis'); /* for Firefox; details here */
+}
+
+div.wpdk-border-container {
+    border-bottom : 1px solid #DDDDDD;
+    border-left   : 1px solid #DDDDDD;
+    border-radius : 0 0 10px 10px;
+    border-right  : 1px solid #DDDDDD;
+    margin        : 16px 0 0 0;
+    padding       : 0 12px;
+    background    : -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(241, 241, 241, 1)));
+    background    : -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    background    : linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(241, 241, 241, 1) 100%);
+    filter        : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#00ffffff', endColorstr = '#f1f1f1', GradientType = 0);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Debug Watchdog
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpdk-watchdog-wp-error {
+    white-space           : pre; /* CSS2 */
+    white-space           : pre-wrap; /* CSS 2.1 */
+    white-space           : pre-line; /* CSS 3 (and 2.1 as well, actually) */
+    word-wrap             : break-word; /* IE */
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : 0 8px 16px #000;
+    -webkit-box-shadow    : 0 8px 16px #000;
+    box-shadow            : 0 8px 16px #000;
+    background            : #eee;
+    padding               : 8px;
+    position              : absolute;
+    left                  : 8px;
+    top                   : 8px;
+    z-index               : 99999;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   WordPress standard overwrite
+   ------------------------------------------------------------------------------------------------------------------ */
+
+body.wpxm-body div.error {
+    background-color : #f2dede;
+    border-color     : #eed3d7;
+    color            : #b94a48;
+}
+
+body.wpxm-body div.updated {
+    background-color : #dff0d8;
+    border-color     : #d6e9c6;
+    color            : #468847;
+}
+
+/* Extra */
+body.wpxm-body div.warning {
+    background-color      : #fcf8e3;
+    border                : 1px solid #fbeed5;
+    color                 : #c09853;
+}
+
+body.wpxm-body div.information {
+    background-color      : #d9edf7;
+    border                : 1px solid #bce8f1;
+    color                 : #3a87ad;
+}
+
+body.wpxm-body div.error,
+body.wpxm-body div.updated,
+body.wpxm-body div.warning,
+body.wpxm-body div.information {
+    font-size             : 1.2em;
+    margin                : 16px 2px;
+    padding               : 6px;
+    text-shadow           : 0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+body.wpxm-body div.error p,
+body.wpxm-body div.updated p,
+body.wpxm-body div.warning p,
+body.wpxm-body div.information p {
+    margin: 0.5em 0;
+}
+
+input.wpdk-form-button,
+body.wpxm-body h2 a.add-new-h2,
+body.wpxm-body .button,
+body.wpxm-body .button-primary,
+body.wpxm-body .button-secondary {
+    display               : inline-block;
+    *display              : inline;
+    /* IE7 inline-block hack */
+    *zoom                 : 1;
+    padding               : 4px 10px 4px;
+    margin                : 0;
+    font-size             : 13px !important;
+    line-height           : 18px;
+    *line-height          : 20px;
+    color                 : #333333;
+    text-align            : center;
+    text-shadow           : 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align        : middle;
+    cursor                : pointer;
+    background-color      : #f5f5f5;
+    background-image      : -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -ms-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image      : -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image      : linear-gradient(top, #ffffff, #e6e6e6);
+    background-repeat     : repeat-x;
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#e6e6e6', GradientType = 0);
+    border-color          : #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color          : rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color     : #e6e6e6;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter                : progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    border                : 1px solid #cccccc;
+    *border               : 0;
+    border-bottom-color   : #b3b3b3;
+    -webkit-border-radius : 4px;
+    -moz-border-radius    : 4px;
+    border-radius         : 4px;
+    *margin-left          : .3em;
+    -webkit-box-shadow    : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow       : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow            : inset 0 1px 0 rgba(255, 255, 255, .2), 0 1px 2px rgba(0, 0, 0, .05);
+    border-color          : #ccc;
+}
+
+body.wpxm-body h2 a.add-new-h2 {
+    float:right;
+    margin: 4px 24px 0 0;
+}
+
+body.wpxm-body h2 a.add-new-h2,
+body.wpxm-body .button-primary {
+    color             : #ffffff;
+    text-shadow       : 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color  : #0074cc;
+    background-image  : -moz-linear-gradient(top, #0088cc, #0055cc);
+    background-image  : -ms-linear-gradient(top, #0088cc, #0055cc);
+    background-image  : -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+    background-image  : -webkit-linear-gradient(top, #0088cc, #0055cc);
+    background-image  : -o-linear-gradient(top, #0088cc, #0055cc);
+    background-image  : linear-gradient(top, #0088cc, #0055cc);
+    background-repeat : repeat-x;
+    filter            : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#0088cc', endColorstr = '#0055cc', GradientType = 0);
+    border-color      : #0055cc #0055cc #003580;
+    border-color      : rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    *background-color : #0055cc;
+    /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+    filter            : progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+body.wpxm-body h2 a.add-new-h2:hover,
+body.wpxm-body .button:hover,
+body.wpxm-body .button-primary:hover,
+body.wpxm-body .button-secondary:hover {
+    text-decoration     : none;
+}
+
+body.wpxm-body h2 a.add-new-h2:active,
+body.wpxm-body .button:active,
+body.wpxm-body .button-primary:active,
+body.wpxm-body .button-secondary:active {
+    background-image   : none;
+    outline            : 0;
+    -webkit-box-shadow : inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    -moz-box-shadow    : inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+    box-shadow         : inset 0 2px 4px rgba(0, 0, 0, .15), 0 1px 2px rgba(0, 0, 0, .05);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Start Tooltip
+   ------------------------------------------------------------------------------------------------------------------ */
+.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.15s linear;
+  -moz-transition: opacity 0.15s linear;
+  -ms-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.fade.in,
+.fade.updated {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.tooltip {
+  position: absolute;
+  z-index: 1020;
+  display: block;
+  visibility: visible;
+  padding: 5px;
+  font-size: 11px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.tooltip.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.tooltip.top {
+  margin-top: -2px;
+}
+.tooltip.right {
+  margin-left: 2px;
+}
+.tooltip.bottom {
+  margin-top: 2px;
+}
+.tooltip.left {
+  margin-left: -2px;
+}
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #000000;
+}
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #000000;
+}
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #000000;
+}
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid #000000;
+}
+.tooltip-inner {
+  max-width: 200px;
+  padding: 3px 8px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+/* ---------------------------------------------------------------------------------------------------------------------
+   End Tooltip
+   ------------------------------------------------------------------------------------------------------------------ */

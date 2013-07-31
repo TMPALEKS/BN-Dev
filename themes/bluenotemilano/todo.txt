@@ -1,0 +1,11 @@
+ ========
+ = TODO =
+ ========
+
+
+ Vedi: http://sixrevisions.com/wordpress/how-to-customize-the-wordpress-admin-area/
+
+
+ - Login
+ - Finire il template grafico
+ - Ricerca

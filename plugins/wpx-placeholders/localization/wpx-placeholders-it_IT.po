@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpx Placeholders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-12 11:44+0100\n"
+"PO-Revision-Date: 2012-06-12 11:45+0100\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: wpXtreme, Inc. <g.fazioli@wpxtre.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../classes/admin/wpxph-admin.php:44
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:39
+msgid "Reservations"
+msgstr "Prenotazioni"
+
+#: ../classes/admin/wpxph-admin.php:47
+#: ../classes/environment/wpxph-environments-viewcontroller.php:39
+msgid "Environments"
+msgstr "Ambienti"
+
+#: ../classes/admin/wpxph-admin.php:50
+#: ../classes/places/wpxph-places-viewcontroller.php:39
+msgid "Places"
+msgstr "Posti"
+
+#: ../classes/admin/wpxph-admin.php:74
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../classes/environment/wpxph-environments-listtable.php:86
+#: ../classes/places/wpxph-places-listtable.php:96
+#: ../classes/reservations/wpxph-reservations-listtable.php:131
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../classes/environment/wpxph-environments-listtable.php:87
+#: ../classes/environment/wpxph-environments-listtable.php:129
+#: ../classes/places/wpxph-places-listtable.php:97
+#: ../classes/places/wpxph-places-listtable.php:154
+#: ../classes/reservations/wpxph-reservations-listtable.php:132
+#: ../classes/reservations/wpxph-reservations-listtable.php:192
+msgid "Restore"
+msgstr "Repristina"
+
+#: ../classes/environment/wpxph-environments-listtable.php:88
+#: ../classes/environment/wpxph-environments-listtable.php:127
+#: ../classes/places/wpxph-places-listtable.php:98
+#: ../classes/places/wpxph-places-listtable.php:152
+#: ../classes/reservations/wpxph-reservations-listtable.php:133
+#: ../classes/reservations/wpxph-reservations-listtable.php:190
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../classes/environment/wpxph-environments-listtable.php:89
+#: ../classes/places/wpxph-places-listtable.php:99
+#: ../classes/reservations/wpxph-reservations-listtable.php:134
+msgid "Trash"
+msgstr "Cestina"
+
+#: ../classes/environment/wpxph-environments-listtable.php:107
+#: ../classes/places/wpxph-places-listtable.php:117
+#: ../classes/reservations/wpxph-reservations-listtable.php:152
+msgid "Icon"
+msgstr "Icona"
+
+#: ../classes/environment/wpxph-environments-listtable.php:108
+#: ../classes/environment/wpxph-environments.php:148
+#: ../classes/places/wpxph-places-listtable.php:120
+#: ../classes/places/wpxph-places.php:155
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../classes/environment/wpxph-environments-listtable.php:128
+#: ../classes/places/wpxph-places-listtable.php:153
+#: ../classes/reservations/wpxph-reservations-listtable.php:191
+msgid "Move to Trash"
+msgstr "Sposta nel cestino"
+
+#: ../classes/environment/wpxph-environments-listtable.php:160
+msgid "Environment(s) deleted successfully"
+msgstr "Ambiente(i) eliminato/i con successo"
+
+#: ../classes/environment/wpxph-environments-listtable.php:167
+msgid "Error while deleting environment"
+msgstr "Errore durante la cancellazione di un Ambiente"
+
+#: ../classes/environment/wpxph-environments-listtable.php:179
+#: ../classes/places/wpxph-places-listtable.php:204
+#: ../classes/reservations/wpxph-reservations-listtable.php:242
+msgid "Place update successfully"
+msgstr "Posto correttamente aggiornato"
+
+#: ../classes/environment/wpxph-environments-listtable.php:185
+msgid "Error while updating environment"
+msgstr "Errore durante l'aggiornamento di un Ambiente"
+
+#: ../classes/environment/wpxph-environments-listtable.php:198
+msgid "Environment added successfully"
+msgstr "Ambiente correttamente aggiunto"
+
+#: ../classes/environment/wpxph-environments-listtable.php:204
+msgid "Error while adding environment"
+msgstr "Errore durante l'aggiunta di un Ambiente"
+
+#: ../classes/environment/wpxph-environments-viewcontroller.php:39
+#: ../classes/places/wpxph-places-viewcontroller.php:39
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:39
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: ../classes/environment/wpxph-environments-viewcontroller.php:72
+msgid "New Environment"
+msgstr "Nuovo Ambiente"
+
+#: ../classes/environment/wpxph-environments-viewcontroller.php:74
+msgid "Edit Environment"
+msgstr "Modifica Ambiente"
+
+#: ../classes/environment/wpxph-environments-viewcontroller.php:101
+#: ../classes/places/wpxph-places-viewcontroller.php:101
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:101
+msgid "Add"
+msgstr "Aggiungi"
+
+#: ../classes/environment/wpxph-environments-viewcontroller.php:104
+#: ../classes/places/wpxph-places-viewcontroller.php:104
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:104
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../classes/environment/wpxph-environments.php:143
+msgid "Environment information"
+msgstr "Informazioni Ambiente"
+
+#: ../classes/environment/wpxph-environments.php:172
+#: ../classes/places/wpxph-places.php:178
+#: ../classes/reservations/wpxph-reservations.php:352
+msgid "All"
+msgstr "Tutti"
+
+#: ../classes/environment/wpxph-environments.php:176
+#: ../classes/places/wpxph-places.php:182
+#: ../classes/reservations/wpxph-reservations.php:356
+msgid "Published"
+msgstr "Pubblicato"
+
+#: ../classes/environment/wpxph-environments.php:180
+#: ../classes/places/wpxph-places.php:186
+#: ../classes/reservations/wpxph-reservations.php:360
+msgid "Trashed"
+msgstr "Cestinato"
+
+#: ../classes/environment/wpxph-environments.php:399
+msgid "Filter for Environment"
+msgstr "Filtra per Ambiente"
+
+#: ../classes/places/wpxph-places-listtable.php:118
+#: ../classes/places/wpxph-places.php:131
+msgid "Name"
+msgstr "Nome"
+
+#: ../classes/places/wpxph-places-listtable.php:119
+msgid "Seating"
+msgstr "Posti"
+
+#: ../classes/places/wpxph-places-listtable.php:121
+#: ../classes/places/wpxph-places.php:145
+msgid "Environment"
+msgstr "Ambiente"
+
+#: ../classes/places/wpxph-places-listtable.php:185
+msgid "Place(s) deleted successfully"
+msgstr "Posti eliminati con successo"
+
+#: ../classes/places/wpxph-places-listtable.php:192
+msgid "Error while deleting place"
+msgstr "Errore durante la cancellazione di un Posto"
+
+#: ../classes/places/wpxph-places-listtable.php:210
+msgid "Error while updating place"
+msgstr "Errore durante l'aggiornamento di un Posto"
+
+#: ../classes/places/wpxph-places-listtable.php:222
+msgid "Place added successfully"
+msgstr "Posto correttamente aggiunto"
+
+#: ../classes/places/wpxph-places-listtable.php:228
+msgid "Error while adding place"
+msgstr "Errore durante l'aggiunta di un Posto"
+
+#: ../classes/places/wpxph-places-listtable.php:359
+#: ../classes/reservations/wpxph-reservations-listtable.php:488
+msgid "Filters"
+msgstr "Filtra"
+
+#: ../classes/places/wpxph-places-viewcontroller.php:72
+msgid "New Place"
+msgstr "Nuovo posto"
+
+#: ../classes/places/wpxph-places-viewcontroller.php:74
+msgid "Edit Place"
+msgstr "Modifica posto"
+
+#: ../classes/places/wpxph-places.php:126
+msgid "Place information"
+msgstr "Informazioni posto"
+
+#: ../classes/places/wpxph-places.php:137
+msgid "Seating capacity"
+msgstr "Posti a sedere"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:93
+#: ../classes/reservations/wpxph-reservations-listtable.php:351
+#: ../classes/reservations/wpxph-reservations-listtable.php:447
+#: ../classes/reservations/wpxph-reservations-listtable.php:473
+#: ../classes/reservations/wpxph-reservations.php:322
+#: ../classes/reservations/wpxph-reservations.php:328
+#: ../classes/reservations/wpxph-reservations.php:534
+#: ../classes/reservations/wpxph-reservations.php:535
+#: ../classes/reservations/wpxph-reservations.php:569
+#: ../classes/reservations/wpxph-reservations.php:570
+msgid "m/d/Y H:i"
+msgstr "d/m/Y H:i"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:153
+#: ../classes/reservations/wpxph-reservations.php:312
+msgid "Place"
+msgstr "Posto"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:154
+#: ../classes/reservations/wpxph-reservations-listtable.php:490
+#: ../classes/reservations/wpxph-reservations.php:321
+msgid "Start date"
+msgstr "Data inzio"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:155
+#: ../classes/reservations/wpxph-reservations-listtable.php:491
+#: ../classes/reservations/wpxph-reservations.php:327
+msgid "Expiry date"
+msgstr "Data scadenza"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:223
+msgid "Reservation(s) deleted successfully"
+msgstr "Prenotazione(i) eliminato/i con successo"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:230
+msgid "Error while deleting reservation"
+msgstr "Errore durante la cancellazione di una Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:248
+msgid "Error while updating reservation"
+msgstr "Errore durante l'aggiornamento di un Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:261
+msgid "Reservation added successfully"
+msgstr "Prenotazione correttamente aggiunta"
+
+#: ../classes/reservations/wpxph-reservations-listtable.php:267
+msgid "Error while adding reservation"
+msgstr "Errore durante l'aggiunta di una Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:72
+msgid "New Reservation"
+msgstr "Nuova Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations-viewcontroller.php:74
+msgid "Edit Reservation"
+msgstr "Modifica Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations.php:307
+msgid "Reservation information"
+msgstr "Informazioni Prenotazione"
+
+#: ../classes/reservations/wpxph-reservations.php:527
+#: ../classes/reservations/wpxph-reservations.php:562
+msgid "Dates not set"
+msgstr "Date non impostate"
+
+#: ../classes/reservations/wpxph-reservations.php:628
+msgid "Reserved"
+msgstr "Prenotato"
+
+#: ../classes/reservations/wpxph-reservations.php:632
+msgid "Not Available"
+msgstr "Non Disponibile "
+
+#: ../classes/reservations/wpxph-reservations.php:645
+msgid "Available"
+msgstr "Disponibile"
+
+#~ msgid "For more info and plugins visit"
+#~ msgstr "Per maggiori informazioni e plugins visita"
+
+#~ msgid "m/d/Y 08:00"
+#~ msgstr "d/m/Y 08:00"
+
+#~ msgid "m/d/Y 23:00"
+#~ msgstr "d/m/Y 23:00"
+
+#~ msgid "Placeholders"
+#~ msgstr "Segnaposti"
+
+#~ msgid "Status"
+#~ msgstr "Stato"

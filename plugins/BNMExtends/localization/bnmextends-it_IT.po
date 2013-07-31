@@ -1,0 +1,1153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BNM Extends v0.5.45\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-20 10:45+0100\n"
+"PO-Revision-Date: 2012-12-13 16:46:27+0100\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: Saidmade <g.fazioli@saidmade.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: main.php:206
+#@ bnmextends
+msgid "Without Dinner Reservation"
+msgstr "Senza Prenotazione Cena"
+
+#: main.php:207
+#@ bnmextends
+msgid "With Dinner Reservation"
+msgstr "Con Prenotazione Cena"
+
+#: main.php:209
+#@ bnmextends
+msgid "2 adults and 2 children"
+msgstr "2 adulti e 2 bambini"
+
+#: main.php:210
+#@ bnmextends
+msgid "2 adults and 1 child"
+msgstr "2 adulti e 1 bambino"
+
+#: main.php:211
+#@ bnmextends
+msgid "2 adults"
+msgstr "2 adulti"
+
+#: main.php:552
+#@ bnmextends
+msgid "Log in upper right to purchase"
+msgstr "Accedi in alto a destra per acquistare"
+
+#: main.php:602
+#, php-format
+#@ bnmextends
+msgid "Purchase %s %s"
+msgstr "Acquista %s %s"
+
+#: main.php:616
+#@ bnmextends
+msgid "Size"
+msgstr "Taglia"
+
+#: main.php:667
+#@ bnmextends
+msgid "Door price"
+msgstr "Prezzo Door"
+
+#: main.php:782
+#@ bnmextends
+msgid "You can not get more 8 items"
+msgstr "Non puoi prendere più di 8 elementi"
+
+#: main.php:792
+#: main.php:802
+#@ bnmextends
+msgid "You can not get more 1 item"
+msgstr "Non puoi prendere più di 1 elemento"
+
+#: main.php:929
+#@ bnmextends
+msgid "Reservation by"
+msgstr "Prenotazione per"
+
+#: main.php:942
+#@ bnmextends
+msgid "Booked by"
+msgstr "Prenotato da"
+
+#: Classes/BNMExtendsUser.php:237
+#: main.php:948
+#@ bnmextends
+msgid "None"
+msgstr "Nessuno"
+
+#: Classes/bnmextends-mail.php:640
+#@ bnmextends
+msgid "Under 26 request"
+msgstr "Richiesta Under 26"
+
+#: Classes/bnmextends-mail.php:659
+#@ bnmextends
+msgid "Over 65 request"
+msgstr "Richiesta Over 65"
+
+#: Classes/bnmextends-mail.php:678
+#@ bnmextends
+msgid "request"
+msgstr "richiesta"
+
+#: Classes/bnmextends-mail.php:756
+#@ bnmextends
+msgid "Seats"
+msgstr "Posti"
+
+#: Classes/bnmextends-mail.php:758
+#@ bnmextends
+msgid "Dinner"
+msgstr "Cena"
+
+#: Classes/bnmextends-mail.php:759
+#@ bnmextends
+msgid "Reservation"
+msgstr "Prenotazione"
+
+#: Classes/bnmextends-mail.php:811
+#@ bnmextends
+msgid "Tickets"
+msgstr "Biglietti"
+
+#: Classes/BNMExtendsAdmin.php:329
+#@ bnm-context
+msgid "For more info and plugins visit"
+msgstr ""
+
+#: Classes/BNMExtendsAdmin.php:342
+#@ default
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: Classes/BNMExtendsArtistPostType.php:119
+#@ bnmextends
+msgid "Artist Image"
+msgstr "Immagine Artista"
+
+#: Classes/BNMExtendsCalendar.php:91
+#@ bnmextends
+msgid "Calendar"
+msgstr "Programmazione"
+
+#: Classes/BNMExtendsCalendar.php:126
+#: Classes/BNMExtendsCalendar.php:233
+#: Classes/BNMExtendsCalendar.php:311
+#: Classes/BNMExtendsEventPostType.php:228
+#@ bnmextends
+msgid "Time"
+msgstr "Ore"
+
+#: Classes/BNMExtendsCalendar.php:140
+#@ bnmextends
+msgid "View All"
+msgstr "Tutta la programmazione"
+
+#: Classes/BNMExtendsCalendar.php:486
+#: Classes/BNMExtendsCalendar.php:517
+#@ bnmextends
+msgid "Import iCal"
+msgstr "Importa iCal"
+
+#: Classes/BNMExtendsCalendar.php:489
+#: Classes/BNMExtendsCalendar.php:521
+#@ bnmextends
+msgid "Download PDF"
+msgstr "Scarica PDF"
+
+#: Classes/BNMExtendsCalendar.php:493
+#: Classes/BNMExtendsCalendar.php:509
+#@ bnmextends
+msgid "Calendar view"
+msgstr "Vedi come calendario"
+
+#: Classes/BNMExtendsCalendar.php:497
+#: Classes/BNMExtendsCalendar.php:512
+#@ bnmextends
+msgid "List view"
+msgstr "Vedi come elenco"
+
+#: Classes/BNMExtendsCalendar.php:500
+#: Classes/BNMExtendsCalendar.php:526
+#@ bnmextends
+msgid "Print"
+msgstr "Stampa"
+
+#: Classes/BNMExtendsContacts.php:35
+#@ bnmextends
+msgid "Contact the customer service"
+msgstr "Contattare il servizio clienti "
+
+#: Classes/BNMExtendsContacts.php:36
+#@ bnmextends
+msgid "Book for a group or private event"
+msgstr "Organizzare un banchetto o un evento privato "
+
+#: Classes/BNMExtendsContacts.php:37
+#@ bnmextends
+msgid "Perform at the Blue Note"
+msgstr "Suonare al Blue Note "
+
+#: Classes/BNMExtendsContacts.php:38
+#@ bnmextends
+msgid "Submit a product or service"
+msgstr "Proporre un prodotto o servizio"
+
+#: Classes/BNMExtendsContacts.php:39
+#@ bnmextends
+msgid "Contact the press office"
+msgstr "Contattare l’ufficio stampa"
+
+#: Classes/BNMExtendsContacts.php:52
+#@ bnmextends
+msgid "Contact Us"
+msgstr "Contattaci"
+
+#: Classes/BNMExtendsContacts.php:53
+#@ bnmextends
+msgid "Please fill out all fields. Company is optional"
+msgstr "Si prega di compilare tutti i campi. Azienda è opzionale"
+
+#: Classes/BNMExtendsContacts.php:58
+#@ bnmextends
+msgid "I want to"
+msgstr "Scrivo per"
+
+#: Classes/BNMExtendsContacts.php:66
+#: Classes/BNMExtendsSummaryOrder.php:539
+#: Classes/BNMExtendsSummaryOrder.php:692
+#: Classes/BNMExtendsUser.php:377
+#: Classes/BNMExtendsUser.php:557
+#@ bnmextends
+msgid "First Name"
+msgstr "Nome"
+
+#: Classes/BNMExtendsContacts.php:73
+#: Classes/BNMExtendsSummaryOrder.php:546
+#: Classes/BNMExtendsSummaryOrder.php:699
+#: Classes/BNMExtendsUser.php:392
+#: Classes/BNMExtendsUser.php:566
+#@ bnmextends
+msgid "Last Name"
+msgstr "Cognome"
+
+#: Classes/BNMExtendsContacts.php:80
+#@ bnmextends
+msgid "Company"
+msgstr "Azienda"
+
+#: Classes/BNMExtendsContacts.php:87
+#: Classes/BNMExtendsSummaryOrder.php:529
+#: Classes/BNMExtendsSummaryOrder.php:683
+#: Classes/BNMExtendsUser.php:402
+#: Classes/BNMExtendsUser.php:575
+#: Classes/BNMExtendsWidgetNewsletter.php:44
+#@ bnmextends
+msgid "Email"
+msgstr ""
+
+#: Classes/BNMExtendsContacts.php:94
+#: Classes/BNMExtendsSummaryOrder.php:583
+#: Classes/BNMExtendsSummaryOrder.php:737
+#: Classes/BNMExtendsUser.php:529
+#: Classes/BNMExtendsUser.php:619
+#@ bnmextends
+msgid "Phone"
+msgstr "Telefono"
+
+#: Classes/BNMExtendsContacts.php:133
+#: Classes/BNMExtendsWidgetNewsletter.php:47
+#@ bnmextends
+msgid "Send"
+msgstr "Invia"
+
+#: Classes/BNMExtendsEventPostType.php:34
+#: Classes/BNMExtendsEventPostType.php:134
+#: Classes/BNMExtendsEventPostType.php:138
+#: Classes/BNMExtendsEventPostType.php:418
+#: Classes/BNMExtendsEventPostType.php:502
+#: Classes/BNMExtendsEventPostType.php:572
+#: Classes/BNMExtendsEventPostType.php:698
+#@ bnmextends
+msgid "m/d/Y H:i"
+msgstr "d/m/Y H:i"
+
+#: Classes/BNMExtendsEventPostType.php:43
+#@ bnmextends
+msgid "Create Ticket"
+msgstr "Crea Biglietto"
+
+#: Classes/BNMExtendsEventPostType.php:51
+#@ bnmexteds
+msgid "Base price"
+msgstr "Prezzo Base"
+
+#: Classes/BNMExtendsEventPostType.php:59
+#@ bnmextends
+msgid "Create Ticket for Brunch"
+msgstr "Crea Biglietto per Brunch"
+
+#: Classes/BNMExtendsEventPostType.php:60
+#@ bnmextends
+msgid "Crea altre 3 biglietti e li associa questo evento: 60 euro comulativo, 35 euro adulto singolo, 12 euro (< 12 anni) singolo bambino"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:83
+#@ bnmextends
+msgid "Ticket"
+msgstr "Biglietto"
+
+#: Classes/BNMExtendsEventPostType.php:127
+#@ bnmextends
+msgid "Tickets Brunch"
+msgstr "Biglietti Brunch"
+
+#: Classes/BNMExtendsEventPostType.php:166
+#@ bnmextends
+msgid "Event"
+msgstr "Evento"
+
+#: Classes/BNMExtendsEventPostType.php:171
+#@ default
+msgid "Data e ora evento"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:180
+#@ default
+msgid "Associa artista"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:181
+#@ default
+msgid "Nome artista"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:215
+#@ bnmextends
+msgid "Empty parameters!"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:217
+#@ bnmextends
+msgid "Reservations Dinner Table"
+msgstr "Prenotazione tavolo cena"
+
+#: Classes/BNMExtendsEventPostType.php:218
+#@ bnmextends
+msgid "The number of seats you select cannot exceed the number of tickets booked"
+msgstr "Puoi selezionare un numero di posti non superiore al numero di biglietti prenotati"
+
+#: Classes/BNMExtendsEventPostType.php:219
+#@ bnmextends
+msgid "You have select a minimun number of seats equal to the number of tickets"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:220
+#@ bnmextends
+msgid "Cancel"
+msgstr "Annulla"
+
+#: Classes/BNMExtendsEventPostType.php:221
+#@ bnmextends
+msgid "Ok"
+msgstr ""
+
+#: Classes/BNMExtendsEventPostType.php:223
+#@ bnmextends
+msgid "For retrive full register user information, insert email before."
+msgstr "Per recuperare tutte le informazioni utente inserisci prima l'indirizzo email."
+
+#: Classes/BNMExtendsEventPostType.php:224
+#@ bnmextends
+msgid "Looks like your are up to 26 years old. Please upload a PDF of your ID card to get discount upon tickets."
+msgstr "Sembra che tu abbia fino a 26 anni di età: carica un PDF della tua carta di identità per ottenere sconti sui biglietti di ingresso. "
+
+#: Classes/BNMExtendsEventPostType.php:225
+#@ bnmextends
+msgid "Looks like our age is 65 or more. Please upload a PDF of your ID card to get discount upon tickets."
+msgstr "Sembra che tu abbia 65 anni o più: carica un PDF della tua carta di identità per ottenere sconti sui biglietti di ingresso. "
+
+#: Classes/BNMExtendsEventPostType.php:227
+#@ bnmextends
+msgid "Choose Time"
+msgstr "Scegli Orario"
+
+#: Classes/BNMExtendsEventPostType.php:229
+#@ bnmextends
+msgid "Hour"
+msgstr "Ore"
+
+#: Classes/BNMExtendsEventPostType.php:230
+#@ bnmextends
+msgid "Minutes"
+msgstr "Minuti"
+
+#: Classes/BNMExtendsEventPostType.php:231
+#@ bnmextends
+msgid "Seconds"
+msgstr "Secondi"
+
+#: Classes/BNMExtendsEventPostType.php:232
+#@ bnmextends
+msgid "Now"
+msgstr "Adesso"
+
+#: Classes/BNMExtendsEventPostType.php:233
+#@ bnmextends
+msgid "Su,Mo,Tu,We,Th,Fr,Sa"
+msgstr "Do,Lu,Ma,Me,Gi,Ve,Sa"
+
+#: Classes/BNMExtendsEventPostType.php:234
+#@ bnmextends
+msgid "January,February,March,April,May,June,July,August,September,October,November,December"
+msgstr "Gennatio,Fennraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre"
+
+#: Classes/BNMExtendsEventPostType.php:235
+#@ bnmextends
+msgid "Close"
+msgstr "Chiudi"
+
+#: Classes/BNMExtendsEventPostType.php:236
+#: Classes/BNMExtendsUser.php:1451
+#: Classes/BNMExtendsUser.php:1455
+#@ bnmextends
+msgid "m/d/Y"
+msgstr "d/m/Y"
+
+#: Classes/BNMExtendsEventPostType.php:237
+#@ bnmextends
+msgid "mm/dd/yy"
+msgstr "dd/mm/yy"
+
+#: Classes/BNMExtendsEventPostType.php:378
+#@ bnmextends
+msgid "Event Image"
+msgstr "Immagine Evento"
+
+#: Classes/BNMExtendsOptionViewController.php:25
+#@ bnmextends
+msgid "LeaderBoard Banner"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:30
+#@ bnmextends
+msgid "Display LeaderBoard Banner"
+msgstr "Mostra Banner Leaderboard"
+
+#: Classes/BNMExtendsOptionViewController.php:36
+#@ bnmextends
+msgid "Featured"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:41
+#@ bnmextends
+msgid "Number featured"
+msgstr "Numero in evidenza"
+
+#: Classes/BNMExtendsOptionViewController.php:46
+#@ bnmextends
+msgid "Programs"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:51
+#@ bnmextends
+msgid "Number Events"
+msgstr "Numero Eventi"
+
+#: Classes/BNMExtendsOptionViewController.php:56
+#@ bnmextends
+msgid "Products"
+msgstr "Prodotti"
+
+#: Classes/BNMExtendsOptionViewController.php:61
+#@ bnmextends
+msgid "Percentage Advance"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:94
+#@ bnmextends
+msgid "Home Page"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:147
+#@ bnmextends
+msgid "Blue Note Milano Settings"
+msgstr ""
+
+#: Classes/BNMExtendsOptionViewController.php:161
+#@ bnmextends
+msgid "Update Settings"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:34
+#@ bnmextends
+msgid "Door"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:38
+#@ bnmextends
+msgid "Adv+Prev"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:42
+#@ bnmextends
+msgid "Bambino"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:46
+#: Classes/BNMExtendsSummaryOrder.php:58
+#@ bnmextends
+msgid "Scuola di Musica"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:50
+#@ bnmextends
+msgid "CRAL"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:54
+#@ bnmextends
+msgid "Carte"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:62
+#@ bnmextends
+msgid "Platinum"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:66
+#@ bnmextends
+msgid "Club"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:70
+#: Classes/BNMExtendsUser.php:92
+#: Classes/BNMExtendsUser.php:646
+#@ bnmextends
+msgid "Over 65"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:74
+#: Classes/BNMExtendsUser.php:78
+#: Classes/BNMExtendsUser.php:634
+#@ bnmextends
+msgid "Under 26"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:78
+#@ bnmextends
+msgid "Groups"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:82
+#@ bnmextends
+msgid "Rateo Coupon Members"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:86
+#@ bnmextends
+msgid "Rateo Abb. Satchmo"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:90
+#@ bnmextends
+msgid "Rateo Abb. Rosa"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:94
+#@ bnmextends
+msgid "Rateo Abb. Verde"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:98
+#@ bnmextends
+msgid "Rateo Abb. U26"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:102
+#@ bnmextends
+msgid "Show Voucher"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:106
+#@ bnmextends
+msgid "Dinner Voucher"
+msgstr "Dinner Voucher"
+
+#: Classes/BNMExtendsSummaryOrder.php:359
+#@ bnmextends
+msgid "Select a table for dinner"
+msgstr "Seleziona un tavolo per la cena"
+
+#: Classes/BNMExtendsSummaryOrder.php:388
+#@ bnmextends
+msgid "Discount"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:411
+#@ bnmextends
+msgid "Apply a discount"
+msgstr "Applica uno sconto"
+
+#: Classes/BNMExtendsSummaryOrder.php:518
+#@ bnmextends
+msgid "Billing information"
+msgstr "Informazioni di pagamento"
+
+#: Classes/BNMExtendsSummaryOrder.php:519
+#@ bnmextends
+msgid "Please fill in or update all fields."
+msgstr "Si prega di compilare o aggiornare tutti i campi."
+
+#: Classes/BNMExtendsSummaryOrder.php:553
+#: Classes/BNMExtendsSummaryOrder.php:706
+#: Classes/BNMExtendsUser.php:495
+#: Classes/BNMExtendsUser.php:584
+#@ bnmextends
+msgid "Address"
+msgstr "Indirizzo"
+
+#: Classes/BNMExtendsSummaryOrder.php:560
+#: Classes/BNMExtendsSummaryOrder.php:713
+#: Classes/BNMExtendsUser.php:504
+#: Classes/BNMExtendsUser.php:593
+#@ bnmextends
+msgid "ZIP code"
+msgstr "CAP"
+
+#: Classes/BNMExtendsSummaryOrder.php:567
+#: Classes/BNMExtendsSummaryOrder.php:720
+#: Classes/BNMExtendsUser.php:600
+#@ bnmextends
+msgid "Town"
+msgstr "Città"
+
+#: Classes/BNMExtendsSummaryOrder.php:577
+#: Classes/BNMExtendsSummaryOrder.php:730
+#: Classes/BNMExtendsUser.php:521
+#: Classes/BNMExtendsUser.php:611
+#@ bnmextends
+msgid "Country"
+msgstr "Nazione"
+
+#: Classes/BNMExtendsSummaryOrder.php:590
+#: Classes/BNMExtendsSummaryOrder.php:744
+#: Classes/BNMExtendsUser.php:536
+#: Classes/BNMExtendsUser.php:626
+#@ bnmextends
+msgid "Mobile"
+msgstr "Cellulare"
+
+#: Classes/BNMExtendsSummaryOrder.php:600
+#@ bnmextends
+msgid "Note"
+msgstr "Note"
+
+#: Classes/BNMExtendsSummaryOrder.php:608
+#@ bnmextends
+msgid "Are you buying for a company and you need invoice?"
+msgstr "Stai acquistando per un'azienda? Richiedi la fattura"
+
+#: Classes/BNMExtendsSummaryOrder.php:617
+#: Classes/BNMExtendsSummaryOrder.php:755
+#@ bnmextends
+msgid "Update this information on your profile"
+msgstr "Aggiorna il tuo profilo"
+
+#: Classes/BNMExtendsSummaryOrder.php:625
+#@ bnmextends
+msgid "Different shipping address"
+msgstr "Differente indirizzo di spedizione (spedizione non prevista per i biglietti dei concerti)"
+
+#: Classes/BNMExtendsInvoices.php:39
+#: Classes/BNMExtendsSummaryOrder.php:629
+#: Classes/BNMExtendsUser.php:420
+#@ bnmextends
+msgid "Invoice information"
+msgstr "Informazioni fattura"
+
+#: Classes/BNMExtendsInvoices.php:62
+#: Classes/BNMExtendsSummaryOrder.php:634
+#: Classes/BNMExtendsUser.php:426
+#@ bnmextends
+msgid "Company Name"
+msgstr "Ragione Sociale"
+
+#: Classes/BNMExtendsSummaryOrder.php:650
+#: Classes/BNMExtendsUser.php:443
+#@ bnmextends
+msgid "Full Company Address: please insert Street, City, Zip, Country"
+msgstr "Sede Legale: inserire Indirizzo, Cap, Città e Nazione"
+
+#: Classes/BNMExtendsSummaryOrder.php:677
+#: Classes/BNMExtendsUser.php:553
+#@ bnmextends
+msgid "Shipping information"
+msgstr "Indirizzo per le spedizioni"
+
+#: Classes/BNMExtendsSummaryOrder.php:765
+#@ bnmextends
+msgid "<p style=\"text-align:right;font-weight: bold\">Proceed to Purchase even if the amount of your purchase is zero</p>"
+msgstr "<p style=\"text-align:right;font-weight: bold\">Procedi su Acquista anche se il tuo acquisto è a zero euro</p>"
+
+#: Classes/BNMExtendsSummaryOrder.php:813
+#@ bnmextends
+msgid "Cassa"
+msgstr "Cassa"
+
+#: Classes/BNMExtendsSummaryOrder.php:913
+#@ bnmextends
+msgid "Thanks for your shopping at Blue Note Milano"
+msgstr "Grazie per i tuoi acquisti su Blue Note Milano"
+
+#: Classes/BNMExtendsSummaryOrder.php:918
+#@ bnm
+msgid "Coupon Admin"
+msgstr ""
+
+#: Classes/BNMExtendsSystemPagePostType.php:46
+#@ bnmextends
+msgid "message"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:66
+#@ bnmextends
+msgid "Registered User"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:106
+#@ bnmextends
+msgid "Club Member"
+msgstr "Membro Club"
+
+#: Classes/BNMExtendsUser.php:124
+#@ bnmextends
+msgid "Club Platinum"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:141
+#@ bnmextends
+msgid "Intermediaries"
+msgstr "Intermediari"
+
+#: Classes/BNMExtendsUser.php:156
+#: Classes/BNMExtendsWidgetBoxoffice.php:18
+#@ bnmextends
+msgid "Box Office"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:184
+#@ bnmextends
+msgid "Affiliated A - CRAL"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:194
+#@ bnmextends
+msgid "Affiliated B - CARTE"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:204
+#@ bnmextends
+msgid "Affiliated C - Music School"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:238
+#@ bnmextends
+msgid "Member of Association or CRAL"
+msgstr "Membro di Associazione o CRAL Aziendale"
+
+#: Classes/BNMExtendsUser.php:239
+#@ bnmextends
+msgid "Loyalty Card Holder"
+msgstr "Possessore di Tessera Fedeltà"
+
+#: Classes/BNMExtendsUser.php:240
+#@ bnmextends
+msgid "Music School Student"
+msgstr "Studente di Scuola di Musica"
+
+#: Classes/BNMExtendsUser.php:288
+#@ bnmextends
+msgid "User role"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:309
+#@ bnmextends
+msgid "Leave blank if you do not want to change password. Min 6 chars, Max 12 chars."
+msgstr "Lasciare in bianco se non si vuole modificare la password. Min 6 caratteri, Max 12 caratteri."
+
+#: Classes/BNMExtendsUser.php:345
+#@ bnmextends
+msgid "Edit"
+msgstr "Modifica"
+
+#: Classes/BNMExtendsUser.php:372
+#@ bnmextends
+msgid "Login information"
+msgstr "Dati di accesso"
+
+#: Classes/BNMExtendsUser.php:404
+#@ bnmextends
+msgid "This email address will be your username"
+msgstr "Questo indirizzo sarà il tuo username"
+
+#: Classes/BNMExtendsUser.php:412
+#@ bnmextends
+msgid "Repeat email"
+msgstr "Ripeti email "
+
+#: Classes/BNMExtendsUser.php:421
+#@ bnmextends
+msgid "Fill out these fields if you order for a company and you need invoce."
+msgstr "Compila questi campi se acquisti per un'azienda e hai bisogno della fattura."
+
+#: Classes/BNMExtendsUser.php:450
+#@ bnmextends
+msgid "Personal information"
+msgstr "Informazioni personali"
+
+#: Classes/BNMExtendsUser.php:451
+#@ bnmextends
+msgid "Fill in these fields for shipments and to take advantage of discounts and concessions"
+msgstr "Compila questi campi per le spedizioni e per usufruire di sconti ed agevolazioni"
+
+#: Classes/BNMExtendsUser.php:455
+#@ bnmextends
+msgid "Birth date"
+msgstr "Data di nascita"
+
+#: Classes/BNMExtendsUser.php:463
+#@ bnmextends
+msgid "Sex"
+msgstr "Sesso"
+
+#: Classes/BNMExtendsUser.php:466
+#: Classes/BNMExtendsUser.php:480
+#@ bnmextends
+msgid "Please Select"
+msgstr "Seleziona"
+
+#: Classes/BNMExtendsUser.php:467
+#@ bnmextends
+msgid "Male"
+msgstr "Maschio"
+
+#: Classes/BNMExtendsUser.php:468
+#@ bnmextends
+msgid "Female"
+msgstr "Femmina"
+
+#: Classes/BNMExtendsUser.php:477
+#@ bnmextends
+msgid "Job position"
+msgstr "Professione"
+
+#: Classes/BNMExtendsUser.php:481
+#@ bnmextends
+msgid "Employee"
+msgstr "Lavoratore dipendente"
+
+#: Classes/BNMExtendsUser.php:482
+#@ bnmextends
+msgid "Self-employed"
+msgstr "Lavoratore autonomo"
+
+#: Classes/BNMExtendsUser.php:483
+#@ bnmextends
+msgid "Professional"
+msgstr "Professionista"
+
+#: Classes/BNMExtendsUser.php:484
+#@ bnmextends
+msgid "Entrepreneur"
+msgstr "Imprenditore"
+
+#: Classes/BNMExtendsUser.php:485
+#@ bnmextends
+msgid "Student"
+msgstr "Studente"
+
+#: Classes/BNMExtendsUser.php:486
+#@ bnmextends
+msgid "Retired"
+msgstr "Pensionato"
+
+#: Classes/BNMExtendsUser.php:511
+#@ bnmextends
+msgid "City"
+msgstr "Città"
+
+#: Classes/BNMExtendsUser.php:546
+#@ bnmextends
+msgid "Shipping to different address?"
+msgstr "L'indirizzo di consegna è diverso? "
+
+#: Classes/BNMExtendsUser.php:635
+#@ bnmextends
+msgid "Your age is up to 26 years old? Upload a PDF of your ID card to get discount upon tickets"
+msgstr "Hai fino a 26 anni compiuti? Carica qui un PDF della tua carta di identità e potrai usufruire degli sconti a te riservati anche dal sito"
+
+#: Classes/BNMExtendsUser.php:640
+#: Classes/BNMExtendsUser.php:652
+#: Classes/BNMExtendsUser.php:673
+#@ bnmextends
+msgid "Upload PDF"
+msgstr "Invia PDF"
+
+#: Classes/BNMExtendsUser.php:641
+#@ bnmextends
+msgid "Read the terms for under 26 users"
+msgstr "Leggi le condizioni riservate agli under 26"
+
+#: Classes/BNMExtendsUser.php:647
+#@ bnmextends
+msgid "Your age is 65 or more? Upload a PDF of your ID card to get discount upon tickets"
+msgstr "Hai più di 65 anni? Carica qui un PDF della tua carta di identità e potrai usufruire degli sconti a te riservati anche dal sito"
+
+#: Classes/BNMExtendsUser.php:653
+#@ bnmextends
+msgid "Read the terms for over 65 users"
+msgstr "Leggi le condizioni riservate agli over 65"
+
+#: Classes/BNMExtendsUser.php:658
+#@ bnmextends
+msgid "Discount and extra privileges"
+msgstr "Sconti ed agevolazioni"
+
+#: Classes/BNMExtendsUser.php:659
+#@ bnmextends
+msgid "<strong>Are you a member of an entitled association or CRAL?</strong><br/><strong>Are you a loyalty card holder?</strong><br/><strong>Are you a music school student?</strong><br/>Upload a PDF of your membership card or school badge to get discount upon tickets"
+msgstr "<strong>Sei membro di un'associazione o di un CRAL aziendale convenzionato con Blue Note?</strong><br/><strong>Hai una tessera fedeltà convenzionata con Blue Note?</strong> <br/><strong>Sei studente di una scuola di musica convenzionata con Blue Note?</strong><br/>Carica qui un PDF del tuo tesserino e potrai usufruire degli sconti a te riservati anche dal sito "
+
+#: Classes/BNMExtendsUser.php:664
+#@ bnmextends
+msgid "Select"
+msgstr "Seleziona"
+
+#: Classes/BNMExtendsUser.php:674
+#@ bnmextends
+msgid "Read the terms and the list of entitled organizations"
+msgstr "Leggi l'elenco dei convenzionati e le condizioni riservate"
+
+#: Classes/BNMExtendsUser.php:679
+#@ bnmextends
+msgid "Newsletter"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:680
+#@ bnmextends
+msgid "Our weekly newsletter contains the event calendar and other news and special offers"
+msgstr "La newsletter settimanale contiene notizie ed offerte sulla programmazione e sulle principali iniziative di Blue Note Milano"
+
+#: Classes/BNMExtendsUser.php:684
+#@ bnmextends
+msgid "Newsletter Sign Up? Yes"
+msgstr "Iscrizione alla Newsletter Si "
+
+#: Classes/BNMExtendsUser.php:692
+#@ bnmextends
+msgid "No"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:703
+#@ bnmextends
+msgid "Privacy & Conditions Of Use"
+msgstr "Privacy e Condizioni Generali"
+
+#: Classes/BNMExtendsUser.php:704
+#, php-format
+#@ bnmextends
+msgid "In proceeding, I confirm that I have read and agreed to the <a href=\"%s\" target=\"_blank\">Terms and Conditions</a> and the <a href=\"%s\" target=\"_blank\">Privacy Policy</a>"
+msgstr "Nel procedere, confermo, a tutti gli effetti di legge, di aver letto attentamente le <a href=\"%s\" target=\"_blank\">Condizioni Generali</a> di averle accettate, nonché di aver attentamente preso visione della informativa ai sensi del D.Lgs. n.196/2003 (Codice in materia di protezione dei dati personali),  <a href=\"%s\" target=\"_blank\">Privacy</a>"
+
+#: Classes/BNMExtendsUser.php:758
+#@ bnmextends
+msgid "<strong>You are an administrator</strong>: select an user to edit"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:760
+#@ bnmextends
+msgid "<strong>You are an administrator</strong>: below you can edit roles & permissions"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetBoxoffice.php:33
+#@ bnmextends
+msgid "Purchase Online"
+msgstr "Acquista Online"
+
+#: Classes/BNMExtendsWidgetBoxoffice.php:34
+#@ bnmextends
+msgid "Purchase by Phone"
+msgstr "Acquista Al Telefono"
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:19
+#@ bnmextends
+msgid "Children Pages"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:87
+#@ bnmextends
+msgid "Title"
+msgstr "Titolo"
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:96
+#@ bnmextends
+msgid "Parent Slug"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:106
+#@ bnmextends
+msgid "Mode"
+msgstr "Visualizza come"
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:110
+#@ bnmextends
+msgid "List"
+msgstr "Lista"
+
+#: Classes/BNMExtendsWidgetChildrenPages.php:111
+#@ bnmextends
+msgid "Menu"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetComments.php:19
+#@ bnmextends
+msgid "Ultimi commenti"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetComments.php:32
+#@ bnmextends
+msgid "Latest comments"
+msgstr "Ultimi commenti"
+
+#: Classes/BNMExtendsWidgetComments.php:62
+#@ bnmextends
+msgid "said"
+msgstr "ha detto"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:27
+#@ bnmextends
+msgid "Mail Chimp Newsletter"
+msgstr ""
+
+#: Classes/BNMExtendsWidgetNewsletter.php:41
+#@ bnmextends
+msgid "Join our Mailing List"
+msgstr "Iscriviti alla Newsletter"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:58
+#@ bnmextends
+msgid "Adding email address..."
+msgstr "Aggiungo indirizzo email"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:100
+#@ bnmextends
+msgid "No email address provided"
+msgstr "Non hai inserito nessun indirizzo email"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:104
+#@ bnmextends
+msgid "Email address is invalid"
+msgstr "Indirizzo email non valido!"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:116
+#@ bnmextends
+msgid "Success! Check your email to confirm sign up"
+msgstr "Congratulazioni! Controlla la tua posta per confermare l'iscrizione"
+
+#: Classes/BNMExtendsWidgetNewsletter.php:119
+#@ bnmextends
+msgid "Error"
+msgstr "Errore"
+
+#: Classes/bnmextends-mail.php:608
+#: Classes/bnmextends-mail.php:757
+#: Classes/bnmextends-mail.php:812
+#@ bnmextends
+msgid "Show"
+msgstr ""
+
+#: Classes/BNMExtendsUser.php:307
+#@ bnmextends
+msgid "Insert New Password"
+msgstr "Inserisci Nuova Password"
+
+#: Classes/BNMExtendsUser.php:321
+#@ bnmextends
+msgid "Repeat New Password"
+msgstr "Ripeti Nuova Password"
+
+#: Classes/BNMExtendsPlaceHolder.php:32
+#@ bnm
+msgid "Seleziona uno spettacolo"
+msgstr ""
+
+#: Classes/BNMExtendsPlaceHolder.php:41
+#@ bnm
+msgid "Spettacolo"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:126
+#@ bnmextends
+msgid "Cambio Spettacolo"
+msgstr ""
+
+#: Classes/BNMExtendsInvoices.php:69
+#: Classes/BNMExtendsSummaryOrder.php:640
+#: Classes/BNMExtendsUser.php:434
+#@ bnmextends
+msgid "Vat or Fiscal Number"
+msgstr "Partita IVA e Codice Fiscale"
+
+#: Classes/BNMExtendsInvoices.php:78
+#@ bnmextends
+msgid "Notes"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:110
+#@ bnmextends
+msgid "sconto 20% su ticket 10€"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:114
+#@ bnmextends
+msgid "sconto 40% su ticket 10€"
+msgstr ""
+
+#: main.php:535
+#@ bnmextends
+msgid "Wrong username or password. Please try again. WARNING! In August 2012, Blue Note has updated its website, and previous username and password are no longer valid. If by then you have not made a new registration, click ok, then click on Register and follow the procedures."
+msgstr "Username o password errati; si prega di riprovare. ATTENZIONE! Ad agosto 2012 Blue Note ha rinnovato il proprio sito, e i precedenti Username e Password non sono più validi. Se da allora non hai ancora effettuato una nuova registrazione, clicca su ok, poi sul pulsante Registrati e segui le procedure."
+
+#: Classes/BNMExtendsSummaryOrder.php:118
+#@ bnmextends
+msgid "sconto 20% su cenone capodanno"
+msgstr ""
+
+#: Classes/BNMExtendsSummaryOrder.php:122
+#@ bnmextends
+msgid "sconto 40% su brindisi capodanno"
+msgstr ""
+
+#: Classes/bnmextends-mail.php:607
+#@ bnmextends
+msgid "Posti"
+msgstr ""
+

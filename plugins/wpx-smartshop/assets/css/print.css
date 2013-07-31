@@ -1,0 +1,203 @@
+/**
+ * @description Used for print assets
+ *
+ * @package			print
+ * @subpackage		assets
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c) 2012 wpXtreme, Inc.
+ * @link            http://wpxtre.me
+ * @created			29/05/12
+ * @version			1.0.0
+ *
+ */
+
+@media print {
+    body.wpxss-print-invoice,
+    body.wpxss-print-orders {
+        background : none !important;
+    }
+
+    div.wpss-invoice {
+        border             : none !important;
+        -moz-box-shadow    : none !important;
+        -webkit-box-shadow : none !important;
+        box-shadow         : none !important;
+    }
+}
+
+@media all {
+
+    body.wpxss-print-invoice {
+        background  : rgb(238, 238, 238);
+        background  : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjY2NjY2NjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background  : -moz-radial-gradient(center, ellipse cover, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        background  : -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(238, 238, 238, 1)), color-stop(100%, rgba(204, 204, 204, 1)));
+        background  : -webkit-radial-gradient(center, ellipse cover, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        background  : -o-radial-gradient(center, ellipse cover, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        background  : -ms-radial-gradient(center, ellipse cover, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        background  : radial-gradient(center, ellipse cover, rgba(238, 238, 238, 1) 0%, rgba(204, 204, 204, 1) 100%);
+        filter      : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#eeeeee', endColorstr = '#cccccc', GradientType = 1);
+        font-family : Arial, Helvetica, sans-serif;
+    }
+
+    div.wpss-invoice {
+        background-color   : #fff;
+        width              : 800px;
+        padding            : 32px;
+        margin             : 8px auto;
+        border             : 1px solid #eee;
+        -moz-box-shadow    : 0 4px 4px #aaa;
+        -webkit-box-shadow : 0 4px 4px #aaa;
+        box-shadow         : 0 4px 4px #aaa;
+    }
+
+    /* Merchand table */
+    div.wpss-invoice-merchant table { }
+
+    div.wpss-invoice-merchant table thead { }
+
+    div.wpss-invoice-merchant table tbody { }
+
+    /* Account table */
+    div.wpss-invoice-account {
+        margin-bottom : 16px;
+    }
+
+    div.wpss-invoice-account table {
+        border-collapse : separate ! important;
+        border-spacing  : 12px;
+    }
+
+    div.wpss-invoice-account table thead { }
+
+    div.wpss-invoice-account table thead th {
+        font-weight : bold;
+    }
+
+    div.wpss-invoice-account table tbody { }
+
+    div.wpss-invoice-account table tbody td {
+        background            : #eee;
+        padding               : 0 16px;
+        -moz-border-radius    : 8px;
+        -webkit-border-radius : 8px;
+        border-radius         : 8px;
+        width                 : 50%;
+    }
+
+    /* Products table */
+    div.wpss-invoice-products {
+        border : 1px solid #aaa;
+    }
+
+    div.wpss-invoice-products table { }
+
+    div.wpss-invoice-products table thead th {
+        border-right  : 1px solid #aaa;
+        border-bottom : 1px solid #aaa;
+        padding       : 8px 0;
+    }
+
+    div.wpss-invoice-products table thead th:last-child {
+        border-right : none;
+    }
+
+    div.wpss-invoice-products table tbody { }
+
+    div.wpss-invoice-products table tbody td {
+        padding       : 8px 4px;
+        border-bottom : 1px solid #aaa;
+        border-right  : 1px solid #aaa;
+    }
+
+    div.wpss-invoice-products table tbody td:last-child {
+        border-right : none;
+    }
+
+    div.wpss-invoice-products table td.qty,
+    div.wpss-invoice-products table td.price,
+    div.wpss-invoice-products table td.vat,
+    div.wpss-invoice-products table td.amount {
+        text-align : right;
+    }
+
+    div.wpss-invoice-products table tbody tr:nth-child(2n) td {
+        background : #f1f1f1;
+    }
+
+    div.wpss-invoice-products table tfoot td {
+        padding       : 4px;
+        border-bottom : 1px dotted #aaa;
+        font-weight   : bold;
+    }
+
+    div.wpss-invoice-products table tfoot td {
+        background : #f1f1f1;
+    }
+
+    div.wpss-invoice-products table tfoot td:last-child {
+        text-align : right;
+    }
+
+    /* Order ID */
+    div.wpss-invoice-order-information {
+        margin : 16px 0;
+    }
+
+    div.wpss-invoice-order-information td {
+        font-weight : bolder;
+    }
+
+    /* Disclaim table */
+    div.wpss-invoice-disclaim table { }
+
+    div.wpss-invoice-disclaim table thead { }
+
+    div.wpss-invoice-disclaim table tbody { }
+
+    /**
+     ** ORDERS
+     */
+
+    body.wpxss-print-orders {
+        background-color : #eee;
+        font-family      : Arial, Helvetica, sans-serif;
+    }
+
+    body.wpxss-print-orders table.wp-list-table {
+        width            : 90%;
+        background-color : #fff;
+        border           : 1px solid #aaa;
+        font-size        : 12px;
+        margin           : 0 auto;
+    }
+
+    body.wpxss-print-orders table.wp-list-table thead th {
+        padding          : 8px;
+        background-color : #888;
+        color            : #fff;
+    }
+
+    body.wpxss-print-orders table.wp-list-table thead th a {
+        color : #fff;
+    }
+
+    body.wpxss-print-orders table.wp-list-table tfoot {
+        display : none;
+    }
+
+    body.wpxss-print-orders table.wp-list-table tbody td {
+        padding       : 4px;
+        border-bottom : 1px solid #aaa;
+    }
+
+    body.wpxss-print-orders table.wp-list-table tbody tr:nth-child(2n) td {
+        background-color : #fafafa;
+    }
+
+    body.wpxss-print-orders table.wp-list-table tbody td.column-total,
+    body.wpxss-print-orders table.wp-list-table tbody td.column-status {
+        text-align : right;
+    }
+
+}

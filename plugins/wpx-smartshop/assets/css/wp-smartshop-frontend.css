@@ -1,0 +1,236 @@
+/**
+ * Regole CSS per la parte frontnend
+ *
+ * @package			WP SmartShop
+ * @subpackage		wp-smartshop-frontend
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c)2012 wpXtreme, Inc.
+ * @created			30/12/11
+ * @version			1.0
+ *
+ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product
+   ------------------------------------------------------------------------------------------------------------------ */
+input.wpss-cart-add {}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Orders
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.wpss_frontend_orders {
+    width : 100%;
+}
+
+table.wpss_frontend_orders .wpss_frontend_orders-pending td {
+    color : #f90;
+}
+
+table.wpss_frontend_orders .wpss_frontend_orders-confirmed td {
+    color : #0a0;
+}
+
+table.wpss_frontend_orders .wpss_frontend_orders-cancelled td {
+    color           : #aa565d;
+    text-decoration : line-through;
+}
+
+table.wpss_frontend_orders th.wpss_frontend_orders-order_datetime,
+table.wpss_frontend_orders th.wpss_frontend_orders-track_id {
+    text-align : left;
+}
+
+table.wpss_frontend_orders .wpss_frontend_orders-total,
+table.wpss_frontend_orders .wpss_frontend_orders-status {
+    text-align : right;
+}
+
+table.wpss_frontend_orders thead th {
+    background    : #eee;
+    border-bottom : 1px solid #aaa;
+    border-top    : 1px solid #aaa;
+    color         : #666;
+    padding       : 12px 4px;
+    text-shadow   : 1px 1px 0 #fff;
+}
+
+table.wpss_frontend_orders tbody td {
+    border-bottom  : 1px solid #aaa;
+    vertical-align : middle;
+    padding        : 4px 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Coupons
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.wpss_frontend_coupons {
+    width : 100%;
+}
+
+table.wpss_frontend_coupons .wpss_frontend_coupons-pending td {
+    color : #f90;
+}
+
+table.wpss_frontend_coupons .wpss_frontend_coupons-available td {
+    color : #0a0;
+}
+
+table.wpss_frontend_coupons .wpss_frontend_coupons-confirmed td {
+    color           : #aa565d;
+    text-decoration : line-through;
+}
+
+table.wpss_frontend_coupons .wpss_frontend_coupons-cancelled td {
+    color           : #aa565d;
+    text-decoration : line-through;
+}
+
+table.wpss_frontend_coupons th.wpss_frontend_coupons-uniqcode,
+table.wpss_frontend_coupons th.wpss_frontend_coupons-product_name,
+table.wpss_frontend_coupons th.wpss_frontend_coupons-product_type_name {
+    text-align : left;
+}
+
+table.wpss_frontend_coupons thead th {
+    background    : #eee;
+    border-bottom : 1px solid #aaa;
+    border-top    : 1px solid #aaa;
+    color         : #666;
+    padding       : 12px 4px;
+    text-shadow   : 1px 1px 0 #fff;
+}
+
+table.wpss_frontend_coupons tbody td {
+    border-bottom  : 1px solid #aaa;
+    vertical-align : middle;
+    padding        : 8px 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Invoice
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpss-invoice {
+    background         : none repeat scroll 0 0 #FFFFFF;
+    border             : 1px solid #AAAAAA;
+    margin             : 8px;
+    padding            : 32px;
+    -moz-box-shadow    : 0 11px 16px #888888;
+    -webkit-box-shadow : 0 11px 16px #888888;
+    box-shadow         : 0 11px 16px #888888;
+}
+
+/* Merchand table */
+div.wpss-invoice-merchant h1 {
+font-size: 28px;
+}
+
+div.wpss-invoice-merchant table thead { }
+
+div.wpss-invoice-merchant table tbody { }
+
+/* Account table */
+div.wpss-invoice-account  {
+    margin-bottom: 16px;
+}
+div.wpss-invoice-account table {
+    border-collapse : separate ! important;
+    border-spacing  : 12px;
+}
+
+div.wpss-invoice-account table thead { }
+
+div.wpss-invoice-account table thead th {
+    font-weight : bold;
+}
+
+div.wpss-invoice-account table tbody { }
+
+div.wpss-invoice-account table tbody td {
+    background            : #eee;
+    padding               : 0 16px;
+    -moz-border-radius    : 8px;
+    -webkit-border-radius : 8px;
+    border-radius         : 8px;
+    width: 50%;
+}
+
+/* Products table */
+div.wpss-invoice-products {
+    border : 1px solid #aaa;
+}
+
+div.wpss-invoice-products table { }
+
+div.wpss-invoice-products table thead th {
+    border-right  : 1px solid #aaa;
+    border-bottom : 1px solid #aaa;
+    padding       : 8px 0;
+}
+
+div.wpss-invoice-products table thead th:last-child {
+    border-right: none;
+}
+
+div.wpss-invoice-products table tbody { }
+
+div.wpss-invoice-products table tbody td {
+    padding       : 8px 4px;
+    border-bottom : 1px solid #aaa;
+    border-right  : 1px solid #aaa;
+}
+div.wpss-invoice-products table tbody td:last-child {
+    border-right: none;
+}
+
+div.wpss-invoice-products table td.qty,
+div.wpss-invoice-products table td.price,
+div.wpss-invoice-products table td.vat,
+div.wpss-invoice-products table td.amount {
+    text-align : right;
+}
+
+div.wpss-invoice-products table tbody tr:nth-child(2n) td {
+    background : #f1f1f1;
+}
+
+div.wpss-invoice-products table tfoot td {
+    padding: 4px;
+    border-bottom: 1px dotted #aaa;
+    font-weight: bold;
+}
+div.wpss-invoice-products table tfoot td {
+    background: #f1f1f1;
+}
+div.wpss-invoice-products table tfoot td:last-child {
+    text-align: right;
+}
+
+/* Order ID */
+div.wpss-invoice-order-information {
+    margin: 16px 0;
+}
+
+div.wpss-invoice-order-information td {
+    font-weight: bolder;
+}
+
+/* Disclaim table */
+div.wpss-invoice-disclaim table { }
+
+div.wpss-invoice-disclaim table thead { }
+
+div.wpss-invoice-disclaim table tbody { }
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Filter form
+   ------------------------------------------------------------------------------------------------------------------ */
+
+form.wpss_frontend_filters-form {
+    margin: 4px 0;
+    padding: 0;
+}

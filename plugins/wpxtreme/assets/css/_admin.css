@@ -1,0 +1,543 @@
+/**
+ * Contiene gli stile per la parte di amministrazione. Questi si preoccupano di definire o aggiustare gli elementi
+ * del backend come lo store o altre caratteristiche.
+ * wpXtreme utilizza il frameword WPDk quindi nel backend saranno caricari gli stili WPDK relativi.
+ *
+ * Tutte le classi e gli id in questo file avranno il prefisso wpxm-
+ *
+ * @package			wpXtreme
+ * @subpackage		admin
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c) 2012 wpXtreme, Inc.
+ * @link            http://wpxtre.me
+ * @created			13/04/12
+ * @version			1.0.0
+ *
+ * @todo Questi per adesso li metto qui ma domani potrebbere arrivare dal server
+ *
+ */
+
+/* Ajax preloader. */
+div.wpxm-loader {
+    display               : none;
+    background-image      : url(../../wpdk/assets/css/images/ajax-loader-32x32.gif);
+    background-repeat     : no-repeat;
+    background-position   : center center;
+    background-color      : #000;
+    position              : absolute;
+    top                   : 50%;
+    left                  : 50%;
+    margin                : -25px 0 0 -25px;
+    width                 : 50px;
+    height                : 50px;
+    -moz-border-radius    : 8px;
+    -webkit-border-radius : 8px;
+    border-radius         : 8px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  Plugin table list
+------------------------------------------------------------------------------------------------------------------ */
+span.wpxm-row-meta {
+    color       : #f60;
+    font-weight : bold;
+}
+
+span.wpxm-row-meta a {
+    background            : #111;
+    color                 : #eee;
+    padding               : 4px 12px;
+    -moz-border-radius    : 24px;
+    -webkit-border-radius : 24px;
+    border-radius         : 24px;
+    -moz-box-shadow       : 0 0 2px #09f;
+    -webkit-box-shadow    : 0 0 2px #09f;
+    box-shadow            : 0 0 2px #09f;
+}
+
+div.wpxm-server-login-registration {
+    width  : 900px;
+    margin : 0 auto;
+}
+
+div.wpxm-server-login,
+div.wpxm-server-registration {
+    width  : 400px;
+    float  : left;
+    margin : 0 24px;
+}
+
+div.wpxm-server-login-registration fieldset {
+    background : #faf8f8;
+    height     : 220px;
+}
+
+div.wpxm-server-registration fieldset {
+    background : #f8fff8;
+    height     : 220px;
+}
+
+div.wpxm-server-login-registration fieldset input#submit-login,
+div.wpxm-server-login-registration fieldset input#submit-register {
+    margin  : 0 auto;
+    display : block;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Plugin store - xStore
+   ------------------------------------------------------------------------------------------------------------------ */
+ul.wpxm-store-bar {
+    float:none;
+}
+
+ul.wpxm-store-bar li {
+    float : left;
+}
+
+ul.wpxm-store-bar li.wpxm-search {
+    float : right;
+}
+
+
+div.wpxs-showcase-featured {
+    width  : 100%;
+    margin-right: -230px;
+    float : left;
+}
+
+div.wpxs-showcase > p {
+    margin-top: 0;
+}
+
+div.wpxs-showcase > p > img {
+    margin: 0 auto;
+    display: block;
+}
+
+div.wpxs-showcase {
+    margin-right: 230px;
+}
+
+div.wpss-showcase {
+    text-align: center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  Plugin Store - sidebar
+   ------------------------------------------------------------------------------------------------------------------ */
+div.wpxs-showcase-sidebar {
+    background: #fff;
+    border  : 1px solid #aaa;
+    width   : 208px;
+    float   : right;
+
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+
+    -moz-box-shadow:0 2px 2px #888;
+    -webkit-box-shadow:0 2px 2px #888;
+    box-shadow:0 2px 2px #888;
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    div.wpxs-showcase > p > img {
+        width  : 100%;
+        width  : auto\9;  /*ie8*/
+        height : auto;
+    }
+}
+
+div.wpxs-showcase-sidebar h3 {
+    background: rgb(254,254,254);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ5JSIgc3RvcC1jb2xvcj0iI2QxZDFkMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2RiZGJkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMmUyZTIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(209,209,209,1) 49%, rgba(219,219,219,1) 50%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(49%,rgba(209,209,209,1)), color-stop(50%,rgba(219,219,219,1)), color-stop(100%,rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 50%,rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 50%,rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 50%,rgba(226,226,226,1) 100%);
+    background: linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(209,209,209,1) 49%,rgba(219,219,219,1) 50%,rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=0 );
+
+    font-size: 14px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+    padding: 6px 0 6px 16px;
+    color: #666;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+div.wpxs-showcase-sidebar h3:first-child,
+div.wpxs-showcase-sidebar + h3 {
+    border-top: none;
+    -moz-border-radius:3px 3px 0 0;
+    -webkit-border-radius:3px 3px 0 0;
+    border-radius:3px 3px 0 0;
+}
+
+div.wpxs-showcase-sidebar ul {
+    margin:8px;
+}
+div.wpxs-showcase-sidebar ul li {
+    margin: 0;
+}
+
+div.wpxs-showcase-sidebar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+    color: #0af !important;
+    text-shadow: 1px 1px 0 #fff;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -webkit-transition : background-color linear 0.2s;
+    -moz-transition    : background-color linear 0.2s;
+    -ms-transition     : background-color linear 0.2s;
+    -o-transition      : background-color linear 0.2s;
+    transition         : background-color linear 0.2s;
+}
+
+div.wpxs-showcase-sidebar ul li a:hover {
+    background-color: #eee;
+
+}
+
+div.wpxs-showcase-sidebar p {
+
+}
+div.wpxs-showcase-sidebar form {
+    margin : 8px;
+}
+
+div.wpxs-showcase-sidebar form.wpxs-store-login input[type="password"],
+div.wpxs-showcase-sidebar form.wpxs-store-login input[type="text"] {
+    width: 178px;
+}
+div.wpxs-showcase-sidebar form.wpxs-store-logout p:last-child,
+div.wpxs-showcase-sidebar form.wpxs-store-login p:last-child {
+    text-align: right;
+}
+
+div.wpxs-showcase-sidebar form.wpxs-store-logout {}
+
+div.wpxs-showcase-sidebar form.wpxs-store-search input[type="text"] {
+    width:103px;
+}
+
+div#wpxs-plugin-store div.wpss-product-card h4 {
+    color       : #333333;
+    font-size   : 16px;
+    margin      : 4px 0 0;
+    text-shadow : 1px 1px 0 #FFFFFF;
+    text-align: left;
+}
+
+div.wpxs-showcase div.wpss-product-card {
+    display               : inline-block;
+    *display              : inline;
+    zoom                  : 1;
+    width                 : 346px;
+    margin                : 16px;
+    padding               : 8px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : 0 2px 2px #666;
+    -webkit-box-shadow    : 0 2px 2px #666;
+    box-shadow            : 0 2px 2px #666;
+    background            : rgb(229, 229, 229);
+    background            : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOWY5ZjkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background            : -moz-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(249, 249, 249, 1) 100%);
+    background            : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(229, 229, 229, 1)), color-stop(100%, rgba(249, 249, 249, 1)));
+    background            : -webkit-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(249, 249, 249, 1) 100%);
+    background            : -o-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(249, 249, 249, 1) 100%);
+    background            : -ms-linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(249, 249, 249, 1) 100%);
+    background            : linear-gradient(top, rgba(229, 229, 229, 1) 0%, rgba(249, 249, 249, 1) 100%);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#e5e5e5', endColorstr = '#f9f9f9', GradientType = 0);
+}
+
+div.wpxs-showcase div.wpss-product-card-thumbnail {
+    float  : left;
+    margin : 0 16px 0 0;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-terms {
+    margin : 8px 0;
+    float: left;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-terms a {
+    text-decoration : none;
+    font-weight     : bold;
+    color           : #888;
+}
+
+div#wpxs-plugin-store div.wpxm_showcase_plugstore_date {
+    color       : #555;
+    font-size   : 12px;
+    font-weight : bold;
+    margin      : 8px 0 0 0;
+    float: left;
+    width: 250px;
+    text-align: left;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-product-card-label-price {
+
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-price-currency-symbol {
+    margin-left: 4px;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-product-card-label-price,
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-price-html {
+    text-shadow    : -1px -1px 0 #333;
+    display        : block;
+    margin-top     : 4px;
+    text-transform : uppercase;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-product-card-label-price {
+    display:none;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price span.wpss-price-html sup {
+    vertical-align: top;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price {
+    cursor: pointer;
+    display               : block;
+    float: right;
+    margin: 6px 0 0 0;
+    height                : 24px;
+    padding               : 0;
+    text-align            : center;
+    width                 : 90px;
+    color                 : #fff;
+    font-weight           : bold;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    -moz-box-shadow       : inset 0 1px 1px #333, 0 1px 0 #fff;
+    -webkit-box-shadow    : inset 0 1px 1px #333, 0 1px 0 #fff;
+    box-shadow            : inset 0 1px 1px #333, 0 1px 0 #fff;
+    background            : rgb(255, 165, 0);
+    background            : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmYTUwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjc0MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background            : -moz-linear-gradient(top, rgba(255, 165, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+    background            : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 165, 0, 1)), color-stop(100%, rgba(255, 116, 0, 1)));
+    background            : -webkit-linear-gradient(top, rgba(255, 165, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+    background            : -o-linear-gradient(top, rgba(255, 165, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+    background            : -ms-linear-gradient(top, rgba(255, 165, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+    background            : linear-gradient(top, rgba(255, 165, 0, 1) 0%, rgba(255, 116, 0, 1) 100%);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffa500', endColorstr = '#ff7400', GradientType = 0);
+
+    -webkit-transition : width linear 0.2s;
+    -moz-transition    : width linear 0.2s;
+    -ms-transition     : width linear 0.2s;
+    -o-transition      : width linear 0.2s;
+    transition         : width linear 0.2s;
+
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price.free {
+    background: rgb(143,196,0);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhmYzQwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4ZmM0MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(143,196,0,1) 0%, rgba(143,196,0,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(143,196,0,1)), color-stop(100%,rgba(143,196,0,1)));
+    background: -webkit-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%);
+    background: -o-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%);
+    background: linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc400', endColorstr='#8fc400',GradientType=0 );
+}
+
+div#wpxs-plugin-store div.wpss-product-card-price.install {
+    width: 120px;
+    background: rgb(94,166,237);
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVlYTZlZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDk2ZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(94,166,237,1) 0%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(94,166,237,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(94,166,237,1) 0%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(94,166,237,1) 0%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(94,166,237,1) 0%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(top,  rgba(94,166,237,1) 0%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ea6ed', endColorstr='#4096ee',GradientType=0 );
+
+}
+div#wpxs-plugin-store div.wpss-product-card-price.install span.wpss-product-card-label-price {
+    display: block;
+}
+div#wpxs-plugin-store div.wpss-product-card-price.install span.wpss-price-html {
+    display:none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  Plugin Store - product Card
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div#wpxs-plugin-store div.wpxm-product-card {
+    width  : 760px;
+    margin : 0 auto;
+}
+
+div.wpxs-product-card-header {
+    background            : rgb(249, 249, 249);
+    background            : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkZGRkZGQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background            : -moz-linear-gradient(top, rgba(249, 249, 249, 1) 0%, rgba(221, 221, 221, 1) 100%);
+    background            : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(249, 249, 249, 1)), color-stop(100%, rgba(221, 221, 221, 1)));
+    background            : -webkit-linear-gradient(top, rgba(249, 249, 249, 1) 0%, rgba(221, 221, 221, 1) 100%);
+    background            : -o-linear-gradient(top, rgba(249, 249, 249, 1) 0%, rgba(221, 221, 221, 1) 100%);
+    background            : -ms-linear-gradient(top, rgba(249, 249, 249, 1) 0%, rgba(221, 221, 221, 1) 100%);
+    background            : linear-gradient(top, rgba(249, 249, 249, 1) 0%, rgba(221, 221, 221, 1) 100%);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f9f9f9', endColorstr = '#dddddd', GradientType = 0);
+    margin                : 0 0 16px;
+    padding               : 8px 8px;
+    border-bottom         : 1px solid #aaa;
+    -moz-box-shadow       : 0 1px 0 #fff;
+    -webkit-box-shadow    : 0 1px 0 #fff;
+    box-shadow            : 0 1px 0 #fff;
+    -moz-border-radius    : 4px 4px 0 0;
+    -webkit-border-radius : 4px 4px 0 0;
+    border-radius         : 4px 4px 0 0;
+}
+
+div#wpxs-plugin-store a.wpxs-product-card-back {
+    background            : rgb(181, 189, 200);
+    background            : url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I1YmRjOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM2JSIgc3RvcC1jb2xvcj0iIzgyOGM5NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyODM0M2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background            : -moz-linear-gradient(top, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+    background            : -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(181, 189, 200, 1)), color-stop(36%, rgba(130, 140, 149, 1)), color-stop(100%, rgba(40, 52, 59, 1)));
+    background            : -webkit-linear-gradient(top, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+    background            : -o-linear-gradient(top, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+    background            : -ms-linear-gradient(top, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+    background            : linear-gradient(top, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+    filter                : progid:DXImageTransform.Microsoft.gradient(startColorstr = '#b5bdc8', endColorstr = '#28343b', GradientType = 0);
+    display               : block;
+    position              : absolute;
+    margin                : 44px 0 0 20px;
+    color                 : #fff !important;
+    text-shadow           : -1px -1px 0 #000;
+    text-decoration       : none;
+    text-align            : center;
+    padding               : 8px;
+    width                 : 100px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : inset 0 1px 1px rgba(0, 0, 0, 0.8), inset 0 -1px 1px #fff;
+    -webkit-box-shadow    : inset 0 1px 1px rgba(0, 0, 0, 0.8), inset 0 -1px 1px #fff;
+    box-shadow            : inset 0 1px 1px rgba(0, 0, 0, 0.8), inset 0 -1px 1px #fff;
+}
+
+div.wpxs-product-card-left-sidebar {
+    width: 160px;
+    height: 500px;
+    float: left;
+    margin: 120px 32px 0 16px;
+}
+div.wpxs-product-card-left-sidebar img.attachment-wpss-thumbnail-large {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 0 auto;
+}
+
+div.wpxs-product-card-left-sidebar ul {
+    font-weight: bold;
+    color: #666;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+div.wpxs-product-card-content p {
+    margin-right: 32px;
+}
+
+div.wpxs-product-card-left-sidebar div.wpss-product-card-price {
+    display : block !important;
+    float   : none !important;
+    margin  : 4px auto !important;
+    padding : 1px 0 0 !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  Plugin Store gallery
+   ------------------------------------------------------------------------------------------------------------------ */
+
+div.wpxss-showcase-gallery {
+    max-width: 1557px;
+    height: 294px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+
+    -moz-box-shadow:0 1px 1px #aaa;
+    -webkit-box-shadow:0 1px 1px #aaa;
+    box-shadow:0 1px 1px #aaa;
+}
+div.wpxss-showcase-gallery-item {
+    position: absolute;
+    width : 100%;
+    height: 294px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  WordPress menu item hack
+   ------------------------------------------------------------------------------------------------------------------ */
+
+
+div#icon-wpxm_menu_store {
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  WordPress menu item hack
+   ------------------------------------------------------------------------------------------------------------------ */
+i.wpxm-menu-item-icon,
+tr#wpxtreme td.plugin-title strong,
+tr#wpxtreme-server td.plugin-title strong {
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Qzk1OTIzRkQ5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Qzk1OTIzRkU5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpDOTU5MjNGQjk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpDOTU5MjNGQzk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PvYQgo8AAAJqSURBVHjajJNtSJNRFMf/j3v2vgrCJM0MoywSiYgiLMyWWZmYjBA1cWkhBEFQNiIK+xBSFPSpD30q+hRmFASVEVEqYWVvWjltGm2wUelyr7XteZ7bvXdrtrakA8/rPed3zv3fc8TC8mYIgrDrZyTaGYnGigGoMLvJWo3artNqThJCbos0eCcN7ioqzDeUrS+BQadlQMiyDELSo6MxSdU3+K7YPu68TiF1WLSx0b65sZ1MTQcIs5gkk0mvj8xmvkCIVDQfJ3mlDR9Fmn3F1tI1mD/PhHtPBjEy4YTJoIc/EEJ9dTnyF2anVTHXZEDlprV4/cGxTGQ/WNnur144nG4cabFwJ5dnEle6H8BqqUBBXk4aRBSz+JPfRZUKEy4P1pUUJR0W52bj4N5qdN/vx5ep6TTAb304QKKCFeTmYHj0U4qT0aCDyajHodOXQDXKeCQcEIlJtMwF0NOt3Ozp5wssa01bB05dvIrHz95in+0CvL5gZgAS5TTtNsMXCKOn7yVu3O3F86FRGPU6LtrAmxFYj51PVkISe4gDhBli655KCgnh2q2H/DTYInNmkKev3uNo5+V4YNYfIv5tdVVlaKuvgkIUyIqchMyhkN4Xw/juD0ItqmYAmSgH6nbgbHsrolGJiizx7pQkGTqqk06jSdVAkpWMClst23DOtp8Hs6yKouCwtZaKrQFtwLgTbccxc5ONt+e/zOX5Ru48GiCOz27+HQz/INtbTrBWHheWbrHWsGFatXyJ1rxhNeikpQwRTc7/qUWR94s/GKbHOsR6RqLD1CAkxrmWQs7QcV75H+OsUOAYvTroe9cvAQYA+Kw+CYXO8pwAAAAASUVORK5CYII=);
+    display             : block;
+    float               : left;
+    height              : 16px;
+    margin              : 0 4px 0 0;
+    width               : 16px;
+}
+
+/* Plugins list. */
+tr#wpxtreme td.plugin-title strong,
+tr#wpxtreme-server td.plugin-title strong {
+    background-position : left center;
+    float               : none;
+    padding-left        : 20px;
+    width               : auto;
+    margin              : 0;
+}
+
+div.wpxm-icon-xtreme,
+div#icon-wpxm_menu_store {
+    background-position : center center;
+    background-repeat   : no-repeat;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkEyNjAyNjQ5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkEyNjAyNjU5NDM3MTFFMTk0RTA4M0IwMUQwOUJDNkMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGQTI2MDI2Mjk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGQTI2MDI2Mzk0MzcxMUUxOTRFMDgzQjAxRDA5QkM2QyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w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); display : block;
+    float               : left;
+    height              : 64px;
+    margin              : 10px 8px 0 18px;
+    width               : 64px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+  Maintenance
+   ------------------------------------------------------------------------------------------------------------------ */

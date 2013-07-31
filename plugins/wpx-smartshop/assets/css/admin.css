@@ -1,0 +1,1409 @@
+/**
+ * @description     CSS Style Sheet for Backend
+ *
+ * @package			wpx SmartShop
+ * @subpackage		css
+ * @author 			=undo= <g.fazioli@undolog.com>, <g.fazioli@wpxtre.me>
+ * @copyright 		Copyright (c)2012 wpXtreme, Inc.
+ * @created			30/12/11
+ * @version			1.0
+ *
+ * @filename        admin
+ *
+ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   General
+   ------------------------------------------------------------------------------------------------------------------ */
+tr#wpx-smartshop td.plugin-title strong {
+    background-position : left center;
+    background-repeat   : no-repeat;
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUFBQUQ5RDU5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUFBQUQ5RDY5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MTk5OUU4QTk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1QUFBRDlENDk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoCZ+AMAAALeSURBVHjadJNJTxNxGMZ/s1DKIhUUrSRoiEExBEEPGhWiiUaMES8mejDRi9/Cg0YTvRi/gBeMMTEqEY3G5eIWCGpEypqmEqWFilCWMtDSzuY7ZVEO/tun0/kvv3neZRTXdRkcHDwZiURuGoZROzIyoqVSGWxTAfl6Iy9PJxb9xd17d+TOsuVnSHRZ9EwJhUIn0ul0W319faHf76ez8xPPX7ZSXevHtlcA+YQGXxOO9ODIXE8njMdYlKWzent7++3KysrCsrIyOjo6OHigCT1PZdf+CXSfWHA1THuO4pp+GlXQdZgYgyuX8Md/ckt1HGdXNBolkUjQ1dVFKpWialsNY+MjTKfjTGXijE11M2dYGHMwMw2lQWg4lDO3Q9N1/Wr5xiCTE9PU1dXz5PErCjb3UVIVRhvyofY5TBYNYGvgOCJXUiNO+j9DJATql8/fePOhldlMHxOzYSa5T8H2F5iZgMRejaMqFOlHSZuQtZeUsZdTKUOfMwzKq5KUN7WSSEJjg8w6FSjubvo3PGWxLElQO0KRepipxfdyYsmF7SwDwGRBaAWTcOIGzAbWU7L/CL63TwmaSRRFEdg7iuqaGdX2Euzu5vcxhYzPXQEI0YL5EjAyCiUdJtbHh+RjiaQI8vHaId37mnX5AXyWwswFFyfBWoAhgN5ml+Nhk8DF89jpNKo0GaqKKy68q9IXZmChm+/7BPzpH4AXT1baQluHPNVhc8tprIX5VYAXrlpYSDb5gOzoV7LWmhyQ22Bm5RpgyfrwDxRNkXkJQDKmuR68GDUWZ36TVGG5nKsAS0pke3kohZ8VCr4b11kQ21lXwRb3moB8XgipeWKHBWy7WNZfQDjay85pac9iobddc8mfSebeA9fxkiiN40GkkVy/ON0iCY3Jg3py54e9BJ8SPQoE8W/dI5t9Yk9dfRFXRw7k/clATA7PxqX+cG5lvUXU66Viea/zH3lrnvkB0Rnv4B8BBgARn0wdIjkkkgAAAABJRU5ErkJggg==);
+    display             : block;
+    width               : auto;
+    height              : 16px;
+    float               : none;
+    margin              : 0 0 6px;
+    padding-left        : 20px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Overwrite WordPress rules
+   ------------------------------------------------------------------------------------------------------------------ */
+.icon32-posts-wpss-cpt-product,
+.icon32-posts-wpss-showcase-page,
+.icon32-posts-wpss-store-page {
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDE5OTlFODA5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDE5OTlFODE5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyRTZGQzRGRjk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyRTZGQzUwMDk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w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) !important;
+    background-position : 0 0 !important;
+    width               : 64px;
+    height              : 64px;
+    margin              : 10px 8px 0 18px !important;
+}
+
+/* @todo Metere davanti il body. */
+table.wp-list-table {
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* @todo Metere davanti il body. */
+table.wp-list-table th {
+    white-space : nowrap;
+    font-family : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+jQuery UI - fix
+------------------------------------------------------------------------------------------------------------------ */
+
+#wpss-cpt-product-div.postbox {
+    background: #fbfbfb;
+    background-image: none;
+}
+
+.ui-slider-horizontal {
+    margin : 4px 8px;
+}
+
+.ui-tabs-panel p {
+    font-size   : 14px;
+    line-height : 150%;
+}
+
+.ui-datepicker {
+    -moz-box-shadow    : 0 8px 16px #333;
+    -webkit-box-shadow : 0 8px 16px #333;
+    box-shadow         : 0 8px 16px #333;
+}
+
+.ui-dialog {
+    -moz-box-shadow    : 0 10px 16px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow : 0 10px 16px rgba(0, 0, 0, 0.6);
+    box-shadow         : 0 10px 16px rgba(0, 0, 0, 0.6);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   WPML Integration
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/**
+ * WPML Integration - gli ordini vengono visti da WPML come Post di tipo custom, con la conseguenze che appare il menu
+ * di WPML per la traduzione. Ovviamente gli ordine non hanno bisogno di traduzione quindi per adesso è stata messe
+ * questa patch che rende invisibile il menu WPML. In teroria andrebbe capito se c'è modo di dire a WPML di non
+ * visualizzare il menu in questa circostanza.
+ */
+.wpss-orders #icl_subsubsub,
+.wpss-coupon #icl_subsubsub,
+.wpss-memberships #icl_subsubsub,
+.wpss-shipping-countries #icl_subsubsub,
+.wpss-shipments #icl_subsubsub,
+.wpss-carriers #icl_subsubsub
+{
+	display : none !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Icon
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpss-icon-confirmed,
+.wpss-icon-current {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAATCAYAAACKsM07AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAM1JREFUeNpiZqAS8PX1N1BX17gOxC9v3bp5ASbOTC3DgdR+IBYA4gCgJQ9hljBT2XAYgFvCSAPDkUEiIw0NB4EPTLQ0HIgdGdE0JgCpfJDE5s0bP1BqONAMRBxADZ8P5V7AZgmphoM4jFgMZ8BmCTmGgy3AYTiKJUCsQI7hIMACxP14NMFcrUCO4SDABHXhBwKWkGU4chwQE74kGw63gExLCBqOYgGJlhBlOIYFRFpCtOFYLSBgCUmG47QAhyUkG47XAjRLGMgxHAQAAgwAVHZ8omVcqPEAAAAASUVORK5CYII=);
+    background-repeat : no-repeat;
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+
+
+.wpss-icon-cancelled {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUhJREFUeNq8losRgjAMQKETMAJuwAg6gCduIBvgBOoEsoFuID0GgBHYQEZgBFMv7dUYflLJXa8ebV/SfBp9r0e2210M0w7GGkZIlhsYFQxZFDLvYvgdYAW8MdAuUcoSUFTRBcHArzCVE+Ae7i3xbPcNYIOy+sBYp1wgyXflupgx5A43Sb4UoPbU2tjCuMDmbCBOZ5hO5HMG545GAfq8JPANbKoH4AGei5hldb7SMbg5hhumj6n4sBaOI9zCwWuMk+2uvcBgmYDOgKtbnzEpTCIILCIt+Qx4yzDWgqSZnAmnjFCMqaIJcG+okluXcE5B4BKuFTSk/OfCP7JS4JOrJXZgeWz9flfyR9TxbfkJDmdTmpX6LXr2PM9j4REaFlhFu9JBThzDDfOtADsR90TIkW6h8Ex3t+UaTk/jmSKm0SzW9P1//215CTAAiiW/u8i/DV0AAAAASUVORK5CYII=);
+    background-repeat : no-repeat;
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+
+.wpss-icon-pending  {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYFJREFUeNq8VjtSw0AMXS8NpY8QqlC6pEwOkLFLSnKDcALwCXBLZY6QnRzALinTkgYfIS0VPDFaj7Ls+pOEaEb2zEp6by1ptY5UhywWaYZXCp1BJ465gdZQs9mYdQgjCgATYOkBDQmRLUFUuwbtAX/BqxoBrti34tjwF8CBdv3g2R2lwDjrlLrMs5E3fMnyDwGzr4TjHprDueipE8U8QWOxXCDusSXgnFcO+BxO2yH5QXzC8ZKE4mtbg7IPHCCU42/WZ2lj3znHKompuRVlHvOhO/eQ5LLwhK25WG1B+3LeQ1JwU7SNoPkQWVmr00VizLSTHnMGAokx0UeCpMhvPMRxDIEsfMInNz4nQX4MiXar3tEhe+51SbLldRXAaDSPXCtZTxtKkoOZE8D4PcnGORyrISQ+cI496Eo7iz6FYdQc6phHdGhvbJHlbmIuXnICeIt5RY/d7qOZTm/JeMfGa+g91r5gex8wrkvPuH697IXTcfGMkfaiudilH/33b8uPAAMA3TCx6C3XQeUAAAAASUVORK5CYII=);
+    background-repeat : no-repeat;
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+.wpss-icon-available {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWNJREFUeNq8ljFygzAQRYWcA3AEUjmly5TOATzkCKZLytwgOUFoU+EjhHHlCo7g1m7METhC/mdWHqwARsjJzuwwBvG+0Gq/HKiBWK3iZ1xi5BIZWY8rZInMt9v8u48R9IAJzDqgfUGxBEKl/UB3wD9xKRzgSsYW8u5FzCw4Z/2ipsfjfP4QHY+H/JeAqPvATSwgEkJkd66BrHmhbhtPrImpQeYBqpEfHfcbppatGHnAOdN37iK78GRr2ec+8L383su9dsRamsgLjpkupIahNW6pB5bnTWY1Fd4sk+6BsytTgiwRF3h3J7cDoLol4gwfEsgAWFsizvCm0TD4NFAHLtXGspPRcJqgFstV175kApxR3tHPkesrImafu8AZufGi04hurh3hFZb33hQ5GfFC6NiMydmuYa0VLZZ+fiMnTTH7r4vzgP7Nw4J+7gnfAP7aeaLxJPL8krQN/5dDP/jrvy0/AgwAnguan47U1JUAAAAASUVORK5CYII=);
+    background-repeat : no-repeat;
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+
+.wpss-icon-defunct,
+.wpss-icon-expired {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMNJREFUeNpiZMABfH39BYDUeiB2YMAPDgBx4ObNGz9gk2TCo5EYwxmgatbjkmQioJFYgFMtIzAo/jPQEDAx0BjQ3AJGtJQDDy5gqmAkxSBceod+ELEQ8HYAUhoHZaYN+MTJ8YEBiWySLbhAIpu0IIJ6nZFY8eGZ0UZT0SBORcBwViChoFMgJ4jqibEEqAYUB/XEBhHI6wFQdgIIAw0gNWVuwOeDQiD+QEGy/wA1A7sFwMh7AKQM0V1BgssNoWbAAUCAAQB6ekybJ+BrqAAAAABJRU5ErkJggg==);
+    background-repeat : no-repeat;
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+
+.wpss-icon-trash {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMNJREFUeNpiZMABfH39BYDUeiB2YMAPDgBx4ObNGz9gk2TCo5EYwxmgatbjkmQioJFYgFMtIzAo/jPQEDAx0BjQ3AJGtJQDDy5gqmAkxSBceod+ELEQ8HYAUhoHZaYN+MTJ8YEBiWySLbhAIpu0IIJ6nZFY8eGZ0UZT0SBORcBwViChoFMgJ4jqibEEqAYUB/XEBhHI6wFQdgIIAw0gNWVuwOeDQiD+QEGy/wA1A7sFwMh7AKQM0V1BgssNoWbAAUCAAQB6ekybJ+BrqAAAAABJRU5ErkJggg==);
+    width             : 24px;
+    height            : 24px;
+    display           : inline-block;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Common
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.wp-smartshop tbody td {
+	vertical-align : middle;
+	white-space    : nowrap;
+}
+
+table.wp-smartshop tbody td:last-child {
+	white-space : normal;
+}
+
+
+button.wp-smartshop-refresh span {
+	display : none;
+}
+
+button.wp-smartshop-refresh {
+	background : transparent url(images/refresh.png) center center no-repeat;
+	padding    : 12px;
+	border     : none;
+}
+
+div#ajax-wait {
+	background : url(images/wait.gif) no-repeat;
+	width      : 16px;
+	height     : 16px;
+}
+
+h4.wp-smartshop-title-dashboard {
+	display        : block;
+	border-bottom  : 1px solid #ddd;
+	padding-bottom : 4px !important;
+	color          : #666;
+}
+
+p.wp-smartshop-copy {
+	text-align : center;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   ??
+   ------------------------------------------------------------------------------------------------------------------ */
+
+span.wpssProductAvailable {
+	color                 : #fff;
+	padding               : 4px 16px;
+	font-weight           : bold;
+	font-size             : 11px;
+	-moz-border-radius    : 16px;
+	-webkit-border-radius : 16px;
+	border-radius         : 16px;
+}
+
+span.wpssProductAvailable.yes {
+	background         : #609D00;
+	-moz-box-shadow    : 0 0 2px #609D00;
+	-webkit-box-shadow : 0 0 2px #609D00;
+	box-shadow         : 0 0 2px #609D00;
+}
+
+span.wpssProductAvailable.no {
+	background         : #f60;
+	-moz-box-shadow    : 0 0 2px #f60;
+	-webkit-box-shadow : 0 0 2px #f60;
+	box-shadow         : 0 0 2px #f60;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Products
+   ------------------------------------------------------------------------------------------------------------------ */
+
+#wpss-appearance-metabox-div h3.hndle,
+#wpss-shipping-metabox-div h3.hndle,
+#wpss-warehouse-metabox-div h3.hndle,
+#wpss-membership-metabox-div h3.hndle,
+#wpss-coupon-metabox-div h3.hndle,
+#wpss-cpt-product-div h3.hndle,
+#wpss-ctx-product-typediv h3.hndle,
+#tagsdiv-wpss-ctx-product-tag h3.hndle,
+#wpss-showcase-metabox-product-types-div h3.hndle,
+#wpss-showcase-metabox-products-div h3.hndle,
+
+.wpss-carriers h3.hndle,
+.wpss-shipping-countries h3.hndle,
+.wpss-orders h3,
+.wpss-coupon h3.hndle,
+.wpss-memberships h3.hndle,
+.wpss-shipments h3.hndle,
+
+li#wp-admin-bar-new-wpss-cpt-product a,
+li#wp-admin-bar-new-wpss-cpt-product a:hover,
+
+#postimagediv h3.hndle {
+    font-family         : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-weight         : bold;
+    padding-left        : 32px;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NUFBQUQ5RDU5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NUFBQUQ5RDY5OUI2MTFFMUFBRkZDNzUxQ0FEQUMyRTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0MTk5OUU4QTk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo1QUFBRDlENDk5QjYxMUUxQUFGRkM3NTFDQURBQzJFNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PoCZ+AMAAALeSURBVHjadJNJTxNxGMZ/s1DKIhUUrSRoiEExBEEPGhWiiUaMES8mejDRi9/Cg0YTvRi/gBeMMTEqEY3G5eIWCGpEypqmEqWFilCWMtDSzuY7ZVEO/tun0/kvv3neZRTXdRkcHDwZiURuGoZROzIyoqVSGWxTAfl6Iy9PJxb9xd17d+TOsuVnSHRZ9EwJhUIn0ul0W319faHf76ez8xPPX7ZSXevHtlcA+YQGXxOO9ODIXE8njMdYlKWzent7++3KysrCsrIyOjo6OHigCT1PZdf+CXSfWHA1THuO4pp+GlXQdZgYgyuX8Md/ckt1HGdXNBolkUjQ1dVFKpWialsNY+MjTKfjTGXijE11M2dYGHMwMw2lQWg4lDO3Q9N1/Wr5xiCTE9PU1dXz5PErCjb3UVIVRhvyofY5TBYNYGvgOCJXUiNO+j9DJATql8/fePOhldlMHxOzYSa5T8H2F5iZgMRejaMqFOlHSZuQtZeUsZdTKUOfMwzKq5KUN7WSSEJjg8w6FSjubvo3PGWxLElQO0KRepipxfdyYsmF7SwDwGRBaAWTcOIGzAbWU7L/CL63TwmaSRRFEdg7iuqaGdX2Euzu5vcxhYzPXQEI0YL5EjAyCiUdJtbHh+RjiaQI8vHaId37mnX5AXyWwswFFyfBWoAhgN5ml+Nhk8DF89jpNKo0GaqKKy68q9IXZmChm+/7BPzpH4AXT1baQluHPNVhc8tprIX5VYAXrlpYSDb5gOzoV7LWmhyQ22Bm5RpgyfrwDxRNkXkJQDKmuR68GDUWZ36TVGG5nKsAS0pke3kohZ8VCr4b11kQ21lXwRb3moB8XgipeWKHBWy7WNZfQDjay85pac9iobddc8mfSebeA9fxkiiN40GkkVy/ON0iCY3Jg3py54e9BJ8SPQoE8W/dI5t9Yk9dfRFXRw7k/clATA7PxqX+cG5lvUXU66Viea/zH3lrnvkB0Rnv4B8BBgARn0wdIjkkkgAAAABJRU5ErkJggg==);
+    background-position : 8px center;
+    background-repeat   : no-repeat;
+}
+
+#postimagediv a#set-post-thumbnail img {
+    width: 236px;
+}
+
+li#wp-admin-bar-new-wpss-cpt-product a.ab-item {
+    padding-left: 28px !important;
+}
+
+#wpss-appearance-metabox-div .inside fieldset,
+#wpss-shipping-metabox-div .inside fieldset,
+#wpss-warehouse-metabox-div .inside fieldset,
+#wpss-membership-metabox-div .inside fieldset,
+#wpss-coupon-metabox-div .inside fieldset,
+#wpss-cpt-product-div .inside fieldset {
+    margin     : 0;
+    padding    : 0;
+    border     : none;
+    background : transparent;
+}
+
+#wpss-appearance-metabox-div .inside fieldset legend,
+#wpss-shipping-metabox-div .inside fieldset legend,
+#wpss-warehouse-metabox-div .inside fieldset legend,
+#wpss-membership-metabox-div .inside fieldset legend,
+#wpss-coupon-metabox-div .inside fieldset legend,
+#wpss-cpt-product-div .inside fieldset legend {
+    display : none;
+}
+
+thead th.column-price,
+thead th.column-qty,
+thead th.column-sold,
+thead th.column-available,
+thead th.column-enabled {
+    width : 100px;
+}
+
+th.column-price a span:first-child,
+th.column-sold a span:first-child,
+th.column-qty a span:first-child {
+    float: right;
+}
+
+tbody td.column-price,
+tbody td.column-qty,
+tbody td.column-sold,
+tbody td.column-enabled {
+    text-align : right;
+}
+
+tbody td.column-icon img {
+}
+
+th.column-price,
+td.column-price {
+    background: rgba(0,0,0,0.04) !important;
+}
+
+th.column-enabled,
+td.column-enabled {
+    background: rgba(255,0,0,0.04) !important;
+}
+
+th.column-available,
+th.column-enabled {
+    text-align: center;
+}
+
+
+tbody td.column-available,
+tbody td.column-enabled {
+    vertical-align : middle !important;
+    text-align     : center !important;
+}
+
+tbody td.column-enabled span {
+    text-align : center;
+}
+
+#wpss-cpt-product-div fieldset.wpdk-form-section1 > p:last-child {
+    display: none;
+}
+
+#wpss-cpt-product-div div.wpdk-form-group,
+#wpss-appearance-metabox-div div.wpdk-form-group {
+    margin: 2px 0 6px;
+}
+
+input.wpss-product-add-row,
+input.wpss-product-delete-row {
+    border: none !important;
+    text-indent           : -10000px;
+    padding               : 0;
+    margin                : 0;
+    background-image      : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAddJREFUeNqcU89LG1EQnrd5yUnNlkIwXhLDIoKLhYaqUBD0bwg5GaIn/wJBvEih+D8sQkKgvWjw0qOgl15aiEYTRYIIHiIkRs26ms2PzaYzq4Y1VUwc+HjzmPfNfO/NPBaPx4ExBnZzOp3AOZfQnUXsGIZx2mg0np1ptVpgmiYI8IJhUELSbDgcVmilPbxiLBaLBVDBJPr99kA0GlWoCqlLJBKLHTwNY38QZ7xer0+GQqEVURRl+4lms9n2I5GIYo+Vy+VsMplcQ/eM12q1frfbLaNU6NboPPHI59Vq1apmr9iNEc9KoOu69Zq9JKB3Id67FVCCtoJKpdKzAkEQgHg9X2Ep9w0OtCP4LI4j8UGBYFfwFtLXWfgyNQH7VxlLwd/BDPBCoaDl8/ms1+uVaXCeDNvU9ldOvsPh7THQwKtNFe7vNH3z6/Zy3WUEmSRJAZyB/yYxnU4rqqpSz+Hj+vD59NyMr/NKu1s7Keb3+6FUKj0LYHXrIxWLRcXj8SwaC67p1ohjlGJy+FMwu3GQemgHpJ6+ofCoQEQMIFyID4gAjSviBtGA1b6fQ/M++eLH+R44WRA4A0eHKmoFXf4ecYnIPa53FsZgVPt9hWNopkA3f8EAh38CDACLhgskZmFNZQAAAABJRU5ErkJggg==) !important;
+    background-repeat     : no-repeat !important;
+    background-position   : center center !important;
+    background-color      : transparent !important;
+    width                 : 16px;
+    height                : 16px;
+    position              : absolute;
+    right                 : 32px;
+    -moz-border-radius    : 0 !important;
+    -webkit-border-radius : 0 !important;
+    border-radius         : 0 !important;
+    -moz-box-shadow       : none !important;
+    -webkit-box-shadow    : none !important;
+    box-shadow            : none!important;
+}
+
+input.wpss-product-delete-row {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAYtJREFUeNqkU01LAlEUvW9mKDc1gcKApFCYhEFBq5ZR+/bmH2jRJlz4sZqVQb+gaJU/pHUbNxnSolIhhNlpJow+x+nc0mkcirIunLl35n6+M/eJfD5PQgjyi6qqjATMPeDacZwHYCrGdV0ajUak0NeSQMK+aZoXrPn9mzgSuVxuFRPswF7wO0ql0jl34emKxeJRIK8L3w3wRNlsNtNqte6Gw6Hrh5TSQ9DH8ZwHkIaAxUgksgEH/VY4nvPY1gaDgWAygiT9JJz3XqDf789cgHnhPG8CTp61wL8mUBTlc4K/FOBF8wrYtj1zAY7nvO16nbR2u91tNBr38Xh8nRdnIujg2Y+FAr1Wqx/n5z/Q69npZvMkJGVKxGKxJLrv4rvu71Kr1c46nQ7puk6X4fDzcSazHJzkqlyuiGg0SphiyoGlSkEdWJZ1ahhGIS3l1orrrgULaESVyTVUxndhCeANmwPTBvQmcIszW9ASeAG4W/eQyEmOjzQ52jwQGmv1C+6YZSbGZhqYSxOPNwEGAKntAJ5orlnVAAAAAElFTkSuQmCC) !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Membership
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpss-membership-capabilities-box {
+    border                : 1px solid #aaa;
+    display               : block;
+    height                : 200px;
+    overflow-x            : hidden;
+    overflow-y            : auto;
+    padding               : 8px !important;
+    margin                : 0 16px;
+    background            : #fff;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : inset 0px 2px 6px #888;
+    -webkit-box-shadow    : inset 0px 2px 6px #888;
+    box-shadow            : inset 0px 2px 6px #888;
+}
+
+.wpss-membership-capabilities-box label {
+	display    : inline-block;
+	text-align : left;
+	width      : 320px;
+	margin     : 2px 0;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Picker
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* Main content */
+div.wpss-product-picker {
+    border-left           : 1px solid #aaa;
+    border-right          : 1px solid #aaa;
+    border-bottom         : 1px solid #aaa;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+div.wpss-product-picker h3 {
+    font-family           : "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color      : #555;
+    background-image      : none !important;
+    font-size             : 16px !important;
+    padding               : 12px !important;
+    margin                : 0;
+    text-shadow           : 0 0 2px #fff;
+    color                 : #FFFFFF;
+    cursor                : auto;
+    border                : none;
+    -moz-box-shadow       : none;
+    -webkit-box-shadow    : none;
+    box-shadow            : none;
+    -moz-border-radius    : 4px 4px 0 0;
+    -webkit-border-radius : 4px 4px 0 0;
+    border-radius         : 4px 4px 0 0;
+}
+
+div.wpss-product-picker h3:hover {
+    color: #fff;
+}
+
+img.wpss-product-picker-in-waiting-16x16 {
+    width   : 16px;
+    height  : 16px;
+    display : block;
+    margin  : 20% auto 0;
+}
+img.wpss-product-picker-in-waiting-32x32 {
+    width   : 32px;
+    height  : 32px;
+    display : block;
+    margin  : 20% auto 0;
+}
+
+/* Product Types */
+div.wpss-product-picker-product-types {
+    width      : 35%;
+    float      : left;
+}
+
+.hide_product div.wpss-product-picker-product-types {
+    width      : auto;
+    float      : none;
+}
+
+/* Product Types internal content */
+div.wpss-product-picker-product-types-list {
+    background     : #f1f1f1;
+    height         : 300px;
+    overflow       : auto;
+    overflow-style : scrollbar;
+    border-right   : 1px solid #aaa;
+}
+
+/* Product Types Standard */
+
+div.wpss-product-picker-product-types-list > ul {
+    margin: 5px 8px 2px;
+}
+div.wpss-product-picker-product-types-list ul ul {
+    margin-left : 16px;
+}
+
+div.wpss-product-picker-product-types-list > ul > li {
+    margin : 0;
+}
+
+div.wpss-product-picker-product-types-list li a {
+    background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAALVWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNC4yLjItYzA2MyA1My4zNTI2MjQsIDIwMDgvMDcvMzAtMTg6MTI6MTggICAgICAgICI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iCiAgICB4bWxuczpJcHRjNHhtcENvcmU9Imh0dHA6Ly9pcHRjLm9yZy9zdGQvSXB0YzR4bXBDb3JlLzEuMC94bWxucy8iCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgIHhtbG5zOnN0RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICB4bWxuczp4bXBSaWdodHM9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9yaWdodHMvIgogICBwaG90b3Nob3A6QXV0aG9yc1Bvc2l0aW9uPSJBcnQgRGlyZWN0b3IiCiAgIHBob3Rvc2hvcDpDcmVkaXQ9Ind3dy5nZW50bGVmYWNlLmNvbSIKICAgcGhvdG9zaG9wOkRhdGVDcmVhdGVkPSIyMDEwLTAxLTAxIgogICBJcHRjNHhtcENvcmU6SW50ZWxsZWN0dWFsR2VucmU9InBpY3RvZ3JhbSIKICAgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxMC0wMS0wM1QyMTozMzoxMyswMTowMCIKICAgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjYyQTNDMjNDODFGN0RFMTE5RUFCOTBENzA3OEFGOTRBIgogICB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjYyQTNDMjNDODFGN0RFMTE5RUFCOTBENzA3OEFGOTRBIgogICB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjI5RjBGQjM2QTdGOERFMTE4MjFDRTRCMkM3RTM2RDcwIj4KICAgPElwdGM0eG1wQ29yZTpDcmVhdG9yQ29udGFjdEluZm8KICAgIElwdGM0eG1wQ29yZTpDaUFkckNpdHk9IlByYWd1ZSIKICAgIElwdGM0eG1wQ29yZTpDaUFkclBjb2RlPSIxNjAwMCIKICAgIElwdGM0eG1wQ29yZTpDaUFkckN0cnk9IkN6ZWNoIFJlcHVibGljIgogICAgSXB0YzR4bXBDb3JlOkNpRW1haWxXb3JrPSJrYUBnZW50bGVmYWNlLmNvbSIKICAgIElwdGM0eG1wQ29yZTpDaVVybFdvcms9Ind3dy5nZW50bGVmYWNlLmNvbSIvPgogICA8eG1wTU06SGlzdG9yeT4KICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGkKICAgICAgc3RFdnQ6YWN0aW9uPSJzYXZlZCIKICAgICAgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo2MkEzQzIzQzgxRjdERTExOUVBQjkwRDcwNzhBRjk0QSIKICAgICAgc3RFdnQ6d2hlbj0iMjAxMC0wMS0wMlQxMDoyODo1MSswMTowMCIKICAgICAgc3RFdnQ6Y2hhbmdlZD0iL21ldGFkYXRhIi8+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOjg3NkQ2NTAxREJGN0RFMTFBOTAwODNFMEExMjUzQkZEIgogICAgICBzdEV2dDp3aGVuPSIyMDEwLTAxLTAyVDIxOjExOjI2KzAxOjAwIgogICAgICBzdEV2dDpjaGFuZ2VkPSIvbWV0YWRhdGEiLz4KICAgICA8cmRmOmxpCiAgICAgIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiCiAgICAgIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6MjlGMEZCMzZBN0Y4REUxMTgyMUNFNEIyQzdFMzZENzAiCiAgICAgIHN0RXZ0OndoZW49IjIwMTAtMDEtMDNUMjE6MzM6MTMrMDE6MDAiCiAgICAgIHN0RXZ0OmNoYW5nZWQ9Ii9tZXRhZGF0YSIvPgogICAgPC9yZGY6U2VxPgogICA8L3htcE1NOkhpc3Rvcnk+CiAgIDxkYzp0aXRsZT4KICAgIDxyZGY6QWx0PgogICAgIDxyZGY6bGkgeG1sOmxhbmc9IngtZGVmYXVsdCI+Z2VudGxlZmFjZS5jb20gZnJlZSBpY29uIHNldDwvcmRmOmxpPgogICAgPC9yZGY6QWx0PgogICA8L2RjOnRpdGxlPgogICA8ZGM6c3ViamVjdD4KICAgIDxyZGY6QmFnPgogICAgIDxyZGY6bGk+aWNvbjwvcmRmOmxpPgogICAgIDxyZGY6bGk+cGljdG9ncmFtPC9yZGY6bGk+CiAgICA8L3JkZjpCYWc+CiAgIDwvZGM6c3ViamVjdD4KICAgPGRjOmRlc2NyaXB0aW9uPgogICAgPHJkZjpBbHQ+CiAgICAgPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5UaGlzIGlzIHRoZSBpY29uIGZyb20gR2VudGxlZmFjZS5jb20gZnJlZSBpY29ucyBzZXQuIDwvcmRmOmxpPgogICAgPC9yZGY6QWx0PgogICA8L2RjOmRlc2NyaXB0aW9uPgogICA8ZGM6Y3JlYXRvcj4KICAgIDxyZGY6U2VxPgogICAgIDxyZGY6bGk+QWxleGFuZGVyIEtpc2VsZXY8L3JkZjpsaT4KICAgIDwvcmRmOlNlcT4KICAgPC9kYzpjcmVhdG9yPgogICA8ZGM6cmlnaHRzPgogICAgPHJkZjpBbHQ+CiAgICAgPHJkZjpsaSB4bWw6bGFuZz0ieC1kZWZhdWx0Ij5DcmVhdGl2ZSBDb21tb25zIEF0dHJpYnV0aW9uIE5vbi1Db21tZXJjaWFsIE5vIERlcml2YXRpdmVzPC9yZGY6bGk+CiAgICA8L3JkZjpBbHQ+CiAgIDwvZGM6cmlnaHRzPgogICA8eG1wUmlnaHRzOlVzYWdlVGVybXM+CiAgICA8cmRmOkFsdD4KICAgICA8cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPkNyZWF0aXZlIENvbW1vbnMgQXR0cmlidXRpb24gTm9uLUNvbW1lcmNpYWwgTm8gRGVyaXZhdGl2ZXM8L3JkZjpsaT4KICAgIDwvcmRmOkFsdD4KICAgPC94bXBSaWdodHM6VXNhZ2VUZXJtcz4KICA8L3JkZjpEZXNjcmlwdGlvbj4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz4AdozAAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMpJREFUeNpiYBhowIzMMTQ0fC8pKakhISFx4cWLFx+JMYARmaOrq/sfxv7//38DEE+4evUqXoOYkDm/f/+G4z9//jT8/fv3gbq6ejzRLlBWVv6PQ90FoGsK7t27dxCvAXJycv8JePkA0KCEx48fP4QJsCDLAp1NKMwcgHgBEDtiNQDkd0IuYGJiSkAWINaAC4yMjAXv37/HCANCBnwA2ljw+fPnhUSlKnZ29v8wzMHBUc/JyclPUrIE2vaemZl5PgsLizzDyAEAAQYA9aNTRawbLGsAAAAASUVORK5CYII=);
+    background-position : left center;
+    background-repeat   : no-repeat;
+    text-indent         : 16px;
+    white-space: nowrap;
+    text-wrap: none;
+}
+
+/* Selected Product Type */
+div.wpss-product-picker-product-types-list li a.selected {
+    font-weight: bold;
+    background-color: #d0d0d0;
+    color: #000;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+div.wpss-product-picker-product-types-list > ul > li a {
+    text-decoration    : none;
+    display            : block;
+    padding            : 8px 4px;
+    -webkit-transition : color linear 0.2s, background-color linear 0.2s;
+    -moz-transition    : color linear 0.2s, background-color linear 0.2s;
+    -ms-transition     : color linear 0.2s, background-color linear 0.2s;
+    -o-transition      : color linear 0.2s, background-color linear 0.2s;
+    transition         : color linear 0.2s, background-color linear 0.2s;
+}
+
+div.wpss-product-picker-product-types-list > ul > li a:hover {
+    background-color      : #ddd;
+    color                 : #000;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+/* Product Types Sortable */
+div.wpss-product-picker-product-types-list > ul.wpdk-ul-sortable > li.wpdk-li-sortable-select {
+    background : #eee;
+}
+
+div.wpss-product-picker-product-types-list > ul.wpdk-ul-sortable > li {
+    border                : 1px solid #aaa;
+    padding               : 8px 4px;
+    background            : #fff;
+    cursor                : move;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+div.wpss-product-picker-product-types-list > ul.wpdk-ul-sortable > li:hover {
+    border : 1px solid #f90;
+}
+
+/* Product Content Box */
+div.wpss-product-picker-products {
+    float : left;
+    width : 65%;
+}
+
+div.wpss-product-picker-products h6 {
+    color      : #aaa;
+    text-align : center;
+    margin     : 130px 0 0;
+    font-size  : 16px;
+}
+
+.hide_product_type div.wpss-product-picker-products {
+    float : none;
+    width : 100%;
+}
+
+div.wpss-product-picker-products-list {
+    height             : 300px;
+    overflow-y         : auto;
+}
+
+div.wpss-product-picker-products-list ul {
+    margin : 8px;
+}
+div.wpss-product-picker-products-list ul li {
+    margin : 4px 0;
+}
+
+div.wpss-product-picker-products-list ul li a h4 {
+    font-size : 14px;
+    margin: 6px 0 0;
+}
+
+div.wpss-product-picker-products-list ul li a:hover {
+    background-color      : #F7F7F9;
+    color                 : #000;
+    border                : 1px solid #E1E1E8;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+/* Selected Product */
+div.wpss-product-picker-products-list li a.selected {
+    font-weight: bold;
+    background-color: #d0d0d0;
+    color: #000;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+div.wpss-product-picker-products-list ul li a {
+    text-decoration    : none;
+    display            : block;
+    border                : 1px solid transparent;
+    padding: 8px;
+    -webkit-transition : color linear 0.2s, background-color linear 0.2s;
+    -moz-transition    : color linear 0.2s, background-color linear 0.2s;
+    -ms-transition     : color linear 0.2s, background-color linear 0.2s;
+    -o-transition      : color linear 0.2s, background-color linear 0.2s;
+    transition         : color linear 0.2s, background-color linear 0.2s;
+}
+
+div.wpss-product-picker-products-list ul li a img {
+    float  : left;
+    border : 1px solid #aaa;
+    margin : 1px 4px 0 1px;
+}
+
+/* Product Picker Product Load Next */
+li.wpss-product-picker-load-next {
+    background            : #ddd;
+    padding               : 4px;
+    -moz-border-radius    : 32px;
+    -webkit-border-radius : 32px;
+    border-radius         : 32px;
+}
+
+li.wpss-product-picker-load-next img {
+    display        : inline !important;
+    margin         : 0 16px;
+    vertical-align : middle;
+}
+
+li.wpss-product-picker-load-next p {
+    text-align : center;
+}
+
+/* Product Picker Toolbar */
+div.wpss-product-picker-toolbar {
+    height     : 32px;
+    background : #aaa;
+}
+
+div.wpss-product-picker-toolbar h3 {
+    background  : none;
+    padding     : 8px 0 8px 12px !important;
+    font-size   : 15px !important;
+    text-shadow : -1px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+div.wpss-product-picker-toolbar div {
+    float : right;
+}
+
+div.wpss-product-picker-toolbar input[type=text] {
+    margin : 5px 4px 0 0;
+    height : 22px;
+}
+
+div.wpss-product-picker-toolbar input.wpdk-form-button {
+    background            : #fff;
+    color                 : #666;
+    font-size             : 11px;
+    height                : 22px;
+    margin                : 3px 4px 0;
+    padding               : 0 4px;
+    vertical-align        : middle;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+    -moz-box-shadow       : none;
+    -webkit-box-shadow    : none;
+    box-shadow            : none;
+}
+/* ---------------------------------------------------------------------------------------------------------------------
+   Sostituisce l'icona del meta box
+--------------------------------------------------------------------------------------------------------------------- */
+
+#wpssProductProductPickerKey h3 {
+	font-weight         : bold;
+	padding-left        : 32px;
+	background-image    : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5ZJREFUeNosk0lsG1UYx/+zeLyO7anrWGnt1K1CYzUoOAmqUKwogShtaQ+U5QA9IHqioJyQcooEl1RIQYILlXopRUJVFUCJRFgcsSTQVgkVarFzME7AsRsa7xMvM+Oxx2PzBnjSp6dP+n7/922PWltbQzQahcPhwOzsLEqlkjud3n1VEIQLAb+/v9VqYXc3narV69+GQqHb8XhcXF5ehsfjwdTUFCjDicVikGUZ4XD4RcHtfp+hMVA6qEOs1tHWdfA2M7yCEwxr2imVxTkCf5FIJBAMBsEaoMViMQTeLhXy1x48jOHrXxM45O/HkUAfjLO3t41iZgdnh4NPRE6PfO71et/J5XIfGSxrpLi+vj7+0sUXPo7+9Au+ewSce+UtHAschd7t/isQGKWQfpzDzaXbSD1awbmJ0od3NzbjZ8+c+ZGZnJxkMun0Z8VS8diXSRVPXbwC3n0I+boKUWpClJsoyxoYsw2Ok89gYzsLvpyAqiinent7P6V1XT/NUN3I3e0CXM+9ia7Qh3RZQV6zoGT1o2zrQxEuZMQG1HYXwthruJeRQXXaTxN2jKUoTORzWUrkR2DpG0JeOoB2IIGqNaETEVicMElt6BUC0U1Qh/tR54PYz/5sVDfBiqLoFytVtF0cNNIPrcOSzgOKIuHl1CcItmXcHLwEWaPAdBpgmw20aQ5ipY4DUTzKsgwrG43syBU0GhJgd0PtchjlC5BPPI97HSfGeBXfxBWAs4Jpqeg0qtC0Fhkro7Amjotpmga29je8G7dgsvAI+J0YqGax+nsSGmuB74gVl1ws7sT3YSZ55wpJtNttmExcnDWbzT/IarNol7Peq9EP0G/qQh0egWPzPi7jv2MMsxsawGVZQs/eY1zx9eJ+s1Uh7CpNlqjA0Mw1SaniunAYaksH/edfUL1eaD09aBEzbq1UhqtQxC2rHQ+pLniz+Tph99lKpYLp6emFeqMxFVtdHWfI8oTefQ86GQ9jvEz8Dlln2uVCa2EBfySTOD46vDkeDl8lAwD9/yo3Lpw//7pmte40CWQjkFkQwBCI5XlwxMxOJygSK/N8Zmhw8A2O4yRFUcCaTCYsLi7iq5WVJxVVTeWAE+yNG4xit6PZ6aBDBI2sLCROyueRIj3cWFoa1hQlOTMzA2pra8v4C5ibm7P5fL4hZ6Hw7Mlq9RRF04LFbrfpRIRk2SDlVGo8n054PN/XarXf5ufnpUgkgn8EGAC1lroACiQdwQAAAABJRU5ErkJggg==);
+	background-position : 8px center;
+	background-repeat   : no-repeat;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Picker Box
+--------------------------------------------------------------------------------------------------------------------- */
+div.wpss-productpicker {
+
+}
+
+div.wpss-productpicker-title {
+	background    : #aaa;
+	color         : #fff;
+	font-size     : 15px;
+	font-weight   : bold;
+	height        : 32px;
+	line-height   : 32px;
+	text-align    : center;
+	text-shadow   : 1px 1px 0 #000000;
+	border-bottom : 1px solid #888;
+}
+
+div.wpss-productpicker-title.filter {
+	background : #ddd;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Picker List
+--------------------------------------------------------------------------------------------------------------------- */
+
+ul.wpss-productpicker-list {
+	height                : 320px;
+	overflow-y            : scroll;
+	background            : #fff;
+	margin                : 0;
+	-moz-border-radius    : 8px;
+	-webkit-border-radius : 8px;
+	border-radius         : 8px;
+}
+
+ul.wpss-productpicker-list li {
+	margin      : 0;
+	line-height : 200%;
+}
+
+ul.wpss-productpicker-children li a {
+	text-indent : 16px;
+}
+
+ul.wpss-productpicker-list li a {
+	height          : 32px;
+	line-height     : 32px;
+	display         : block;
+	text-decoration : none;
+	padding         : 0 8px;
+	border-bottom   : 1px solid #ccc;
+}
+
+ul.wpss-productpicker-list li a:hover {
+	background : #eee;
+}
+
+ul.wpss-productpicker-list img {
+	width  : 24px;
+	height : 24px;
+	margin : 4px 6px 0;
+	float  : left;
+}
+
+ul.wpss-productpicker-list p {
+	color     : #FF6600;
+	font-size : 14px !important;
+	margin    : 0 !important;
+	padding   : 8px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Picker Button
+--------------------------------------------------------------------------------------------------------------------- */
+
+a.wpss-productpicker-backbutton {
+	font-size   : 12px;
+	left        : 16px;
+	line-height : 20px;
+	margin      : 0;
+	padding     : 0 8px;
+	position    : absolute;
+	text-align  : left;
+	top         : 40px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Picker Button Filter
+--------------------------------------------------------------------------------------------------------------------- */
+
+div.wpss-productpicker-filter {
+	border-top    : 1px solid #fff;
+	border-bottom : 1px solid #888;
+	background    : #ddd;
+	color         : #fff;
+	height        : 32px;
+	line-height   : 32px;
+	text-align    : right;
+	font-size     : 10px;
+}
+
+div.wpss-productpicker-filter input {
+	border                : none;
+	font-size             : 12px;
+	margin                : 5px 4px 0;
+	padding               : 4px 16px;
+	width                 : 180px;
+	outline               : none;
+	color                 : #666;
+	-moz-box-shadow       : inset 0 1px 2px #444;
+	-webkit-box-shadow    : inset 0 1px 2px #444;
+	box-shadow            : inset 0 1px 2px #444;
+	-moz-border-radius    : 32px;
+	-webkit-border-radius : 32px;
+	border-radius         : 32px;
+}
+
+li.wp-load-next a {
+	text-align  : left;
+	color       : #09f;
+	font-weight : bold
+}
+
+.wpss-slidedown {
+	display : none;
+}
+
+div.wpss-productpicker-segment {
+	text-align : center;
+	padding    : 4px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Shortcode Editor
+  ------------------------------------------------------------------------------------------------------------------- */
+
+.wpss-shortcode-editor {
+	margin : 8px 0 0;
+}
+
+.wpss-shortcode-editor textarea {
+	background  : #333;
+	color       : #f4c92e;
+	margin      : 0 0 8px;
+	padding     : 4px;
+	width       : 100%;
+	font-size   : 12px;
+	font-family : Monaco, "Courier New";
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Orders
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Orders - Products list table view
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.wpssOrderProductsList {
+	background            : none repeat scroll 0 0 #FFFFFF;
+	border                : 1px inset #FFFFFF;
+	display               : block;
+	margin                : 4px 16px;
+	padding               : 2px;
+	-moz-border-radius    : 4px;
+	-webkit-border-radius : 4px;
+	border-radius         : 4px;
+}
+
+table.wpssOrderProductsList thead th {
+	background  : none repeat scroll 0 0 #AAAABB;
+	color       : #555555;
+	font-weight : bold;
+	font-size   : 14px;
+	padding     : 6px;
+	text-shadow : 1px 1px 0 #CCCCCC;
+	text-align  : right;
+}
+
+table.wpssOrderProductsList thead th:nth-child(1) {
+	width      : 100%;
+	text-align : left;
+}
+
+table.wpssOrderProductsList tbody td {
+	padding       : 6px;
+	border-bottom : 1px solid #aaa;
+}
+
+table.wpssOrderProductsList tbody tr:nth-child(2n) {
+	background : #fafafa;
+}
+
+table.wpssOrderProductsList tbody td:nth-child(2) {
+	width : 100%
+}
+
+table.wpssOrderProductsList tbody td:nth-child(3) {
+	text-align  : right;
+	border-left : 1px solid #bbb;
+}
+
+table.wpssOrderProductsList tbody td:nth-child(4) {
+	text-align  : right;
+	border-left : 1px solid #bbb;
+}
+
+table.wpssOrderProductsList tbody td:nth-child(5) {
+	text-align  : right;
+	border-left : 1px solid #bbb;
+	background  : #eee;
+}
+
+table.wpssOrderProductsList tbody tr:hover {
+	cursor     : pointer;
+	background : #f0f0f0;
+}
+
+table.wpssOrderProductsList tfoot td {
+	padding     : 6px;
+	text-align  : right;
+	font-weight : bold;
+}
+
+table.wpssOrderProductsList tfoot td:nth-child(2) {
+	border-left : 1px solid #bbb;
+}
+
+table.wpssOrderProductsList input.delete {
+	display          : block;
+	width            : 16px;
+	height           : 16px;
+	border           : none;
+	background-color : transparent;
+	text-indent      : -100000px;
+	background-image : url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHMSURBVHjapFO/S0JRFP4UIUJIqMWgLQzalAyKIN4TxNXJoZaGIPwHXNMt/A+C1pZabKgQQd9kQ4pS0KBUi4MNNgT+ev54nXPeVTRoqQvfu+ee7zvnnnPvfQ7LsvCf4ZLvSZi/ScIpQScYv+g1QoGQEv15zk4wHo0k2BmJYJzNskB3XuTnkoyPQxKsNLwRnJTEycZwOJRgDAbgmdYF82hfmwSzzb4fGkni4DPoHu5K9sVw2I5wu9HNZKDagXDRKNBuy6Kbywm3ePlgSAUD0zQI+tftLdDrAa0WOIB8BYYEk4851rCWY1Qb1IJpYum6bNCsf97f0xZdoNHAUiwmYJt9zLFGaTFNMOj3ZbF882yQrX9ks0CnA9RqNshmH3OsmY1xqRampz21PR6g2bRtr3dOM6ubq+B9b1Uju7AWjwNvb3YVDLLZxxxrZmPkFurbK9NH4kskgHxeyHqpJLMvGLS3DYVQT6cnt2P4HluY3ILGpy3Bd3dy2i/F4uS0dbbldohjjbod+51wBU+bC5Z1dWZZBzsCXhM05hSviUbxrJU1cdJCZcMlTzng96NSrUqJZM89ZfJLizOaVKA2TEqC8rrjTz/T1quq4D/jW4ABAF7lQOO4C9PnAAAAAElFTkSuQmCC);
+	cursor           : pointer;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Extends WordPress
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* WPML integration */
+body.wpss-cpt-product div.wrap ul.subsubsub br {
+    display : none;
+}
+
+div.wpss-list-table-filter {
+    background-color      : #F4F4F4;
+    border                : 1px solid #CCCCCC;
+    clear                 : both;
+    margin                : 38px 6px 0;
+    padding               : 8px;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+    -moz-box-shadow       : 1px 1px 0 #fff inset;
+    -webkit-box-shadow    : 1px 1px 0 #fff inset;
+    box-shadow            : 1px 1px 0 #fff inset;
+}
+
+div.wpss-list-table-filter-row {
+    margin-bottom: 8px;
+}
+
+div.wpss-list-table-filter-row span { }
+
+div.wpss-list-table-filter-row input.wpdk-form-button {
+    background-color  : #5bb75b;
+    *background-color : #51a351;
+    background-image  : -ms-linear-gradient(top, #62c462, #51a351);
+    background-image  : -webkit-gradient(linear, 0 0, 0 100%, from(#62c462), to(#51a351));
+    background-image  : -webkit-linear-gradient(top, #62c462, #51a351);
+    background-image  : -o-linear-gradient(top, #62c462, #51a351);
+    background-image  : -moz-linear-gradient(top, #62c462, #51a351);
+    background-image  : linear-gradient(top, #62c462, #51a351);
+    background-repeat : repeat-x;
+    border-color      : #51a351 #51a351 #387038;
+    border-color      : rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter            : progid:dximagetransform.microsoft.gradient(startColorstr = '#62c462', endColorstr = '#51a351', GradientType = 0);
+    filter            : progid:dximagetransform.microsoft.gradient(enabled = false);
+    color             : #fff;
+    text-shadow       : 1px 1px 0 #000;
+    margin-top        : 10px;
+}
+
+div.wpss-list-table-filter-row select {
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Orders - List table view
+   ------------------------------------------------------------------------------------------------------------------ */
+table.orders th.column-order_datetime,
+table.orders th.column-status_datetime {
+}
+
+table.orders th.column-user,
+table.orders th.column-user_order {
+}
+
+table.orders td.column-user,
+table.orders td.column-user_order {
+    vertical-align : middle;
+}
+
+table.orders td.column-user img,
+table.orders td.column-user_order img {
+    border         : 1px solid #aaa;
+    vertical-align : middle;
+}
+
+table.orders th.column-status a span:first-child,
+table.orders th.column-total a span:first-child {
+    float : right;
+}
+
+table.orders th.column-total {
+}
+
+table.orders th.column-status {
+}
+
+table.orders td.column-id {
+    font-weight : bold;
+}
+
+table.orders td.column-total {
+    text-align  : right;
+    font-weight : bold;
+}
+
+table.orders td.column-status {
+    text-align     : right;
+    vertical-align : middle;
+}
+
+table.orders .column-id {
+    background  : rgba(0, 0, 180, 0.04);
+    text-shadow : 1px 1px 0 #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Shipping Countries
+   ------------------------------------------------------------------------------------------------------------------ */
+table.shippingcountries .column-zone {
+    width : 120px;
+    background  : rgba(0, 10, 0, 0.02);
+}
+
+table.shippingcountries .column-isocode,
+table.shippingcountries .column-code,
+table.shippingcountries .column-tax,
+table.shippingcountries .column-symbol {
+    width : 80px;
+}
+
+table.shippingcountries .column-isocode,
+table.shippingcountries .column-symbol,
+table.shippingcountries .column-code {
+    text-align : center;
+}
+
+table.shippingcountries .column-tax {
+    text-align : right;
+}
+
+table.shippingcountries .column-id {
+    background  : rgba(0, 0, 180, 0.04);
+    text-shadow : 1px 1px 0 #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Shipments
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.shipments thead th {
+    text-align : center;
+}
+
+table.shipments thead th#cb {
+    text-align : left;
+}
+
+table.shipments tbody td {
+    text-align : right;
+}
+
+table.shipments tbody td {
+    background: rgba(0,0,255,0.03);
+    border-right: 1px solid #ddd;
+}
+
+table.shipments tbody td.column-id,
+table.shipments tbody td.column-weight_to,
+table.shipments tbody td.column-volume {
+    background: none;
+    border-right: none;
+}
+
+table.wpss-shipment-carriers-zones {
+    margin                : 8px;
+    padding               : 4px;
+    border                : 1px solid #ddd;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+table.wpss-shipment-carriers-zones thead th:first-child {
+}
+
+table.wpss-shipment-carriers-zones thead th { }
+
+table.wpss-shipment-carriers-zones tbody td:first-child {
+    text-align : left;
+    font-weight: bold;
+}
+
+table.wpss-shipment-carriers-zones tbody tr:nth-child(2n) {
+    background : #eee;
+}
+
+table.wpss-shipment-carriers-zones tbody td {
+    text-align    : center;
+    padding       : 4px 8px;
+    border-bottom : 1px solid #ddd;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Coupons
+   ------------------------------------------------------------------------------------------------------------------ */
+table.coupons { }
+
+table.coupons th.column-date_insert,
+table.coupons th.column-date_from,
+table.coupons th.column-date_to {
+}
+
+table.coupons th.column-value {
+}
+
+table.coupons .column-value {
+    text-align : right;
+}
+
+table.coupons .column-product_name,
+table.coupons .column-product_maker {
+    text-align : center;
+}
+
+table.coupons td.column-product_name img,
+table.coupons td.column-product_maker img {
+    border : 1px solid #aaa;
+}
+
+table.coupons th.column-status {
+    text-align : right;
+}
+
+table.coupons td.column-status {
+    text-align     : right;
+    vertical-align : middle;
+}
+
+table.coupons .column-id {
+    background  : rgba(0, 0, 180, 0.04);
+    text-shadow : 1px 1px 0 #fff;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Memberships
+   ------------------------------------------------------------------------------------------------------------------ */
+
+table.memberships td.column-id {
+    font-weight: bold;
+}
+
+table.memberships td.column-id img,
+table.memberships td.column-id_user_maker img,
+table.memberships td.column-id_product_maker img {
+    border         : 1px solid #aaa;
+    vertical-align : middle;
+}
+
+table.memberships th.column-date_insert,
+table.memberships th.column-date_start,
+table.memberships th.column-date_expired {
+    width : 100px;
+}
+
+table.memberships th.column-status {
+    width      : 64px;
+    text-align : right;
+}
+
+table.memberships td.column-status {
+    text-align     : right;
+    vertical-align : middle;
+}
+
+table.memberships th.column-id_product_maker {
+    width : 80px;
+}
+
+table.memberships .column-id_product_maker {
+    text-align : center;
+}
+
+table.memberships .column-id {
+    background  : rgba(0, 0, 180, 0.04);
+    text-shadow : 1px 1px 0 #fff;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Carriers
+   ------------------------------------------------------------------------------------------------------------------ */
+table.carriers {}
+
+table.carriers th.column-status {
+    width      : 64px;
+    text-align : right;
+}
+
+table.carriers td.column-status {
+    text-align     : right;
+    vertical-align : middle;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Settings
+   ------------------------------------------------------------------------------------------------------------------ */
+
+
+textarea.wextarea-code {
+    width                 : 90% !important;
+    height                : 140px;
+    font-family           : Monaco, 'Courier New' !important;
+    background            : #333;
+    color                 : #B3D38D;
+    margin                : 20px;
+    padding               : 8px;
+    text-shadow           : 0 0 3px #B3D38D;
+    -moz-border-radius    : 8px;
+    -webkit-border-radius : 8px;
+    border-radius         : 8px;
+    -moz-box-shadow       : 0 0 6px 1px #000, inset 0 6px 16px #000;
+    -webkit-box-shadow    : 0 0 6px 1px #000, inset 0 6px 16px #000;
+    box-shadow            : 0 0 6px 1px #000, inset 0 6px 16px #000;
+    white-space           : pre-wrap;
+    border                : none;
+    line-height           : 130%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Showcase
+   ------------------------------------------------------------------------------------------------------------------ */
+
+.wpss-showcase-product-type {}
+.wpss-showcase-product-type ul ul {
+    margin-left: 16px;
+}
+
+.wpss-showcase-product-type > ul > li.ui-sortable-helper {
+    -moz-box-shadow    : 0 8px 10px #aaa;
+    -webkit-box-shadow : 0 8px 10px #aaa;
+    box-shadow         : 0 8px 10px #aaa;
+}
+
+.wpss-showcase-product-type > ul > li.wpdk-li-sortable-select {
+    background-color : #eee;
+    border-color     : #f90;
+}
+
+.wpss-showcase-product-type > ul > li {
+    border                : 1px solid #aaa;
+    padding               : 8px 4px;
+    background            : #fff;
+    cursor                : move;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+.wpss-showcase-product-type > ul > li:hover {
+    border: 1px solid #f90;
+}
+
+.wpss-showcase-droppable {
+
+}
+
+/* Drappable sortable */
+div.wpss-showcase-droppable-content {
+    border                : 1px solid #aaa;
+    -moz-border-radius    : 4px;
+    -webkit-border-radius : 4px;
+    border-radius         : 4px;
+}
+
+div.wpss-showcase-droppable-content ul {
+    overflow              : auto;
+    height     : 100%;
+    list-style : none;
+    margin     : 0;
+}
+
+div.wpss-showcase-droppable-content ul li.placeholder {
+    background: none;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    line-height: 300%;
+}
+
+div.wpss-showcase-droppable-content ul li {
+    background-color      : #F7F7F9;
+    color                 : #000;
+    border                : 1px solid #E1E1E8;
+    width                 : 200px;
+    margin                : 8px;
+    float                 : left;
+    display               : inline;
+    height                : 50px;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+
+div.wpss-showcase-droppable-content ul li a {
+    text-decoration: none;
+}
+
+div.wpss-showcase-droppable-content ul li a img {
+    float  : left;
+    border : 1px solid #aaa;
+    margin : 1px 4px 0 1px;
+    max-width: 32px;
+    max-height: 32px;
+}
+
+div.wpss-showcase-droppable-content ul li a h4 {
+    font-size : 11px;
+    margin: 6px 0 0;
+}
+
+/* Trash */
+div.wpss-showcase-droppable-trash {
+    width            : 48px;
+    height           : 48px;
+    float            : right;
+    margin           : 2px;
+    background-image : url(data:image/png;base64,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);
+    opacity : .8;
+    filter  : alpha(opacity = 80);
+}
+
+div.wpss-showcase-droppable-trash.state-active {
+    opacity : 1;
+    filter  : alpha(opacity = 100);
+}
+
+li.wpss-product-picker-trashable a {
+    text-decoration: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Product Card
+   ------------------------------------------------------------------------------------------------------------------ */
+div.wpss-product-card {}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Payment Gatway
+   ------------------------------------------------------------------------------------------------------------------ */
+img.wpss-payment-gateway-thumbnail {
+    vertical-align : middle;
+    max-width      : 48px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Summary Order
+   ------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Responsive
+   ------------------------------------------------------------------------------------------------------------------ */
+
+@media (max-width: 800px) {
+	/* Simplify the basic layout */
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Print
+   ------------------------------------------------------------------------------------------------------------------ */
+
+@media print {
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------
+   Media queries!
+   ------------------------------------------------------------------------------------------------------------------ */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+}
+
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+}
+
+@media all and (orientation: portrait) {
+}
+
+@media all and (orientation: landscape) {
+}

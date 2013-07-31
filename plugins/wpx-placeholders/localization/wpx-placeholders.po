@@ -1,0 +1,139 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Placeholders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-03 14:01+0100\n"
+"PO-Revision-Date: 2012-04-03 14:04+0100\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: Saidmade <g.fazioli@wpxtre.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../Classes/WPPlaceholdersAdmin.php:47
+#: ../Classes/WPPlaceholdersAdmin.php:48
+msgid "Placeholders"
+msgstr "Segnaposti"
+
+#: ../Classes/WPPlaceholdersAdmin.php:57
+#: ../Classes/WPPlaceholdersAdmin.php:58
+msgid "Environment"
+msgstr "Ambienti"
+
+#: ../Classes/WPPlaceholdersAdmin.php:66
+#: ../Classes/WPPlaceholdersAdmin.php:67
+#: ../Classes/WPPlaceholdersPlacesViewController.php:40
+msgid "Places"
+msgstr "Posti"
+
+#: ../Classes/WPPlaceholdersAdmin.php:177
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: ../Classes/WPPlaceholdersAdmin.php:200
+msgid "For more info and plugins visit"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlaces.php:56
+msgid "Place information"
+msgstr "Informazioni posto"
+
+#: ../Classes/WPPlaceholdersPlaces.php:61
+msgid "Status"
+msgstr "Stato"
+
+#: ../Classes/WPPlaceholdersPlaces.php:70
+#: ../Classes/WPPlaceholdersPlacesListTable.php:109
+msgid "Name"
+msgstr "Nome"
+
+#: ../Classes/WPPlaceholdersPlaces.php:78
+#: ../Classes/WPPlaceholdersPlacesListTable.php:110
+msgid "Description"
+msgstr "Descrizione"
+
+#: ../Classes/WPPlaceholdersPlaces.php:102
+msgid "All"
+msgstr "Tutti"
+
+#: ../Classes/WPPlaceholdersPlaces.php:106
+msgid "Publish"
+msgstr "Pubblica"
+
+#: ../Classes/WPPlaceholdersPlaces.php:110
+#: ../Classes/WPPlaceholdersPlacesListTable.php:90
+msgid "Trash"
+msgstr "Cestino"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:87
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:88
+#: ../Classes/WPPlaceholdersPlacesListTable.php:135
+msgid "Restore"
+msgstr "Repristina"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:89
+#: ../Classes/WPPlaceholdersPlacesListTable.php:133
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:108
+msgid "Icon"
+msgstr "Icona"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:134
+msgid "Move to Trash"
+msgstr "Sposta nel cestino"
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:166
+msgid "Place(s) deleted successfully"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:173
+msgid "Error while deleting place"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:185
+msgid "Place update successfully"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:191
+msgid "Error while updating place"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:203
+msgid "Place added successfully"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesListTable.php:209
+msgid "Error while adding place"
+msgstr ""
+
+#: ../Classes/WPPlaceholdersPlacesViewController.php:41
+msgid "Add New"
+msgstr "Aggiungi nuovo"
+
+#: ../Classes/WPPlaceholdersPlacesViewController.php:75
+msgid "New Place"
+msgstr "Nuovo posto"
+
+#: ../Classes/WPPlaceholdersPlacesViewController.php:77
+msgid "Edit Place"
+msgstr "Modifica posto"
+
+#: ../Classes/WPPlaceholdersPlacesViewController.php:104
+msgid "Add"
+msgstr "Aggiungi"
+
+#: ../Classes/WPPlaceholdersPlacesViewController.php:107
+msgid "Update"
+msgstr "Aggiorna"
+

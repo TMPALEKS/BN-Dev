@@ -1,0 +1,319 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPDK 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-11 17:48+0100\n"
+"PO-Revision-Date: 2012-06-11 17:59+0100\n"
+"Last-Translator: Giovambattista Fazioli <g.fazioli@undolog.com>\n"
+"Language-Team: wpXtreme, Inc. <info@wpxtre.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wpdk.php:241
+msgid ""
+"Please confirm before unlock this form field.\n"
+"Do you want unlock this form field?"
+msgstr ""
+"Devi confermare prima di sbloccare questo campo.\n"
+"Vuoi bloccare questo campo?"
+
+#: ../wpdk.php:243
+#: ../classes/WPDKForm.php:161
+msgid "Choose Time"
+msgstr "Scegli un orario"
+
+#: ../wpdk.php:244
+#: ../classes/WPDKForm.php:162
+msgid "Time"
+msgstr "Orario"
+
+#: ../wpdk.php:245
+#: ../classes/WPDKForm.php:163
+msgid "Hour"
+msgstr "Ora"
+
+#: ../wpdk.php:246
+#: ../classes/WPDKForm.php:164
+msgid "Minute"
+msgstr "Minuto"
+
+#: ../wpdk.php:247
+#: ../classes/WPDKForm.php:165
+msgid "Seconds"
+msgstr "Secondi"
+
+#: ../wpdk.php:248
+#: ../classes/WPDKForm.php:166
+msgid "Now"
+msgstr "Adesso"
+
+#: ../wpdk.php:249
+#: ../classes/WPDKForm.php:167
+msgid "Su,Mo,Tu,We,Th,Fr,Sa"
+msgstr "Do,Lu,Ma,Me,Gi,Ve,Sa"
+
+#: ../wpdk.php:250
+#: ../classes/WPDKForm.php:168
+msgid "January,February,March,April,May,June,July,August,September,October,November,December"
+msgstr "Gennaio,Febbraio,Marzo,Aprile,Maggio,Giugno,Luglio,Agosto,Settembre,Ottobre,Novembre,Dicembre"
+
+#: ../wpdk.php:251
+#: ../classes/WPDKForm.php:169
+msgid "Close"
+msgstr "Chiudi"
+
+#: ../wpdk.php:252
+#: ../classes/WPDKForm.php:170
+msgid "mm/dd/yy"
+msgstr "dd/mm/yy"
+
+#: ../wpdk.php:253
+msgid "hh:mm"
+msgstr ""
+
+#: ../classes/core/wpdk-update.php:92
+msgid "You have to login on order download this update."
+msgstr "Devi eseguire il login per scaricare questo aggiornamento."
+
+#: ../classes/core/wpdk-update.php:99
+#, php-format
+msgid "There is an upgrade to %s release for %s. Remember that you can do this update from wpx Plugin Store too."
+msgstr "C'è un aggiornamento alla versione %s per %s. Ricorda che puoi eseguire questo aggiornamento anche dal wpx Plugin Store."
+
+#: ../classes/core/wpdk-watchdog.php:89
+msgid "No error detect"
+msgstr "Nessun errore"
+
+#: ../classes/core/wpdk-wordpress.php:152
+msgid "For more info and plugins visit"
+msgstr "Per più informazioni e altri plugin visita"
+
+#: ../classes/helper/wpdk-post-helper.php:112
+msgid "Published"
+msgstr "Pubblicato"
+
+#: ../classes/helper/wpdk-post-helper.php:116
+#: ../classes/helper/wpdk-post-helper.php:191
+msgid "Author"
+msgstr "Autore"
+
+#: ../classes/helper/wpdk-post-helper.php:190
+msgid "Icon"
+msgstr "Icona"
+
+#: ../classes/helper/wpdk-settings-view-helper.php:85
+#, php-format
+msgid "The %s settings were restored to defaults values successfully!"
+msgstr "Le impostazioni %s sono state ripristinate con successo!"
+
+#: ../classes/helper/wpdk-settings-view-helper.php:91
+#, php-format
+msgid "The %s settings values were updated successfully!"
+msgstr "Le impostazioni %s sono state aggiornate con successo!"
+
+#: ../classes/helper/wpdk-ui-helper.php:55
+#: ../classes/ui/_WPDKForm.php:64
+msgid "Update"
+msgstr "Aggiorna"
+
+#: ../classes/helper/wpdk-ui-helper.php:59
+#: ../classes/ui/_WPDKForm.php:68
+msgid "Reset to default"
+msgstr "Ripristina predefiniti"
+
+#: ../classes/helper/wpdk-user-helper.php:137
+msgid "Login not allowed because this user is disabled."
+msgstr "Il login non è permesso perché l'utente è disabilitato."
+
+#: ../classes/helper/wpdk-user-helper.php:141
+msgid "Login not allowed because this user is locked."
+msgstr "Il login non è permesso perché l'utente è bloccato."
+
+#: ../classes/helper/wpdk-user-helper.php:321
+msgid "Last login"
+msgstr "Ultimo login"
+
+#: ../classes/helper/wpdk-user-helper.php:322
+msgid "Last logout"
+msgstr "Ultimo logout"
+
+#: ../classes/helper/wpdk-user-helper.php:323
+msgid "# Login"
+msgstr ""
+
+#: ../classes/helper/wpdk-user-helper.php:324
+msgid "# Wrong"
+msgstr "# Errori"
+
+#: ../classes/helper/wpdk-user-helper.php:325
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../classes/helper/wpdk-user-helper.php:348
+msgid "d/m/Y H:i:s"
+msgstr ""
+
+#: ../classes/helper/wpdk-user-helper.php:412
+msgid "Extra fields"
+msgstr "Campi aggiuntivi"
+
+#: ../classes/helper/wpdk-user-helper.php:413
+msgid "See User Settings for manage this extra fields"
+msgstr "Vedi le impostazioni utente per gestire i campi aggiuntivi"
+
+#: ../classes/helper/wpdk-user-helper.php:772
+#: ../classes/helper/wpdk-user-helper.php:787
+msgid "m/d/Y"
+msgstr "d/m/Y"
+
+#: ../classes/post/wpdk-post.php:56
+#: ../classes/post/wpdk-post.php:58
+#: ../classes/post/wpdk-post.php:60
+msgid "m/d/Y H:i"
+msgstr "d/m/Y H:i"
+
+#: ../classes/ui/wpdk-dynamic-table.php:75
+msgid "Add"
+msgstr "Aggiungi"
+
+#: ../classes/ui/wpdk-dynamic-table.php:76
+msgid "Add a new empty row"
+msgstr "Aggiungi una riga vuota"
+
+#: ../classes/ui/wpdk-dynamic-table.php:88
+msgid "Delete"
+msgstr "Elimina"
+
+#: ../classes/ui/wpdk-dynamic-table.php:89
+msgid "Delete entire row"
+msgstr "Elimina l'intera riga"
+
+#: ../classes/ui/wpdk-tableview.php:102
+msgid "More"
+msgstr "Più"
+
+#: ../classes/users/user-locker.php:108
+msgid "<strong>ERROR</strong>: This user account is disabled."
+msgstr ""
+
+#: ../classes/users/user-locker.php:110
+#, php-format
+msgid "<strong>ERROR</strong>: This user account is disabled (reason: %s)."
+msgstr ""
+
+#: ../classes/users/user-locker.php:126
+msgid "<strong>ERROR</strong>: This user account is locked for security reasons. Please use Lost Password option to unlock it."
+msgstr ""
+
+#: ../classes/users/user-locker.php:128
+#, php-format
+msgid "<strong>ERROR</strong>: This user account is locked (reason: %s). Please use Lost Password option to unlock it."
+msgstr ""
+
+#: ../classes/users/user-locker.php:291
+msgid "<strong>ERROR</strong>: This user account has been locked for security reasons. Please use Lost Password option to unlock it."
+msgstr ""
+
+#: ../classes/users/user-locker.php:310
+msgid "User Locking"
+msgstr ""
+
+#: ../classes/users/user-locker.php:313
+msgid "User account locked"
+msgstr ""
+
+#: ../classes/users/user-locker.php:314
+msgid "User account is locked for security reasons"
+msgstr ""
+
+#: ../classes/users/user-locker.php:317
+msgid "Lock reason"
+msgstr ""
+
+#: ../classes/users/user-locker.php:318
+#: ../classes/users/user-locker.php:326
+#: ../classes/users/user-locker.php:486
+msgid "Note: start text with '@' (AT sign) to keep it private."
+msgstr ""
+
+#: ../classes/users/user-locker.php:321
+msgid "User account disabled"
+msgstr ""
+
+#: ../classes/users/user-locker.php:322
+msgid "User account is disabled"
+msgstr ""
+
+#: ../classes/users/user-locker.php:325
+msgid "Disable reason"
+msgstr ""
+
+#: ../classes/users/user-locker.php:371
+msgid "Locked / Disabled"
+msgstr ""
+
+#: ../classes/users/user-locker.php:373
+msgid "Locked"
+msgstr "Bloccato"
+
+#: ../classes/users/user-locker.php:374
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../classes/users/user-locker.php:390
+#: ../classes/users/user-locker.php:406
+#: ../classes/users/user-locker.php:417
+#: ../classes/users/user-locker.php:428
+msgid "Yes"
+msgstr "Si"
+
+#: ../classes/users/user-locker.php:396
+#: ../classes/users/user-locker.php:412
+#: ../classes/users/user-locker.php:423
+#: ../classes/users/user-locker.php:434
+msgid "No"
+msgstr ""
+
+#: ../classes/users/user-locker.php:463
+msgid "User Locker - Options"
+msgstr ""
+
+#: ../classes/users/user-locker.php:469
+msgid "Account locking:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:473
+msgid "Maximum invalid login attempts before account locking:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:482
+msgid "Default lock reason:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:492
+msgid "Show account lock/disable reason after login attempt:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:501
+msgid "Clean lock/disable reason when user is unlocked/enabled:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:510
+msgid "Show single status column:"
+msgstr ""
+
+#: ../classes/users/user-locker.php:513
+msgid "Add one column instead of two to the User List, and show lock/disable reason in tooltip only."
+msgstr ""
+
+#: ../classes/users/user-locker.php:520
+msgid "Save settings"
+msgstr "Salva impostazioni"
+
