@@ -34,11 +34,15 @@ class BNMExtendsAdminAdvance extends WPDKWordPressAdmin {
         stampe, in quanto ho bisogno di eludere tutto l'html del backend
         */
 
-        /* Stats: Export CSV */
+        /* Users: Export CSV */
+        $all = false;
         if ( isset( $_GET['export_users_csv'] ) ) {
-            BNMExtendsUser::downalodCSV();
+            if (isset( $_GET['export_all_users_csv'] ))
+                $all = true;
+            BNMExtendsUser::downalodCSV($all);
             exit;
         }
+
 
     }
 
